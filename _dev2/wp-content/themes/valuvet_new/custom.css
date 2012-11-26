@@ -1,0 +1,141 @@
+ 
+body {
+	font-family:"tahoma", Arial, Helvetica, sans-serif; 
+	font-size: 12px;
+	line-height:18px;
+	color: #000;
+	
+}
+
+h6 {
+text-align:left;
+margin:0px;
+padding-bottom:15px;
+font-size: 14px;
+line-height:22px;
+font-weight:lighter;
+font-style:italic;
+color:#000;
+letter-spacing: 1px;
+
+}
+
+#top_banner{
+position:absolute;
+
+top:0px;
+left:370px;
+width:346px;
+height:100px;
+border:0px solid #f60;
+	}
+	
+.headingmenu a span {
+    height: 15px;
+}
+
+
+#content, #page {
+min-height: 200px;
+}
+
+/*-------------------WIDGET SERVICES-PAGE-MENU LIST STYLE  - DUPLICATE OF BULLET LIST STYLE in style.css -------------------*/
+
+
+#services-page-menu ul,
+#Market-Place-Browse ul,
+#Market-Place-Register ul
+{list-style: none; margin:0px; padding:0px;}
+
+#menu-services-page-menu ul,
+#menu-market-place-browse ul,
+#menu-market-place-register ul
+{
+	margin:0;
+	padding:0;
+}
+
+#menu-services-page-menu li,
+#menu-market-place-browse li,
+#menu-market-place-register li
+{
+	list-style:none;
+	background:url(images/vv_bullet.gif);
+	background-repeat: no-repeat;
+	background-position: 0 10px;
+	padding-left: 25px;
+	 line-height:25px;
+	 list-style-position:outside;
+	 color:#000;
+}
+
+#menu-services-page-menu li a,
+#menu-market-place-browse li a,
+#menu-market-place-register li a
+
+{ color:#666; text-decoration:none;}
+#menu-services-page-menu li a:hover,
+#menu-market-place-browse li a:hover,
+#menu-market-place-register li a:hover{ color:#000;text-decoration:underline;}
+
+
+/**.bullet_list li a:visited { color:#976F5C; text-decoration:underline;}/**/
+
+
+
+	
+	
+/*Meenews */
+
+#frontendform input[type="text"], #frontendform select {
+
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+
+   	font-family:"tahoma", Arial, Helvetica, sans-serif; 
+    font-size: 15px;
+    font-weight: normal;
+    height: 30px;
+    margin-bottom:10px;
+    text-indent: 5px;
+}
+/*end*/
+
+/*contact form */
+
+
+
+
+#si_contact_form1 input[type="text"], #si_contact_form1 input[type="email"],  #si_contact_form1 select {
+border:1px solid #999;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+
+-moz-box-shadow: inset 0 0 5px #888;
+-webkit-box-shadow: inset 0 0 5px#888;
+box-shadow: inner 0 0 5px #888;
+
+   	font-family:"tahoma", Arial, Helvetica, sans-serif; 
+    font-size: 15px;
+    font-weight: normal;
+    height: 30px;
+    margin-bottom:10px;
+    text-indent: 5px;
+}
+
+#si_contact_form1 textarea {
+border:1px solid #999;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+
+-moz-box-shadow: inset 0 0 2px #888;
+-webkit-box-shadow: inset 0 0 2px#888;
+box-shadow: inner 0 0 2px #888;
+
+}
+
+
+#fscf_vcita_container, #vcita-widget-right {display:none;}

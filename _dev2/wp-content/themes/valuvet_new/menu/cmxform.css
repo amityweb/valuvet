@@ -1,0 +1,159 @@
+/**********************************
+
+Use: cmxform template
+Author: Nick Rigby
+
+***********************************/
+form.cmxform {
+	margin:0px 0px 0px 0px;
+	padding:0px;
+	width: 200px;
+	font-size: 11px;
+	color: #000;
+	}
+form.cmxform p {
+	font-size: 11px;
+	color: #000;
+	}
+
+
+	form.cmxform b {
+	font-size: 11px;
+	color: #09f;
+	}
+	
+form.cmxform legend { padding-left: 0; }
+	
+
+form.cmxform label { color: #000; }
+
+
+form.cmxform fieldset {
+	border: none;
+	border-top: 0px solid #ccc;
+	/*background: url(_img/cmxform-fieldset.gif) left bottom repeat-x;*/
+	}
+	
+form.cmxform fieldset.grey {
+	border: none;
+	border-top: 0px solid #ccc;
+	background: url(_img/cmxform-fieldset.gif) left bottom repeat-x;
+	}	
+	
+	form.cmxform fieldset.grey2 {
+	border: none;
+	border-top: 0px solid #ccc;
+	background: url(_img/header_bg.jpg) left bottom repeat-x;
+	}
+
+	
+form.cmxform fieldset fieldset { background: none; }
+	
+form.cmxform fieldset li {
+	padding: 5px 10px 7px;
+	/*background: url(_img/cmxform-divider.gif) left bottom repeat-x;*/
+	}
+	
+	
+
+form.cmxform fieldset { margin:0px 0px 5px 0px; }
+
+
+
+	
+form.cmxform legend {
+	padding: 8px 2px;
+	font-weight: normal;
+	color: #004487;
+	 font-size: 14px;
+	/*_margin: 0 -7px;*/ /* IE Win */
+	}
+/*input box width*/
+input.wide  {
+	width: 180px;
+}
+input.n-box  {
+	width: 30px;
+}
+
+input.small  {
+	width: 50px;
+}
+
+form.cmxform textarea { width: 200px; } /* Width of text area */
+		
+form.cmxform label {
+	float:left;
+	display:inline;
+	line-height: 1.8;
+	vertical-align: top;
+	}
+
+
+form.cmxform fieldset li ul{
+float:none;
+
+	}
+
+	
+	form.cmxform fieldset li ul li {
+		list-style: none;
+	float:left;
+	display:block;
+	line-height: 1.8;
+	vertical-align: top;
+	}
+	
+form.cmxform fieldset ol {
+	margin: 0;
+	padding: 0;
+	padding-top:15px;
+	}
+	
+form.cmxform fieldset li {
+	list-style: none;
+	padding: 5px;
+	margin: 0;
+	}
+	
+form.cmxform fieldset fieldset {
+	border: none;
+	margin: 3px 0 0;
+	}
+	
+form.cmxform fieldset fieldset legend {
+	padding: 0 0 5px;
+	font-weight: normal;
+	}
+	
+form.cmxform fieldset fieldset label {
+	display: block;
+	width: auto;
+	}
+
+form.cmxform em {
+	font-weight: bold;
+	font-style: normal;
+	color: #976F5C;
+	}
+
+#submit_enews{
+	width:55px;
+	margin:-5px 0 10px 8px;	
+}
+
+.submit_enews{
+	width:55px;
+	margin:-5px 0 10px 8px;	
+}
+
+form.cmxform label { width: 120px;  } /* Width of labels */
+form.cmxform label.short{ width: 80px; } /* Width of short labels */
+form.cmxform label.type{ width: 40px; } /* Width of invest labels */
+form.cmxform label.large{ width:none; } /* Width of invest labels */
+
+form.cmxform fieldset fieldset label { margin-left: 123px; } /* Width plus 3 (html space) */
+
+/*\*//*/ form.cmxform legend { display: inline-block; } /* IE Mac legend fix */
+
+

@@ -1,0 +1,1236 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: meenews\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-17 10:56+0100\n"
+"PO-Revision-Date: 2010-11-18 10:11+0100\n"
+"Last-Translator: Daniel <pitiflautico3@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: C:\\Users\\tierra\\Desktop\\meenews\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: C:\\Users\\tierra\\Desktop\\meenews\n"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/meenews.php:149
+#: C:\Users\tierra\Desktop\meenews/meenews/meenews.php:155
+msgid "MeeNews Plugin"
+msgstr "Newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/newsletter.php:38
+#: C:\Users\tierra\Desktop\meenews/meenews/newsletter.php:55
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:255
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:313
+msgid "Yes"
+msgstr "Si"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/newsletter.php:46
+#: C:\Users\tierra\Desktop\meenews/meenews/newsletter.php:70
+msgid "The e-mail "
+msgstr "E-mail"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/newsletter.php:46
+msgid "has been deleted correctly"
+msgstr "borrado con éxito"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/newsletter.php:48
+msgid "Cancel operation"
+msgstr "Cancela operación"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/newsletter.php:52
+msgid "Remove subscription confirmation "
+msgstr "Quitar confirmación de subscripción"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/newsletter.php:53
+msgid "Press yes  if you wish to delete your subscription to "
+msgstr "Pincha SI si quieres borrar tu subscripción a"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/newsletter.php:53
+msgid " Newsletter"
+msgstr " Newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/newsletter.php:56
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:255
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:313
+msgid "No"
+msgstr "No"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/newsletter.php:60
+#: C:\Users\tierra\Desktop\meenews/meenews/newsletter.php:77
+msgid "Confirmation number is wrong"
+msgstr "El número de confirmación es incorrecto"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/newsletter.php:61
+msgid "Make sure that you pressed on the mail link "
+msgstr "Asegurate de haber pinchado en el elnace del mail"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/newsletter.php:70
+msgid " has been activated correctly"
+msgstr " ha sido activado con éxito"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/newsletter.php:78
+msgid "Make sure that you pressed on the mail link"
+msgstr "Asegurate de haber pinchado en el elnace del mail"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/front_meenews.php:42
+msgid "Please insert you mail"
+msgstr "Por favor inserta tu e-mail"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/front_meenews.php:161
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_sender.php:120
+msgid "Activate account confirmation"
+msgstr "Confirmación de activación de la cuenta"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/front_meenews.php:166
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_sender.php:125
+msgid "Delete account confirmation"
+msgstr "Confirmación cancelación de la cuenta"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/front_meenews.php:171
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_sender.php:130
+msgid "Congratulations your subcription has finished"
+msgstr "Enhorabuena, tu suscripción ha finalizado"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/meenews_manager.php:157
+msgid "Please click the help button in the top right corner of this page for links to the documentation and support options."
+msgstr "Pincha en el botón de ayuda en la esquina superior derecha de la pagina para ver los enlaces a la documentación y las opciones de soporte."
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/meenews_manager.php:416
+#, php-format
+msgid "View &#8220;%s&#8221;"
+msgstr "Ver &#8220;%s&#8221;"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/meenews_manager.php:416
+msgid "View"
+msgstr "Ver"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/meenews_manager.php:455
+msgid "Click here to Open / Close box "
+msgstr "Pincha aquí para Abrir / Cerrar la caja"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/meenews_manager.php:1027
+msgid "Template not found."
+msgstr "Plantilla no encontrada"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/meenews_manager.php:1041
+msgid "File not readable."
+msgstr "Fichero no leíble"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:102
+msgid "Newsletter edited"
+msgstr "Newsletter modificado"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:129
+msgid "Newsletter Save"
+msgstr "Newsletter salvado"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:140
+msgid "you must select at least one category in meenews plugin configuration"
+msgstr "tienes que seleccionar al menos una categoría en las impostaciones del plugin"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:170
+msgid "Add"
+msgstr "Añadir"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:232
+msgid "The template couldn't be opened"
+msgstr "No se puede abrir la plantilla"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:246
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:450
+msgid "Back to top"
+msgstr "Volver arriba"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:247
+msgid "In this issue"
+msgstr "En este numero"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:248
+msgid "Unsubscribe"
+msgstr "Desapuntate"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:250
+msgid "Forward"
+msgstr "Siguiente"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:415
+msgid "Page "
+msgstr "Pagina"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:444
+msgid "Read more.."
+msgstr "Leer más..."
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:484
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:501
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:520
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:536
+msgid "Read More"
+msgstr "Leer más"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:698
+msgid ""
+"You are about to delete the selected newsletter.\\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Estas a punto de borrar el newsletter seleccionado.\\n"
+"  'Cancel' para cancelar, 'OK' para seguir."
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:734
+msgid "Manage Newsletters"
+msgstr "Gestionar newsletters"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:745
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:786
+msgid "Bulk Actions"
+msgstr "Acciones de grupo"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:746
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:787
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:833
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:236
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:382
+msgid "Delete"
+msgstr "Borrar"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:749
+msgid "Apply"
+msgstr "Aplicar"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:762
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:771
+msgid "Title"
+msgstr "Titulo"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:763
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:772
+msgid "State"
+msgstr "Estado"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:764
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:773
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:903
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:928
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:947
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_stats.php:99
+msgid "Send"
+msgstr "Enviar"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:813
+msgid "Draft"
+msgstr "Borrador"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:815
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:830
+msgid "Publish"
+msgstr "Publicar"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:817
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:827
+msgid "Unpublish"
+msgstr "Despublicar"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:822
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:823
+msgid "Edit this newsletter"
+msgstr "Modificar newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:823
+msgid "Edit"
+msgstr "Modificar"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:824
+msgid "Send Newsletter"
+msgstr "Enviar newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:904
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:929
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:948
+msgid "Range "
+msgstr "Intervalo"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:904
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:948
+msgid " to "
+msgstr "a"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:907
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:932
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:951
+msgid "Send Ok "
+msgstr "Envio exitoso"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:908
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:933
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:952
+msgid "Send Wrong "
+msgstr "Envio con errores"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:909
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:934
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:953
+msgid "Send Test "
+msgstr "Test de envío"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:929
+msgid " Send All List "
+msgstr "Enviar a toda la lista"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_newsletter.php:1051
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_sender.php:135
+msgid "Your subcription has been deleted"
+msgstr "Tu suscripción ha sido borrada"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_stats.php:94
+msgid "Total visits"
+msgstr "Visitas totales"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_stats.php:104
+msgid "Open"
+msgstr "Abrir"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_stats.php:202
+msgid "Total Subscribers"
+msgstr "Total susctitos"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_stats.php:207
+msgid "Users Remove"
+msgstr "Rimoción de usuarios"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_stats.php:212
+msgid "Total Clicks"
+msgstr "Clicks totales"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_stats.php:410
+msgid "Visit"
+msgstr "Visitas"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:135
+msgid "File import ok"
+msgstr "Impostación exitosa"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:138
+msgid "There has been a problem uploading file, are you sure that customimage folder has 777 permision?"
+msgstr "Ha habido un problema al subir el fichero, comprueba que la carpeta customimages tenga permisos de escritura 777."
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:141
+msgid "There has been a problem uploading file, are you sure that extension is csv or txt"
+msgstr "Ha habido un problema al subir el fichero, comprueba que la extensión sea CSV o TXT"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:159
+msgid "Subscriptor activated"
+msgstr "Suscritor activado"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:161
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:179
+msgid "Id subscriptor error"
+msgstr "Error en el ID del suscriptor"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:167
+msgid "List Removed"
+msgstr "Lista borrada"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:169
+msgid "Id List error"
+msgstr "Error en el ID de la lista"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:177
+msgid "Subscriptor Removed"
+msgstr "Suscriptor borrado"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:214
+msgid "List Name:"
+msgstr "Nombre de la lista:"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:217
+msgid "New List"
+msgstr "Nueva lista"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:221
+msgid "Lists"
+msgstr "Listas"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:232
+msgid "There are no created lists"
+msgstr "No hay listas creadas"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:244
+msgid "E-mail"
+msgstr "E-mail"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:246
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:409
+msgid "Name"
+msgstr "Nombre"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:248
+msgid "List to subscribe"
+msgstr "Lista de suscripción"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:250
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:344
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:385
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:463
+msgid "Select List"
+msgstr "Selecciona lista"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:254
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:312
+msgid "Do you want to send confirmation?"
+msgstr "Quieres enviar confirmación?"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:257
+msgid "New Subscriptor"
+msgstr "Nuevo suscriptor"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:267
+msgid "Select list to export subscribers:"
+msgstr "Selecciona una lista para exportar suscritos:"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:270
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:826
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:829
+msgid "All"
+msgstr "Todos"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:275
+msgid "Export Csv"
+msgstr "Exportar CSV"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:301
+msgid "Csv File"
+msgstr "Fichero CSV"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:303
+msgid "Separate Char"
+msgstr "Caracter de separación"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:305
+msgid "Enclose Char"
+msgstr "Caracter de cierre"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:307
+msgid "Escape Char"
+msgstr "Caracter de escape"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:315
+msgid "Submit"
+msgstr "Enviar"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:339
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:355
+msgid "Search"
+msgstr "Buscar"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:348
+msgid "Select state:"
+msgstr "Selecciona estado:"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:350
+msgid "Select state"
+msgstr "Selecciona estado"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:351
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:412
+msgid "Active"
+msgstr "Activo"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:352
+msgid "Unactive"
+msgstr "Inactivo"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:380
+msgid "Bulk Options"
+msgstr "Acciones de grupo"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:381
+msgid "Move List"
+msgstr "Mover lista"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:388
+msgid "Do Action"
+msgstr "Aplicar acción"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:410
+msgid "Email"
+msgstr "E-mail"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:411
+msgid "List"
+msgstr "Lista"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:421
+msgid "Act"
+msgstr "Activa"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:444
+msgid "No subscribers found"
+msgstr "ningún suscriptor encontrado"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:454
+msgid "Close"
+msgstr "Cerrar"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:456
+msgid "Manager User"
+msgstr "Gestionar usuarios"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:488
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:488
+msgid "Modify"
+msgstr "Modificar"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:649
+msgid "User has been modify"
+msgstr "Usuarios modificados"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:652
+msgid "Id User Error"
+msgstr "Error en el ID del usuario"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:707
+msgid "Subscribers import ok"
+msgstr "Importación de suscritos éxitosa"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/classes/mee_users.php:760
+msgid " of "
+msgstr " de"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:3
+msgid "Front form Configuration"
+msgstr "Configuración del Front Form"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:9
+msgid "Html subscription form editor"
+msgstr "Editor del codigo HTML del form de suscripción"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:14
+msgid "Want modify Html subscription form:"
+msgstr "Quieres modificar el HTML del form de suscripción?"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:15
+msgid "Do you want modify front end subscription form'HTML code?"
+msgstr "Quieres modificar el codigo HTML del formulario de suscripción?"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:21
+msgid "HTML subscription form:"
+msgstr "HTML del formulario de suscripción:"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:22
+msgid "Here you can customize your subscription form, type your custom html here"
+msgstr "Aquí puedes personalizar tu formulario de suscripción, inserta aquí tu codigo HTML"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:45
+msgid "Form colors Configuration"
+msgstr "Configuración de colores del formulario"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:49
+msgid "Input text Color"
+msgstr "Color de los campos de input"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:50
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:56
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:62
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:69
+msgid "Do you want call to action in you home page?"
+msgstr "Quieres mostrar un mensaje de bienvenida en tu pagina de inicio?"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:55
+msgid "Input background Color"
+msgstr "Color de fondo delos campos de input"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:61
+msgid "Input border color"
+msgstr "Color del borde de los campos de input"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:68
+msgid "Advertise color"
+msgstr "Color de los anuncios"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:78
+msgid "Default Front Form Configuration"
+msgstr "Configuración del Front Form por defecto"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:81
+msgid "Input Email"
+msgstr "Campo e-mail "
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:82
+msgid "This text appears into Email input field"
+msgstr "Este texto aparece en el campo de texto del e-mail"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:84
+msgid "Insert Email"
+msgstr "Insertar e-mail"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:87
+msgid "Default button"
+msgstr "Botón por defecto"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:88
+msgid "Default image button subscription"
+msgstr "Imagen por defecto del botón de suscripción"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:97
+msgid "Subscription form configuration"
+msgstr "Configuración del formulario de suscripción"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:101
+msgid "Input Name:"
+msgstr "Input del Nombre:"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:102
+msgid "If you want your users to insert their Name"
+msgstr "Si quieres que los usuarios pongan su nombre"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:109
+msgid "Name Field"
+msgstr "Campo del nombre"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:110
+msgid "This text appears into Name input field"
+msgstr "Este texto aparece en el campo de input del nombre"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:112
+msgid "Your Name"
+msgstr "Tu nombre"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:117
+msgid "Input Company:"
+msgstr "Input de empresa:"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:118
+msgid "If you want your users to insert their Company"
+msgstr "Si quieres que los usuarios pongan su empresa"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:125
+msgid "Company Field"
+msgstr "Campo de empresa"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:126
+msgid "This text appears into Company input field"
+msgstr "Este texto aparece en el campo de input de la empresa"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:128
+msgid "Your Company"
+msgstr "Tu empresa"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:133
+msgid "Input Country:"
+msgstr "Input de país:"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:134
+msgid "If you want your users to insert their country"
+msgstr "Si quieres que los usuarios pongan su país"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:141
+msgid "Country Field"
+msgstr "Campo de país"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:142
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:157
+msgid "This text appears into addres input field"
+msgstr "Este texto aparece en el campo de input del país"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:144
+msgid "Your Country"
+msgstr "Tu país"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:148
+msgid "Input Address:"
+msgstr "Input de dirección:"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:149
+msgid "If you want your users to insert their address"
+msgstr "Si quieres que tus usuarios pongan su dirección"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:156
+msgid "Address Field"
+msgstr "Campo de dirección"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:159
+msgid "Your Address"
+msgstr "Tu dirección"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:163
+msgid "Legal Conditions (check):"
+msgstr "Condiciones legales (Marcar):"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:164
+msgid "Display checkbox of legal conditions"
+msgstr "Muestra el checkbox de condiciones legales"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:170
+msgid "Url legal conditions"
+msgstr "URL de las condiciones legales"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/front_form_configuration.php:171
+msgid "Insert html link (http:www.web.com/legal)."
+msgstr "Inserta el link HTML (http:www.web.com/legal)."
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:9
+msgid "Configuration"
+msgstr "Configuración"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:12
+msgid "License Number"
+msgstr "Numero de licencia"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:13
+msgid "Put your license number here"
+msgstr "Inserta tu numero de licencia"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:19
+msgid "Subject General"
+msgstr "Asunto general"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:20
+msgid "Default general subject of newsletters"
+msgstr "Asunto general por defecto del newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:26
+msgid "Use custom Post Data for thumbnails"
+msgstr "Utiliza un campo custom para las miniaturas"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:27
+msgid "Do you use a post Metadata for your post thumbnail?"
+msgstr "Utilizas un campo custom para tus miniaturas?"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:33
+msgid "Post Metadata Name"
+msgstr "Nombre del campo custom"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:34
+msgid "Insert the name of the post meta you use for thumbnails."
+msgstr "Inserta el nombre de tu campo custom para las miniaturas"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:42
+msgid "Default Email"
+msgstr "E-mail por defecto"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:43
+msgid "Set the default Newsletter sender Email."
+msgstr "Fija el e-mail de envío del newsletter por defecto"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:50
+msgid "Choose categories to select post in design newsletter:"
+msgstr "Selecciona las categorías para seleccionar las entradas en el diseño del newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:51
+msgid "Select the categories you want to include in newsletter post selection."
+msgstr "Selecciona las categorías que quieres incluir en la selección de las entradas"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:56
+msgid "Analytics campaigns:"
+msgstr "Campaña Analytics:"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:57
+msgid "Insert here your analytics campaign code."
+msgstr "Inserta tu codigo de Analytics."
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:64
+msgid "SMTP Options"
+msgstr "Opciones SMTP"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:68
+msgid "Send with SMTP?"
+msgstr "Enviar via SMTP?"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:69
+msgid "Do you want to use SMTP protocol to send newsletter emails?."
+msgstr "Quieres usar el protocolo SMTP para enviar tus newsletters?"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:81
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:87
+msgid "User"
+msgstr "Usuario"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:94
+msgid "Password"
+msgstr "Contraseña"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:100
+msgid "Port"
+msgstr "Puerto"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:107
+msgid "Host"
+msgstr "Host"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:113
+msgid "Require Autentification?"
+msgstr "Requiere Autenticación?"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:114
+msgid "."
+msgstr "."
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:123
+msgid "Mail Messages Configuration"
+msgstr "Configuración de los mensajes de correo"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:126
+msgid "Mail confirmation message:"
+msgstr "Correo de confirmación:"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:127
+msgid "Set the Newsletter registration confirmation message."
+msgstr "Mensaje de confirmación de registro"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:129
+msgid ""
+"We have received a newsletter subscription request at %TITLEBLOG%  %URLBLOG%\n"
+"                                   in order to complete your subscription must click on the following link:\n"
+"                                   %CONFIRMATIONURL%\n"
+"                                   If you do not wish to receive this NewsLetter, apologize and please ignore this email. "
+msgstr ""
+"Hemos recibido tu suscripción a %TITLEBLOG%  %URLBLOG%\n"
+"                                  para completar tu suscripción tienes que pinchar en el siguiente enlace:\n"
+"                                   %CONFIRMATIONURL%\n"
+"                                   Si no quieres recibir este newsletter, disculpa las molestias e ignora este correo."
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:135
+msgid "Subscription delete:"
+msgstr "Borrar suscripción:"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:136
+msgid "Set the Newsletter unsubscribe message."
+msgstr "Mensaje de cancelación de la suscripción"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:138
+msgid ""
+"If you no longer wish to receive this newsletter please click <a href ='%CONFIRMATIONURL%' style='%LINKSTYLE%'> Here </a>\n"
+"                                   and automatically unsubscribe. "
+msgstr ""
+"Si no quieres seguir recibiendo este newsletter, pincha <a href ='%CONFIRMATIONURL%' style='%LINKSTYLE%'> Aqui </a>\n"
+"                                  y desapuntate automaticamente. "
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:142
+msgid "End subscription:"
+msgstr "Fin suscripción:"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:143
+msgid "Set the Newsletter unsubscribed confirmation message."
+msgstr "Mensaje de confirmación de cancelación de la suscripción."
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:145
+msgid ""
+"It has been successfully removed to the newsletter %TITLEBLOG%  at:  %URLBLOG%\n"
+"                                      we apologizes if didn't enjoy this newsletter, we hope to see you soon"
+msgstr ""
+"Has sido borrado con exito del newsletter %TITLEBLOG%  en:  %URLBLOG%\n"
+"                                     sentimos que no te gustara el newsletter, esperamos volver a verte pronto"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:149
+msgid "Mail remove confirmation:"
+msgstr "Mensaje de confirmación de eliminación"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:150
+msgid "Set finish subscription confirmation message."
+msgstr "Mensaje de confirmación de fin de la suscripción"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:152
+msgid ""
+"Congratulations your subscriptios at %TITLEBLOG%  %URLBLOG%\n"
+"                                   Has been finished correctly.\n"
+"                                   \n"
+"                                    "
+msgstr ""
+"Enhorabuena tu suscripción a %TITLEBLOG%  %URLBLOG%\n"
+"                                   se ha completado con exito.\n"
+"                                   \n"
+"                                    "
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:159
+msgid "Information About us:"
+msgstr "Información Acerca de:"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:160
+msgid "Set some information about yourself or your company."
+msgstr "Información acerca de usted o de su compañía."
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/general_settings.php:162
+msgid "Hello, this newsletter contains information about my site for any query please send an email to ejemplo@mail.com: "
+msgstr "Hola, este newsletter contiene información acerca de mi sitio, para cualquier pregunta contacte con ejemplo@mail.com: "
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:3
+msgid "Newsletter Configuration"
+msgstr "Configuración newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:9
+msgid "Template Selection"
+msgstr "Seleción de la plantilla"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:12
+msgid "Select Template"
+msgstr "Selecciona plantilla"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:13
+msgid "Select the Newsletter template you want to use"
+msgstr "Selecciona la plantilla del newsletter que quieres utilizar"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:18
+msgid "template"
+msgstr "plantilla"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:19
+msgid "Template name"
+msgstr "nombre de la plantilla"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:24
+msgid "Default Header Image"
+msgstr "Imagen de cabecera por defecto"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:25
+msgid "Default general header image"
+msgstr "Imagen general de cabecera por defecto"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:31
+msgid "Do you want to set your own thmbnail size?"
+msgstr "Quieres insertar tus propias medidad para la miniatura?"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:32
+msgid "Set your height and width in px"
+msgstr "Fija el ancho y alto de tu miniatura  en pixeles"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:38
+msgid "Width Thumbnail"
+msgstr "Ancho miniatura"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:44
+msgid "Height Thumbnail"
+msgstr "Alto miniatura"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:53
+msgid "Colors Configuration"
+msgstr "Configuración de los colores"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:57
+msgid "Title Color"
+msgstr "Color del titulo"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:58
+msgid "Set the color you want to use for Newsletter title."
+msgstr "Fija el color que quieres utilizar en el titulo del newsletter."
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:63
+msgid "Post text Color"
+msgstr "Color del texto de las entradas"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:64
+msgid "Set the color you want to use for Newsletter post text."
+msgstr "fija el color que quieres utilizar el el texto de las entradas del newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:69
+msgid "Link Color"
+msgstr "Color de los enlaces"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:70
+msgid "Set the color you want to use for Newsletter links text."
+msgstr "Selecciona el color que quieres utilizar en los textos de los enlaces"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:75
+msgid "Issue Color"
+msgstr "Color de Edición"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:76
+msgid "Set the color you want to use issue list in newsletter with 2 columns."
+msgstr "Fija el color que quieres utilizar en el resumen de noticias del newsletter con dos columnas"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:81
+msgid "Footer / Head Color Text"
+msgstr "Color del texto de Cabecera / Pie"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:82
+msgid "Set the color you want to use in header / footer messages."
+msgstr "Fija el color quie quieres utilizar en los mensajes de cabecera / pie"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:87
+msgid "Body Color"
+msgstr "Color del cuerpo"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:88
+msgid "Set the color you want to use for Newsletter body text."
+msgstr "Fija el color que quieres utilizar en el texto del cuerpo del newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:93
+msgid "Background Newsletter"
+msgstr "Fondo del newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:94
+msgid "Set the color you want to use for Newsletter background."
+msgstr "Fija el color que quieres utilizar en el fondo del newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:99
+msgid "Background Header/Footer"
+msgstr "fondo cabecera / pie"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:100
+msgid "Set the color you want to use for Newsletter header and footer background."
+msgstr "Fija el color que quieres utilizar para el fondo de cabecera y pie del newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:108
+msgid "Text Sizes configuration"
+msgstr "Configuración de las dimensiones del texto"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:111
+msgid "Title Size"
+msgstr "Dimensión del titulo"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:112
+msgid "Set the size you want to use for Newsletter title (pixels)."
+msgstr "Fija el tamaño que quieres utilizar para el titulo del newsletter (en pixeles)."
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:117
+msgid "Post text size"
+msgstr "Dimensión de texto de las entradas"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:118
+msgid "Set the size you want to use for Newsletter post text (pixels)"
+msgstr "Fija la dimensión que quieres utilizar para el texto de las entradas del newsletter (en pixeles)"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:123
+msgid "Link size"
+msgstr "Dimensión de los enlaces"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:124
+msgid "Set the size you want to use for Newsletter links text (pixels)"
+msgstr "Fija la dimensión que quieres utilizar para el texto de los enlaces del newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:129
+msgid "Other text size"
+msgstr "Dimensión de los otros textos"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:130
+msgid "Set the size you want to use for all other Newsletter texts (pixels)"
+msgstr "Fija la dimensión que quieres utilizar  para todos los demás textos del newsletter (en pixeles)"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:137
+msgid "Newsletter texts"
+msgstr "Textos del newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:140
+msgid "No visualize"
+msgstr "No visualiza"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:141
+msgid "Set the text for incorrect visualization advice."
+msgstr "mensaje de aviso de visualización incorrecta del newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:143
+msgid "If you don't visualize this mail correctly please click <a href='%URLBLOG%'>here</a>"
+msgstr "Si no visualiza correctamente este e-mail, pulse <a href='%URLBLOG%'>aquí</a>"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:146
+msgid "Confirmation email sent"
+msgstr "E-mail de confirmación enviado"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:147
+msgid "Here you can set the succesful subscription message."
+msgstr "Aquí puede configurar el mensaje de suscripción exitosa"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:149
+msgid "The confirmation message was sent, check your email"
+msgstr "Mensaje de confirmación enviado, revise su correo"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:152
+msgid "Already subscribed"
+msgstr "Ya suscrito"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:153
+msgid "Here you can set the already present message"
+msgstr "Aquí puedes configurar el mensaje de correo ya presente"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:155
+msgid "This email is already subscribed"
+msgstr "Este e-mail ya está suscrito"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:158
+msgid "Data error"
+msgstr "Error en los datos"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:159
+msgid "Here you can set the data processing error message"
+msgstr "Aquí puede configurar el mensaje de error de proceso de datos"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:161
+msgid "There was an error processing your data, prease try again later"
+msgstr "Ha habido un error procesando los datos, intentelo más tarde"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:164
+msgid "Invalid email"
+msgstr "E-mail no valid0"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:165
+msgid "Here you can set the invalid email message."
+msgstr "Aquí puede configurar el mensaje de e-mail no valido"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_configuration.php:167
+msgid "Please insert a valid email address"
+msgstr "Por favor inserte un e-mail valido"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_manager.php:3
+msgid "New Newsletter"
+msgstr "Nuevo Newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/managers/newsletter_manager.php:8
+msgid "Categories"
+msgstr "Categorías"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_editot_newsletter.php:28
+msgid "<p>Waiting Datas...</p>"
+msgstr "<p>Esperando datos...</p>"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_editot_newsletter.php:134
+msgid "Enter title here"
+msgstr "Inserta un titulo"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_editot_newsletter.php:160
+msgid "Select entry design"
+msgstr "Selecciona el diseño de la entrada"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_editot_newsletter.php:163
+msgid "Text"
+msgstr "Texto"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_editot_newsletter.php:164
+msgid "Image + Text"
+msgstr "Imagen + Texto"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_editot_newsletter.php:165
+msgid "Text + Image"
+msgstr "Texto + Imagen"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_editot_newsletter.php:166
+msgid "Image / Text"
+msgstr "Imagen / Texto"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_editot_newsletter.php:173
+msgid "ADD Newsletter"
+msgstr "AÑADIR al newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:36
+msgid "The buttons has been created ok"
+msgstr "los botones de envío se han creado con exito"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:58
+msgid "The newsletter has been send completely"
+msgstr "El newsletter se ha enviado correctamente"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:70
+msgid "Sends Manager"
+msgstr "Gestión de envíos"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:79
+msgid "From (name)"
+msgstr "De (Nombre):"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:85
+msgid "From (email):"
+msgstr "De (e-mail):"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:91
+msgid "Subject:"
+msgstr "Asunto:"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:97
+msgid "List to send:"
+msgstr "Lista de envío:"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:103
+msgid "Choose send mode:"
+msgstr "Selecciona modo de envío:"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:106
+msgid "All at once"
+msgstr "Todos a la vez"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:107
+msgid "10 in 10"
+msgstr "de 10 en 10"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:108
+msgid "50 in 50"
+msgstr "de 50 en 50"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:109
+msgid "100 in 100"
+msgstr "de 100 en 100"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:110
+msgid "200 in 200"
+msgstr "de 200 en 200"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:111
+msgid "500 in 500"
+msgstr "de 500 en 500"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:112
+msgid "1000 in 1000"
+msgstr "de 1000 en 1000"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:115
+msgid "Attention: If you want to use CRON JOBS to send newsletter <br> Datas for cronjobs:<br>Put this line into your cron job panel: <strong>php -q "
+msgstr "Atención: Si quieres utilizar CRON JOBS para el envío <br> Datos para cronjob:<br>Copia esta linea en tu panel de control de cronjobs: <strong>php -q "
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_senders.php:123
+msgid "Generate Senders"
+msgstr "Genera envíos"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_stats.php:121
+msgid "Statistics of "
+msgstr "Estatisticas de"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_stats.php:137
+msgid "Newsletter Click Statistics"
+msgstr "Estadisticas de click del Newsletter"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_stats.php:146
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_stats.php:166
+msgid "General Statistics"
+msgstr "Estadisticas generales"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_stats.php:152
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_stats.php:172
+msgid "Concept/Legend"
+msgstr "Concepto/Leyenda"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_stats.php:153
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_stats.php:173
+msgid "Total "
+msgstr "Total"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_stats.php:154
+msgid "Percentage"
+msgstr "Porcentaje"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_stats.php:186
+msgid "Links stats by click"
+msgstr "Estadisticas enlaces por click"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_stats.php:191
+msgid "Clicks"
+msgstr "Clicks"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_stats.php:192
+msgid "Url Link "
+msgstr "Enlaces URL"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_stats.php:193
+msgid "Visit Link "
+msgstr "Visitar enlace"
+
+#: C:\Users\tierra\Desktop\meenews/meenews/inc/tpl/mee_stats.php:205
+msgid "No Stats found"
+msgstr "Estadisticas no encontradas"
+

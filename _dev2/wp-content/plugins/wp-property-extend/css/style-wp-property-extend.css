@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+  .image_container{
+	  float: left;
+	  margin: 20px;
+	  width: 150px;
+	  display: block;
+	  overflow: hidden;
+	  height: 300px;
+  }
+  
+  
+  .newfile_upload_entry{
+	  float: left;
+	  margin: 20px;
+	  width: 250px;
+	  display: block;
+	  overflow: hidden;
+	  height: 50px;
+  }
+

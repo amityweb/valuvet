@@ -1,0 +1,15 @@
+.tog_wrapper {position:relative; text-align:left;}
+.acc_tog div.minmax { background:url(img/arrow_dwn.gif) top right no-repeat; position:absolute; top:0; right:0; width:84px; height:18px;}
+.acc_tog.max div.minmax {background-image:url(img/arrow_up.gif); }
+.acc_tog      {width:100%;  position:relative; padding:0px; overflow:hidden; cursor:n-resize; background-repeat:no-repeat; }
+.acc_con  {overflow:hidden;  padding:0px 0px 5px 20px; margin:0px; 	background: url(cmxform-fieldset.gif) left bottom repeat-x;}
+
+
+.hed_tugle{
+ color: #976F5C;
+    font-size: 10px;
+    font-weight: lighter;
+	letter-spacing: 1px;
+	padding:0;
+	margin:0;
+}

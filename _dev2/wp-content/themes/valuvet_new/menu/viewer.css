@@ -1,0 +1,32 @@
+#feature_property {position:relative; width:220px; height:300px;  padding:0px; margin:0px auto; overflow:hidden; margin-top:7px;}
+.feature_property_con { text-align:center; }
+#feature_property div{position:absolute; top:0px; left:0px; overflow:hidden;}
+
+#feature_property div H1 {font-size:14px; padding:0px; margin:0 auto; text-align:center; letter-spacing:1px; line-height:22px;}
+#feature_property div H2 {font-size:12px; width:200px; padding:0px; margin:0px; text-align:center;}
+
+.img-feature-img {
+position: relative;
+height:150px;
+width:200px;
+border: 1px solid rgb(169, 169, 169);
+margin: 0px;
+padding: 8px;
+background-color: rgb(255, 255, 255);
+display:block;
+}
+
+#slide-wrapper {position:absolute; top:0px; left:345px; width:364px; height:100px; overflow:hidden;}
+#header-slide {position:relative; width:364px; height:100px; overflow:hidden; margin:0px;}
+#header-slide div {position:absolute; top:0px; left:0px; overflow:hidden;}
+
+#feature_property p{padding:0 !important;}
+
+
+
+#feature_property2 {position:relative; width:220px; height:300px;  padding:0px; margin:0px auto; overflow:hidden; margin-top:7px; margin-left:10px;}
+#feature_property2 div{position:absolute; top:0px; left:0px; overflow:hidden;}
+
+#feature_property2 div h1 {font-size:14px; padding:0px; margin:0 auto; text-align:center; letter-spacing:1px; line-height:22px;}
+#feature_property2 div h1 {font-size:12px; width:200px; padding:0px; margin:0px; text-align:center; border:none;}
+#feature_property2 p{padding:0 !important;}

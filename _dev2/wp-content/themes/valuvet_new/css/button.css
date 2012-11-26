@@ -1,0 +1,9 @@
+.btn-grey { display: block; overflow: hidden;}
+
+.btn-grey a            {background:transparent url("../images/button_sprite.png") 0 0 no-repeat; float:left; display:block; height:32px; margin-right:25px; color:#000000; font-size:18px; line-height:32px; font-weight:bold; text-align:center; text-decoration: none;}
+.btn-grey a:hover      {background:            url("../images/button_sprite.png") left -32px no-repeat;}
+.btn-grey a span       {background:transparent url("../images/button_sprite.png") no-repeat scroll right 0; display: block; height: 32px; margin-right:-15px; padding: 0 15px;}
+.btn-grey a span:hover {background:            url("../images/button_sprite.png") right -32px no-repeat; white-space:nowrap; }
+
+.btn-grey a:active            {background:transparent url("../images/button_sprite.png") left -64px no-repeat; color:#ffffff;}
+.btn-grey a span:active       {background:transparent url("../images/button_sprite.png") right -64px no-repeat; white-space:nowrap; }

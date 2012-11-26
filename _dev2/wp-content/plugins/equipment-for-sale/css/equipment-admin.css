@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+#icon-edit.icon32-posts-equipment_sale {
+    background: url("../images/equipments-icon-large.png") no-repeat center transparent;
+    position: relative;
+    width: 50px;
+	height: 50px;
+}
+
+.table_right{
+	background:#CCC;
+}
+
+.dollar_sign{
+	background-image:url(../images/Dollar.png);
+	background-repeat:no-repeat;
+	background-position: left;
+	padding: 0 0 0 25px;
+	text-align:right;
+}
+
+.withpadding{
+	padding: 3px;
+}
+
+.text_right{
+	text-align: right;
+}

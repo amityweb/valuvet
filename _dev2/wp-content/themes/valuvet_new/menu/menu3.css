@@ -1,0 +1,267 @@
+#menu-container {
+	position:absolute;
+	height:31px;
+	margin-left:0px;
+	margin-top:0px;
+	padding:4px 0px 0px 0px;
+	overflow:visible;
+	z-index:1000;
+	border:0px none;
+	font-size:11px;
+  	background:#976F5C;
+}
+
+#menu_center {width:973px; margin:0px auto;}
+
+#navmenu-h li.background {
+ background: url(vv_menu_right.gif) no-repeat top right !important;
+ position: absolute;
+ visibility: hidden;
+ z-index: 8;
+  margin-top:1px;
+}
+
+#navmenu-h .background .left {
+
+ background: url(vv_menu_left.gif) no-repeat top left !important;
+ height: 48px;
+ margin-right: 4px;/* 7px is the width of the rounded shape */
+
+}
+
+
+
+/* Root = Horizontal, Secondary = Vertical */
+ul.mainmenu {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  width: auto; /*For KHTML*/
+  list-style: none;
+  border:0px solid #f60;
+  text-transform:uppercase;
+  overflow:visible;
+    z-index:999;
+}
+
+ul.mainmenu li {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+    height:50px;
+  float: left; /*For Gecko*/
+  display: inline;
+  list-style: none;
+  position: relative;
+  z-index:999;
+  overflow:visible;
+
+}
+
+
+
+/* SUBMENUS */
+
+ul.mainmenu ul {
+  margin-left:-6px;
+  text-transform:none;
+  margin-top:16px;
+  padding: 0;
+  padding-top:0px;
+  padding-bottom:30px;
+  border: 0 none;
+  border-top:0px solid #7A7A7A;
+
+  width: 230px;
+
+  list-style: none;
+  display: none;
+  position: absolute;
+  top: 15px;
+  left: 0;
+
+background-image: url(menu_bg.png);
+background-repeat: no-repeat;
+background-position: bottom left;
+  overflow:visible;
+  z-index:999;
+}
+
+
+ul.mainmenu ul:after /*From IE 7 lack of compliance*/{
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+}
+
+ul.mainmenu ul li {
+  width: 215px;
+  float: left; /*For IE 7 lack of compliance*/
+  display: block !important;
+  display: inline; /*For IE*/
+  height: auto !important;
+  height: 1%; /*For IE*/
+  margin-left:6px;
+  border-bottom:1px solid #999;
+}
+
+ul.mainmenu ul li a{
+height: auto !important;
+height: 1%; /*For IE*/
+padding:4px 0px 4px 15px;
+ font-size:12px;
+ font-weight:normal;
+ color:#000;
+
+}
+
+ul.mainmenu ul li a:hover{
+  background:#976F5C;
+
+  color:#fff;
+}
+
+/* Root Menu */
+ul.mainmenu a {
+	font-family:Tahoma, Geneva, sans-serif;
+  border-right: 0px solid #CCC;
+  border-left: 0px solid #fff;
+  padding: 5px 15px 4px 15px;
+  float: none !important; /*For Opera*/
+  float: left; /*For IE*/
+  display: block;
+ font-size:14px;
+ font-weight:normal;
+  letter-spacing: 1px;
+ color:#fff;
+  text-decoration: none;
+  height: auto !important;
+  height: 1%; /*For IE*/
+}
+
+li#active_nav a {
+ color:#fff;
+}
+
+
+ul.mainmenu #active_nav li a {
+ color:#000;
+}
+
+ul.mainmenu #active_nav li a:hover {
+ color:#fff;
+}
+
+
+
+#active {
+ color:#fff;
+
+ /* background-image: url('_img/menu_triangle.gif');
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	*/
+}
+
+/* Root Menu Hover Persistence */
+ul.mainmenu a:hover {
+  color: #fff;
+}
+
+/* 2nd Menu */
+ul.mainmenu li:hover li a,
+ul.mainmenu li.iehover li a {
+  float: none;
+     border: 0 none;
+     height:1%;
+
+
+}
+
+ul.mainmenu ul ul {
+ /* display: none !important;*/
+ list-style:none;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  width:230px;
+  /*background:#000;*/
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul.mainmenu li:hover ul ul,
+ul.mainmenu li.iehover ul ul {
+  display: none;
+}
+
+ul.mainmenu li:hover ul,
+ul.mainmenu ul li:hover ul {
+  display: block;
+}
+
+ul.mainmenu li.iehover ul,
+ul.mainmenu ul li.iehover ul {
+  display: block;
+}
+
+li.persistHover,
+a.persistHover
+{
+	background: #CCC;
+	color: #FFF;
+}
+
+
+
+
+
+
+
+
+#shadow {
+position:absolute;
+top:137px;
+height:2px;
+width:100%;
+background:#000;
+z-index:1000;
+opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+
+
+
+#menu_shadow {
+position:absolute;
+top:0px;
+height:2px;
+width:100%;
+background:#000;
+
+z-index:9999;
+opacity: 0.2;
+-moz-opacity: 0.2;
+	filter: alpha(opacity=20);
+}
+
+
+
+.menu-item-239 a:hover{
+	background:#F00;	
+}
+
+#menu .current_page_item a {
+    color: #0E8C04;
+    height: 20px;
+}
+
+
+.button_left  { background-image: url('../images/block_left.gif');}
+.button_right { background-image: url('../images/block_right.gif'); }
+
+

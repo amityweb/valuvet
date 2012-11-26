@@ -1,0 +1,11 @@
+<div id="location_map">
+<img name="aust_map" src="_assets/img/_map/aust_map_qld.gif" width="336" height="283" border="0" usemap="#m_aust_map" alt=""><map name="m_aust_map">
+<area shape="poly" coords="196,253,195,283,271,283,263,255,196,253"              href="market_tas.php"      alt="TAS"      onMouseOut="MM_swapImage('aust_map','','_assets/img/_map/aust_map_qld.gif',1);"  onMouseOver="MM_swapImage('aust_map','','_assets/img/_map/aust_map_tas.gif',1);"  >
+<area shape="poly" coords="199,198,196,253,264,255,264,233,199,198"              href="market_vic.php"      alt="VIC"      onMouseOut="MM_swapImage('aust_map','','_assets/img/_map/aust_map_qld.gif',1);"  onMouseOver="MM_swapImage('aust_map','','_assets/img/_map/aust_map_vic.gif',1);"  >
+<area shape="poly" coords="201,198,263,233,309,163,203,154,201,198"              href="market_nsw_act.php"  alt="NSW/ACT"  onMouseOut="MM_swapImage('aust_map','','_assets/img/_map/aust_map_qld.gif',1);"  onMouseOver="MM_swapImage('aust_map','','_assets/img/_map/aust_map_nsw_act.gif',1);"  >
+<area shape="poly" coords="115,129,204,130,198,235,117,180,115,129"              href="market_sa.php"       alt="SA"       onMouseOut="MM_swapImage('aust_map','','_assets/img/_map/aust_map_qld.gif',1);"  onMouseOver="MM_swapImage('aust_map','','_assets/img/_map/aust_map_sa.gif',1);"  >
+<area shape="poly" coords="309,163,202,154,204,130,183,128,187,0,247,1,309,163"  href="market_qld.php"      alt="QLD"      onMouseOut="MM_swapImage('aust_map','','_assets/img/_map/aust_map_qld.gif',1);"  onMouseOver="MM_swapImage('aust_map','','_assets/img/_map/aust_map_qld.gif',1);"  >
+<area shape="poly" coords="111,0,116,128,183,129,187,0,111,0"                    href="market_nt.php"       alt="NT"       onMouseOut="MM_swapImage('aust_map','','_assets/img/_map/aust_map_qld.gif',1);"  onMouseOver="MM_swapImage('aust_map','','_assets/img/_map/aust_map_nt.gif',1);"  >
+<area shape="poly" coords="55,37,0,90,-1,219,42,219,117,178,113,23,55,37"        href="market_wa.php"       alt="WA"       onMouseOut="MM_swapImage('aust_map','','_assets/img/_map/aust_map_qld.gif',1);"  onMouseOver="MM_swapImage('aust_map','','_assets/img/_map/aust_map_wa.gif',1);"  >
+</map>
+</div>
