@@ -1,0 +1,2850 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HomeQuest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-21 19:27+0200\n"
+"PO-Revision-Date: 2012-08-21 19:27+0200\n"
+"Last-Translator: \n"
+"Language-Team: ThemeFuse <support@themefuse.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: 404.php:18
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:19
+msgid "The page you were looking for doesn&rsquo;t seem to exist"
+msgstr ""
+
+#: archive.php:27
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: comments-template.php:22
+msgid "Pingback:"
+msgstr ""
+
+#: comments-template.php:22
+msgid "Edit"
+msgstr ""
+
+#: comments-template.php:55
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:16
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:31
+msgid "Join the conversation"
+msgstr ""
+
+#: comments.php:34
+#: comments.php:55
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:35
+#: comments.php:56
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:62
+msgid "No comments yet."
+msgstr ""
+
+#: comments.php:71
+#: content-contact-form.php:26
+#: theme_config/extensions/shortcodes/shortcodes/contactform.php:32
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:78
+msgid "You must be"
+msgstr ""
+
+#: comments.php:78
+msgid "logged in"
+msgstr ""
+
+#: comments.php:78
+msgid "to post a comment."
+msgstr ""
+
+#: comments.php:86
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:86
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:86
+msgid "Logout"
+msgstr ""
+
+#: comments.php:91
+#: content-contact-form.php:33
+msgid "Name"
+msgstr ""
+
+#: comments.php:98
+#: content-contact-form.php:40
+#: theme_config/widgets/TF_Widget_Contact.php:33
+msgid "Email"
+msgstr ""
+
+#: comments.php:98
+#: content-contact-form.php:40
+msgid "never published"
+msgstr ""
+
+#: comments.php:105
+msgid "You can use these tags"
+msgstr ""
+
+#: comments.php:108
+#: content-contact-form.php:47
+msgid "Website"
+msgstr ""
+
+#: comments.php:113
+#: content-contact-form.php:52
+msgid "Comment"
+msgstr ""
+
+#: comments.php:119
+msgid "POSTS COMMENT"
+msgstr ""
+
+#: content-author.php:46
+msgid "CONTACT THE AUTHOR:"
+msgstr ""
+
+#: content-contact-form.php:65
+msgid "Your message has been sent!"
+msgstr ""
+
+#: content-contact-form.php:66
+msgid "Thank you for contacting us,"
+msgstr ""
+
+#: content-contact-form.php:66
+msgid "We will get back to you within 2 business days."
+msgstr ""
+
+#: content-contact-form.php:70
+msgid "Oops!"
+msgstr ""
+
+#: content-contact-form.php:71
+msgid ""
+"Due to an unknown error, your form was not submitted, please resubmit it or "
+"try later."
+msgstr ""
+
+#: content-map.php:30
+msgid "We"
+msgstr ""
+
+#: content-map.php:30
+#: content-map.php:40
+msgid "are"
+msgstr ""
+
+#: content-map.php:30
+#: content-map.php:40
+msgid "here"
+msgstr ""
+
+#: content-map.php:40
+msgid "You"
+msgstr ""
+
+#: content-property.php:26
+#, php-format
+msgid "About this %s"
+msgstr ""
+
+#: content-property.php:33
+msgid "Back to Properties Listing"
+msgstr ""
+
+#: content-single.php:18
+msgid "Posted by "
+msgstr ""
+
+#: content-single.php:30
+msgid "Share"
+msgstr ""
+
+#: content-single.php:30
+msgid "via"
+msgstr ""
+
+#: footer-jcarousel.php:22
+msgid "SIMILAR PROPERTIES"
+msgstr ""
+
+#: header-search_narrow.php:8
+msgid "SEARCH FOR HOMES"
+msgstr ""
+
+#: latest-added.php:61
+msgid "Latest added"
+msgstr ""
+
+#: latest-added.php:71
+msgid "Property Type"
+msgstr ""
+
+#: latest-added.php:72
+#: theme_config/extensions/seek/options/property_options.php:243
+#: theme_config/extensions/seek/options/property_options.php:244
+msgid "Asking Price"
+msgstr ""
+
+#: latest-added.php:89
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:54
+msgid "Rooms"
+msgstr ""
+
+#: latest-added.php:90
+msgid "City"
+msgstr ""
+
+#: latest-added.php:90
+msgid "Town"
+msgstr ""
+
+#: latest-added.php:91
+msgid "view property"
+msgstr ""
+
+#: listing-blog.php:15
+#: theme_config/extensions/shortcodes/shortcodes/blog_entries.php:56
+msgid "Posted by"
+msgstr ""
+
+#: listing-blog.php:19
+#: theme_config/extensions/shortcodes/shortcodes/blog_entries.php:61
+msgid "Continue reading"
+msgstr ""
+
+#: property-sl_content.php:46
+msgid "click on image to enlarge"
+msgstr ""
+
+#: search.php:24
+#: taxonomy.php:97
+#: taxonomy.php:177
+msgid "Latest Added"
+msgstr ""
+
+#: search.php:28
+#: taxonomy.php:98
+#: taxonomy.php:178
+msgid "Price High - Low"
+msgstr ""
+
+#: search.php:32
+msgid "Price Low - High"
+msgstr ""
+
+#: search.php:36
+msgid "Names A - Z"
+msgstr ""
+
+#: search.php:40
+msgid "Names Z - A"
+msgstr ""
+
+#: search.php:68
+msgid "OFFERS"
+msgstr ""
+
+#: search.php:68
+msgid "OFFER"
+msgstr ""
+
+#: search.php:68
+msgid " OFFERS"
+msgstr ""
+
+#: search.php:68
+msgid "PROPERTIES"
+msgstr ""
+
+#: search.php:69
+msgid "SEARCH RESULTS"
+msgstr ""
+
+#: search.php:118
+#: taxonomy.php:155
+msgid "View Details"
+msgstr ""
+
+#: search.php:118
+msgid "Save Offer"
+msgstr ""
+
+#: search.php:119
+#: theme_config/theme_includes/THEME_FUNCTIONS.php:950
+msgid "View on Map"
+msgstr ""
+
+#: search.php:129
+msgid "Sorry, but nothing matched your search criteria."
+msgstr ""
+
+#: searchform.php:5
+msgid "Search"
+msgstr ""
+
+#: taxonomy.php:87
+msgid "FOR"
+msgstr ""
+
+#: taxonomy.php:95
+#: taxonomy.php:175
+msgid "Sort by"
+msgstr ""
+
+#: taxonomy.php:99
+#: taxonomy.php:179
+msgid "Price Low - Hight"
+msgstr ""
+
+#: taxonomy.php:100
+#: taxonomy.php:180
+msgid "Names A-Z"
+msgstr ""
+
+#: taxonomy.php:101
+#: taxonomy.php:181
+msgid "Names Z-A"
+msgstr ""
+
+#: taxonomy.php:106
+#: taxonomy.php:186
+msgid "Jump to page"
+msgstr ""
+
+#: taxonomy.php:113
+#: taxonomy.php:193
+msgid "Page"
+msgstr ""
+
+#: taxonomy.php:113
+#: taxonomy.php:193
+#: theme_config/extensions/seek/includes/custom_functions.php:121
+msgid "of"
+msgstr ""
+
+#: taxonomy.php:113
+#: taxonomy.php:193
+#: theme_config/extensions/seek/includes/custom_functions.php:125
+msgid "Previous"
+msgstr ""
+
+#: taxonomy.php:113
+#: taxonomy.php:193
+#: theme_config/extensions/seek/includes/custom_functions.php:130
+msgid "Next"
+msgstr ""
+
+#: taxonomy.php:165
+msgid "Page not found."
+msgstr ""
+
+#: taxonomy.php:166
+msgid "The page you were looking for doesn&rsquo;t seem to exist."
+msgstr ""
+
+#: framework/core/OPTIGEN.php:261
+#: framework/core/OPTIGEN.php:282
+msgid "Select a category:"
+msgstr ""
+
+#: framework/core/OPTIGEN.php:305
+#: framework/core/OPTIGEN.php:326
+msgid "Select a page:"
+msgstr ""
+
+#: framework/core/OPTIGEN.php:369
+msgid "Select a tag:"
+msgstr ""
+
+#: framework/core/OPTIGEN.php:433
+#: framework/core/OPTIGEN.php:437
+#: framework/core/OPTIGEN.php:447
+msgid "Remove"
+msgstr ""
+
+#: framework/core/OPTIGEN.php:444
+msgid "Type here to search"
+msgstr ""
+
+#: framework/core/OPTIGEN.php:594
+msgid "Upload"
+msgstr ""
+
+#: framework/core/UPDATER.php:132
+msgid "Proceed"
+msgstr ""
+
+#: framework/extensions/export/TF_EXPORT.php:4
+#: framework/extensions/import/TF_IMPORT.php:4
+msgid "Direct access forbidden."
+msgstr ""
+
+#: framework/extensions/export/views/after_download.php:7
+msgid "Failed to export XML file"
+msgstr ""
+
+#: framework/extensions/import/TFUSE_WP_IMPORT.php:50
+#: framework/extensions/import/TFUSE_WP_IMPORT.php:59
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:134
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:143
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:196
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:200
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:209
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: framework/extensions/import/TFUSE_WP_IMPORT.php:51
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: framework/extensions/import/TFUSE_WP_IMPORT.php:362
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:882
+msgid "Remote server did not respond"
+msgstr ""
+
+#: framework/extensions/import/TFUSE_WP_IMPORT.php:368
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:888
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: framework/extensions/import/TFUSE_WP_IMPORT.php:380
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:900
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: framework/extensions/import/TFUSE_WP_IMPORT.php:386
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:906
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: framework/extensions/import/views/install_error.php:7
+msgid "Failed to import XML file"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/parsers.php:42
+#: framework/extensions/import/wordpress-importer/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/parsers.php:67
+#: framework/extensions/import/wordpress-importer/parsers.php:72
+#: framework/extensions/import/wordpress-importer/parsers.php:262
+#: framework/extensions/import/wordpress-importer/parsers.php:451
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:179
+msgid "All done."
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:179
+msgid "Have fun!"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:180
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:201
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:217
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:242
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:268
+msgid "Assign Authors"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:269
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:271
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:281
+msgid "Import Attachments"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:284
+msgid "Download and import file attachments"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:301
+msgid "Import author:"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:312
+msgid "or create new user with login name:"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:315
+msgid "as a new user:"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:323
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:325
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:326
+msgid "- Select -"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:376
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:463
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:507
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:633
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:529
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:550
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:605
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:755
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:762
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:825
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:838
+msgid "Invalid file type"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:1005
+msgid "Import WordPress"
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:1012
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:1027
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: framework/extensions/import/wordpress-importer/wordpress-importer.php:1028
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: framework/extensions/seek/TF_SEEK.php:140
+msgid "Add New "
+msgstr ""
+
+#: framework/extensions/seek/TF_SEEK.php:141
+#: theme_config/common_includes/CUSTOM_POSTS.php:28
+msgid "Nothing found"
+msgstr ""
+
+#: framework/extensions/seek/TF_SEEK.php:816
+#: framework/extensions/seek/TF_SEEK.php:852
+msgid "Zone"
+msgstr ""
+
+#: framework/extensions/seek/TF_SEEK.php:825
+#: framework/extensions/seek/TF_SEEK.php:861
+msgid "Priority"
+msgstr ""
+
+#: framework/extensions/seek/TF_SEEK.php:871
+msgid "Display Options"
+msgstr ""
+
+#: framework/extensions/seek/TF_SEEK_IMPORT.php:36
+#, php-format
+msgid "Error importing seek index table: Cannot find \"%s\" file in \"%s\""
+msgstr ""
+
+#: framework/extensions/seek/TF_SEEK_IMPORT.php:51
+#, php-format
+msgid ""
+"Skipping seek index table import: Table \"%s\" already exists and is not "
+"empty"
+msgstr ""
+
+#: framework/extensions/seek/TF_SEEK_IMPORT.php:71
+#, php-format
+msgid ""
+"Error importing Seek index table: No sql read from file \"%s\" in \"%s\""
+msgstr ""
+
+#: framework/extensions/seek/views/drag_options_to_zones.php:18
+msgid "No Zone"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:72
+#: framework/extensions/seo/TF_SEO.php:121
+#, php-format
+msgid "Title for %s"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:73
+#: framework/extensions/seo/TF_SEO.php:122
+#, php-format
+msgid ""
+"Enter custom title for %s. These settings may be overridden for individual "
+"%s."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:80
+#: framework/extensions/seo/TF_SEO.php:129
+#, php-format
+msgid "Description for %s"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:81
+#: framework/extensions/seo/TF_SEO.php:130
+#, php-format
+msgid ""
+"Enter custom description for %s. These settings may be overridden for "
+"individual %s."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:90
+#: framework/extensions/seo/TF_SEO.php:138
+#, php-format
+msgid "Keywords for %s"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:91
+#: framework/extensions/seo/TF_SEO.php:139
+#, php-format
+msgid ""
+"Enter custom meta keywords for %s. These settings may be overridden for "
+"individual %s."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:147
+#, php-format
+msgid "Use noindex for %s"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:148
+#, php-format
+msgid "Enable or disable using of noindex for %s"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:163
+msgid "XML Sitemaps"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:166
+msgid "Enable XML Sitemaps"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:167
+msgid ""
+"Enable or disable XML Sitemaps. Sitemap will be generated when a new content "
+"will be added."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:182
+msgid ""
+"Please check the appropriate box below if there's a post type that you do "
+"<b>NOT</b> want to include in your sitemap"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:194
+#: framework/extensions/seo/TF_SEO.php:221
+#, php-format
+msgid "Exclude %s"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:209
+msgid ""
+"Please check the appropriate box below if there's a taxonomy that you do "
+"<b>NOT</b> want to include in your sitemap"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:239
+msgid "Use META keywords"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:240
+msgid "Use META keywords."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:247
+msgid "Use Canonical URLs"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:248
+msgid "Use Canonical URLs."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:255
+msgid "Title separator"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:256
+msgid ""
+"Title separator. Will be used by default to generate titles if some titles "
+"are not set"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:264
+msgid "General META"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:267
+msgid "General Description"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:268
+msgid ""
+"Enter general description for all the pages (categories, arhives,  posts, "
+"etc)"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:276
+msgid "General Keywords"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:277
+msgid ""
+"Enter general keywords for all the pages (categories, arhives,  posts, etc)"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:287
+msgid "Title for Homepage"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:288
+msgid "Enter custom title for Homepage."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:294
+msgid "Description for Homepage"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:295
+msgid "Enter custom description for Homepage."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:303
+msgid "Keywords for Homepage"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:304
+msgid "Enter custom keywords for Homepage."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:314
+msgid "Title for Archives"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:315
+msgid ""
+"Enter custom title for Archives. This title may be overridden by other "
+"specific archives (tags, categories, etc)"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:321
+msgid "Description for Archives"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:322
+msgid ""
+"Enter custom description for Archives. This description may be overridden by "
+"other specific archives (tags, categories, etc)"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:329
+msgid "Keywords for Archives"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:330
+msgid ""
+"Enter custom keywords for Archives. This keywords may be overridden by other "
+"specific archives (tags, categories, etc)"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:338
+msgid "Use noindex for Archive"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:339
+msgid "Enable or disable using of noindex for Archives."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:347
+msgid "Title for Author"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:348
+msgid "Enter custom title for Author Archives."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:354
+msgid "Description for Author"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:355
+msgid "Enter custom description for Author Archives."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:362
+msgid "Keywords for Author"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:363
+msgid "Enter custom keywords for Author Archives."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:371
+msgid "Use noindex for Author"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:372
+msgid "Enable or disable using of noindex for Author Archives."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:380
+msgid "Title for Date"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:381
+msgid "Enter custom title for Date Archives."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:387
+msgid "Description for Date"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:388
+msgid "Enter custom description for Date Archives."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:395
+msgid "Keywords for Date"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:396
+msgid "Enter custom keywords for Date Archives."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:404
+msgid "Use noindex for Date"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:405
+msgid "Enable or disable using of noindex for Date Archives."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:413
+msgid "Title for Attachment"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:414
+msgid "Enter custom title for Attachment."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:420
+msgid "Description for Attachment"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:421
+msgid "Enter custom description for Attachment."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:429
+msgid "Keywords for Attachment"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:430
+msgid "Enter custom keywords for Attachment."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:440
+msgid "Title for Search"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:441
+msgid "Enter custom title for Search."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:447
+msgid "Description for Search"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:448
+msgid "Enter custom description for Search."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:455
+msgid "Keywords for Search"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:456
+msgid "Enter custom keywords for Search."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:464
+msgid "Use noindex for Search"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:465
+msgid "Enable or disable using of noindex for Search."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:473
+msgid "Title for 404"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:474
+msgid "Enter custom title for 404."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:480
+msgid "Description for 404"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:481
+msgid "Enter custom description for 404."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:489
+msgid "Keywords for 404"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:490
+msgid "Enter custom keywords for 404."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:500
+msgid "Title for Paged"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:501
+msgid "Enter custom title suffix for Paged."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:520
+msgid "Help"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:527
+msgid ""
+"These tags can be included and will be replaced when a page is displayed."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:531
+msgid "Replaced with the date of the post/page"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:535
+msgid "Replaced with the title of the post/page"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:539
+msgid "The site's name"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:543
+msgid "The site's tagline / description"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:547
+msgid ""
+"Replaced with the post/page excerpt (or auto-generated if it does not exist)"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:551
+msgid "Replaced with the post/page excerpt (without auto-generation)"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:555
+msgid "Replaced with the current tag/tags"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:559
+msgid "Replaced with the post categories (comma separated)"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:563
+msgid "Replaced with the category description"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:567
+msgid "Replaced with the tag description"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:571
+msgid "Replaced with the term description"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:575
+msgid "Replaced with the term name"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:579
+msgid "Replaced with the post/page modified time"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:583
+msgid "Replaced with the post/page ID"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:587
+msgid "Replaced with the post/page author's 'nicename'"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:591
+msgid "Replaced with the post/page author's userid"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:595
+msgid "Replaced with the current search phrase"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:599
+msgid "Replaced with the current time"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:603
+msgid "Replaced with the current date"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:607
+msgid "Replaced with the current month"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:611
+msgid "Replaced with the current year"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:615
+msgid "Replaced with the current page number (i.e. page 2 of 4)"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:619
+msgid "Replaced with the current page total"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:623
+msgid "Replaced with the current page number"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:627
+msgid "Attachment caption"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:660
+msgid "SEO"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:666
+msgid "Page Title"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:667
+msgid "Enter your prefered custom title or leave blank for deafault value."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:673
+msgid "Page Description"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:674
+msgid ""
+"Enter your prefered custom description or leave blank for deafault value."
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:681
+msgid "Page Keywords"
+msgstr ""
+
+#: framework/extensions/seo/TF_SEO.php:682
+msgid "Enter your prefered custom keywords or leave blank for deafault value."
+msgstr ""
+
+#: framework/extensions/seo/helpers/SEO.php:321
+msgid "Archive"
+msgstr ""
+
+#: framework/extensions/seo/helpers/SEO.php:353
+msgid "Author Archives"
+msgstr ""
+
+#: framework/extensions/seo/helpers/SEO.php:361
+msgid "Date Archive"
+msgstr ""
+
+#: framework/extensions/seo/helpers/SEO.php:393
+msgid "Search Results for "
+msgstr ""
+
+#: framework/extensions/seo/helpers/SEO.php:393
+#, php-format
+msgid "'%s'"
+msgstr ""
+
+#: framework/extensions/seo/helpers/SEO.php:407
+msgid "Page Not Found - 404 error"
+msgstr ""
+
+#: framework/extensions/slider/TF_SLIDER.php:405
+msgid "Select Slider:"
+msgstr ""
+
+#: framework/helpers/INTERFACE.php:39
+msgid "ThemeFuse Download Group"
+msgstr ""
+
+#: framework/helpers/INTERFACE.php:61
+msgid "ThemeFuse Gallery Group"
+msgstr ""
+
+#: framework/helpers/UPGRADER.php:23
+#, php-format
+msgid "Updating %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/helpers/UPGRADER.php:24
+msgid "The package is at the latest version."
+msgstr ""
+
+#: framework/helpers/UPGRADER.php:25
+#, php-format
+msgid "Removing the old version of the %s&#8230;"
+msgstr ""
+
+#: framework/helpers/UPGRADER.php:26
+msgid "Could not remove the old version of the "
+msgstr ""
+
+#: framework/helpers/UPGRADER.php:27
+msgid "Update failed."
+msgstr ""
+
+#: framework/helpers/UPGRADER.php:28
+msgid "Package updated successfully."
+msgstr ""
+
+#: framework/helpers/UPGRADER.php:29
+msgid "Backing up files&#8230;"
+msgstr ""
+
+#: framework/helpers/UPGRADER.php:30
+msgid "Could not create backup directory."
+msgstr ""
+
+#: framework/helpers/UPGRADER.php:35
+msgid "Return to Framework page"
+msgstr ""
+
+#: framework/views/framework_header.php:25
+msgid "Framework"
+msgstr ""
+
+#: framework/views/framework_header.php:29
+msgid "ThemeMods"
+msgstr ""
+
+#: framework/views/framework_header.php:33
+msgid "Templates"
+msgstr ""
+
+#: framework/views/updater/update_page.php:3
+#: framework/views/updater/upgrade_preamble.php:3
+msgid "ThemeFuse Updates"
+msgstr ""
+
+#: framework/views/updater/upgrade_preamble.php:6
+#, php-format
+msgid "Last checked on %1$s at %2$s."
+msgstr ""
+
+#: framework/views/updater/upgrade_preamble.php:7
+msgid "Check Again"
+msgstr ""
+
+#: framework/views/updater/upgrade_preamble.php:13
+#, php-format
+msgid "You have the latest version of %s."
+msgstr ""
+
+#: framework/views/updater/upgrade_preamble.php:17
+#, php-format
+msgid ""
+"You have the latest version of %s. You do not need to update. However, if "
+"you want to re-install current version, you can do so automatically."
+msgstr ""
+
+#: framework/views/updater/upgrade_preamble.php:21
+#, php-format
+msgid ""
+"Upgrading %1$s will overwrite the current installed version of this theme. "
+"We recommend backing up your theme files before reinstalling the %1$s."
+msgstr ""
+
+#: framework/views/updater/upgrade_preamble.php:25
+msgid "Re-install Now"
+msgstr ""
+
+#: framework/views/updater/upgrade_preamble.php:30
+msgid ""
+"<strong>Important:</strong> before updating, please <a href=\"http://codex."
+"wordpress.org/WordPress_Backups\" target=\"_blank\">back up your database "
+"and files</a>. For help with updates, visit the <a href=\"http://codex."
+"wordpress.org/Updating_WordPress\" target=\"_blank\">Updating WordPress</a> "
+"Codex page."
+msgstr ""
+
+#: framework/views/updater/upgrade_preamble.php:34
+#, php-format
+msgid "An updated version of %s is available."
+msgstr ""
+
+#: framework/views/updater/upgrade_preamble.php:38
+msgid "Update Now"
+msgstr ""
+
+#: framework/views/updater/upgrade_preamble.php:80
+#, php-format
+msgid ""
+"<strong>Please Note:</strong> Any customizations you have made to theme "
+"files will be lost. Please consider using <a href=\"%s\">child themes</a> "
+"for modifications."
+msgstr ""
+
+#: framework/views/updater/upgrade_preamble.php:86
+msgid ""
+"While your site is being updated, it will be in maintenance mode. As soon as "
+"your updates are complete, your site will return to normal."
+msgstr ""
+
+#: theme_config/common_includes/COMMON_FUNC.php:36
+msgid "Default Reading Settings"
+msgstr ""
+
+#: theme_config/common_includes/COMMON_FUNC.php:37
+msgid "CATEGORIES"
+msgstr ""
+
+#: theme_config/common_includes/CUSTOM_POSTS.php:21
+msgid "Add New"
+msgstr ""
+
+#: theme_config/common_includes/CUSTOM_POSTS.php:22
+msgid "Add New Testimonial"
+msgstr ""
+
+#: theme_config/common_includes/CUSTOM_POSTS.php:23
+msgid "Edit Testimonial"
+msgstr ""
+
+#: theme_config/common_includes/CUSTOM_POSTS.php:24
+msgid "New Testimonial"
+msgstr ""
+
+#: theme_config/common_includes/CUSTOM_POSTS.php:25
+msgid "All Testimonials"
+msgstr ""
+
+#: theme_config/common_includes/CUSTOM_POSTS.php:26
+msgid "View Testimonial"
+msgstr ""
+
+#: theme_config/common_includes/CUSTOM_POSTS.php:27
+msgid "Search Testimonials"
+msgstr ""
+
+#: theme_config/common_includes/CUSTOM_POSTS.php:29
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: theme_config/common_includes/MENU.php:13
+msgid "Default Navigation"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_functions.php:121
+msgid "Page:"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_functions.php:141
+msgid "Jump to page:"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_functions.php:169
+#: theme_config/widgets/TF_Widget_Pages.php:58
+msgid "Sort by:"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:16
+#: theme_config/widgets/TF_Widget_Categories.php:12
+msgid "Categories"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:17
+#: theme_config/extensions/seek/options/items_options.php:422
+msgid "Category"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:18
+msgid "Search Categories"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:19
+msgid "All Categories"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:20
+msgid "Parent Category"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:21
+msgid "Parent Category:"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:22
+msgid "Edit Category"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:23
+msgid "Update Category"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:24
+msgid "Add New Category"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:25
+msgid "New Category Name"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:26
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:27
+msgid "Separate categories with commas"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:35
+msgid "Locations"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:36
+#: theme_config/extensions/seek/options/items_options.php:61
+#: theme_config/extensions/seek/options/items_options.php:79
+#: theme_config/extensions/seek/options/items_options.php:94
+msgid "Location"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:37
+msgid "Search Locations"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:38
+msgid "All Locations"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:39
+msgid "Parent Location"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:40
+msgid "Parent Location:"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:41
+msgid "Edit Location"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:42
+msgid "Update Location"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:43
+msgid "Add New Location"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:44
+msgid "New Location Name"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:45
+msgid "Choose from the most used locations"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:46
+msgid "Separate location with commas"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:55
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:74
+msgid "Room"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:56
+msgid "Search Rooms"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:57
+msgid "All Rooms"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:58
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:77
+msgid "Parent Room"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:59
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:78
+msgid "Parent Room:"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:60
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:79
+msgid "Edit Room"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:61
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:80
+msgid "Update Room"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:62
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:81
+msgid "Add New Room"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:63
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:82
+msgid "New Room Name"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:64
+msgid "Choose from the most used rooms"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:65
+msgid "Separate rooms with commas"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:73
+msgid "Amenities"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:75
+msgid "Search Amenities"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:76
+msgid "All Amenities"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:83
+msgid "Choose from the most used amenities"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:84
+msgid "Separate amenities with commas"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:92
+msgid "Agents"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:93
+msgid "Agent"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:94
+msgid "Search Agents"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:95
+msgid "All Agents"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:96
+msgid "Parent Agent"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:97
+msgid "Parent Agent:"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:98
+msgid "Edit Agent"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:99
+msgid "Update Agent"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:100
+msgid "Add New Agent"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:101
+msgid "New Agent Name"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:102
+msgid "Choose from the most used agents"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:103
+msgid "Separate agents with commas"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:111
+msgid "Styles"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:112
+msgid "Style"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:113
+msgid "Search Styles"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:114
+msgid "All Styles"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:115
+msgid "Parent Style"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:116
+msgid "Parent Style:"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:117
+msgid "Edit Style"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:118
+msgid "Update Style"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:119
+msgid "Add New Style"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:120
+msgid "New Style Name"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:121
+msgid "Choose from the most used styles"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:122
+msgid "Separate styles with commas"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:130
+msgid "Features"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:131
+msgid "Feature"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:132
+msgid "Search Features"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:133
+msgid "All Features"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:134
+msgid "Parent Feature"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:135
+msgid "Parent Feature:"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:136
+msgid "Edit Feature"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:137
+msgid "Update Feature"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:138
+msgid "Add New Feature"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:139
+msgid "New Feature Name"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:140
+msgid "Choose from the most used features"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/custom_taxonomies.php:141
+msgid "Separate features with commas"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/google_maps/GOOGLE_MAPS.php:72
+#, php-format
+msgid "The folder %s needs to have write and execute permisssions. %s"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/google_maps/GOOGLE_MAPS.php:74
+msgid "Learn out how you could fix that"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/post_attachmets/POST_ATTACHMENTS.php:41
+msgid "Exclude from slider"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/post_attachmets/POST_ATTACHMENTS.php:43
+#: theme_config/extensions/seek/includes/post_attachmets/POST_ATTACHMENTS.php:49
+msgid "Yes"
+msgstr ""
+
+#: theme_config/extensions/seek/includes/post_attachmets/POST_ATTACHMENTS.php:47
+msgid "Set as main"
+msgstr ""
+
+#: theme_config/extensions/seek/options/items_options.php:47
+msgid "City / Town"
+msgstr ""
+
+#: theme_config/extensions/seek/options/items_options.php:62
+#: theme_config/extensions/seek/options/items_options.php:95
+msgid "All locations"
+msgstr ""
+
+#: theme_config/extensions/seek/options/items_options.php:80
+msgid "Add NEW Location"
+msgstr ""
+
+#: theme_config/extensions/seek/options/items_options.php:126
+msgid "Price Range"
+msgstr ""
+
+#: theme_config/extensions/seek/options/items_options.php:151
+msgid "No of rooms"
+msgstr ""
+
+#: theme_config/extensions/seek/options/items_options.php:154
+#: theme_config/extensions/seek/options/items_options.php:334
+#: theme_config/extensions/seek/options/property_options.php:167
+#: theme_config/extensions/seek/options/property_options.php:263
+msgid "Beds"
+msgstr ""
+
+#: theme_config/extensions/seek/options/items_options.php:172
+msgid "No of Baths"
+msgstr ""
+
+#: theme_config/extensions/seek/options/items_options.php:175
+#: theme_config/extensions/seek/options/items_options.php:271
+#: theme_config/extensions/seek/options/items_options.php:357
+#: theme_config/extensions/seek/options/property_options.php:275
+#: theme_config/extensions/seek/options/property_options.php:280
+msgid "Baths"
+msgstr ""
+
+#: theme_config/extensions/seek/options/items_options.php:210
+#: theme_config/extensions/seek/options/property_options.php:309
+#: theme_config/extensions/seek/options/property_options.php:312
+msgid "Square feet"
+msgstr ""
+
+#: theme_config/extensions/seek/options/items_options.php:233
+#, php-format
+msgid "Price(%s)"
+msgstr ""
+
+#: theme_config/extensions/seek/options/items_options.php:250
+#: theme_config/extensions/seek/options/property_options.php:159
+#: theme_config/extensions/seek/options/property_options.php:165
+#: theme_config/extensions/seek/options/property_options.php:258
+#: theme_config/extensions/seek/options/property_options.php:261
+msgid "Bedrooms"
+msgstr ""
+
+#: theme_config/extensions/seek/options/items_options.php:252
+#: theme_config/extensions/seek/options/items_options.php:273
+#: theme_config/extensions/seek/options/items_options.php:294
+msgid "offers"
+msgstr ""
+
+#: theme_config/extensions/seek/options/items_options.php:292
+msgid "Square Ft"
+msgstr ""
+
+#: theme_config/extensions/seek/options/items_options.php:292
+msgid "Square M"
+msgstr ""
+
+#: theme_config/extensions/seek/options/items_options.php:312
+msgid "Transaction"
+msgstr ""
+
+#: theme_config/extensions/seek/options/items_options.php:330
+msgid "No. of rooms"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:164
+#: theme_config/extensions/seek/options/property_options.php:260
+msgid "Bedroom"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:166
+#: theme_config/extensions/seek/options/property_options.php:262
+msgid "Bed"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:169
+#, php-format
+msgid "Choose sale type of this %s"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:196
+#, php-format
+msgid "%s details"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:220
+msgid "Sale / Rent"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:222
+#: theme_config/extensions/seek/options/property_options.php:223
+msgid "Sale type"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:227
+#, php-format
+msgid "Choose the transaction type for this %s"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:241
+#: theme_config/extensions/seek/options/property_options.php:245
+#: theme_config/extensions/seek/options/property_options.php:246
+msgid "Price"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:248
+#, php-format
+msgid ""
+"Enter the %s price without the currency symbol. You can <a href=\"admin.php?"
+"page=themefuse\">change the global currency options</a> in the Fuse "
+"Framework."
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:265
+msgid "Enter number of bedrooms"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:277
+msgid "Bathroom"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:278
+msgid "Bathrooms"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:279
+msgid "Bath"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:282
+msgid "Enter number of baths"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:292
+#: theme_config/extensions/seek/options/property_options.php:295
+#: theme_config/extensions/seek/options/property_options.php:297
+msgid "Half-Baths"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:294
+#: theme_config/extensions/seek/options/property_options.php:296
+msgid "Half-Bath"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:299
+msgid "Enter number of half-baths"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:311
+msgid "Square foot"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:313
+#: theme_config/extensions/seek/options/property_options.php:314
+msgid "Sq ft"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:316
+msgid "Enter square feet"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:326
+#: theme_config/extensions/seek/options/property_options.php:329
+msgid "Square meters"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:328
+msgid "Square meter"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:330
+#: theme_config/extensions/seek/options/property_options.php:331
+msgid "Sq m"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:333
+msgid "Enter square meteres"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:344
+#: theme_config/extensions/seek/options/property_options.php:346
+#: theme_config/extensions/seek/options/property_options.php:347
+#: theme_config/extensions/seek/options/property_options.php:348
+#: theme_config/extensions/seek/options/property_options.php:349
+msgid "Basement"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:351
+msgid "Enter basement description"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:360
+#: theme_config/extensions/seek/options/property_options.php:362
+#: theme_config/extensions/seek/options/property_options.php:363
+#: theme_config/extensions/seek/options/property_options.php:364
+#: theme_config/extensions/seek/options/property_options.php:365
+msgid "Exterior"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:367
+#: theme_config/extensions/seek/options/property_options.php:415
+msgid "Enter exterior description"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:376
+#: theme_config/extensions/seek/options/property_options.php:378
+#: theme_config/extensions/seek/options/property_options.php:380
+msgid "Fireplace"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:379
+#: theme_config/extensions/seek/options/property_options.php:381
+msgid "Fireplaces"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:383
+msgid "Enter number of fireplaces"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:392
+#: theme_config/extensions/seek/options/property_options.php:394
+#: theme_config/extensions/seek/options/property_options.php:395
+#: theme_config/extensions/seek/options/property_options.php:396
+#: theme_config/extensions/seek/options/property_options.php:397
+msgid "Flooring"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:399
+msgid "Enter flooring"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:408
+#: theme_config/extensions/seek/options/property_options.php:410
+#: theme_config/extensions/seek/options/property_options.php:411
+#: theme_config/extensions/seek/options/property_options.php:412
+#: theme_config/extensions/seek/options/property_options.php:413
+msgid "Garage"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:424
+#: theme_config/extensions/seek/options/property_options.php:426
+#: theme_config/extensions/seek/options/property_options.php:427
+#: theme_config/extensions/seek/options/property_options.php:428
+#: theme_config/extensions/seek/options/property_options.php:429
+msgid "Air Conditioning"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:431
+msgid "Enter Air Conditioning desciption"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:440
+#: theme_config/extensions/seek/options/property_options.php:442
+#: theme_config/extensions/seek/options/property_options.php:443
+#: theme_config/extensions/seek/options/property_options.php:444
+#: theme_config/extensions/seek/options/property_options.php:445
+msgid "Heat"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:447
+msgid "Enter Heat desciption"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:456
+#: theme_config/extensions/seek/options/property_options.php:458
+#: theme_config/extensions/seek/options/property_options.php:459
+#: theme_config/extensions/seek/options/property_options.php:460
+#: theme_config/extensions/seek/options/property_options.php:461
+msgid "Lot Size"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:463
+msgid "Enter Lot Size"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:472
+#: theme_config/extensions/seek/options/property_options.php:474
+#: theme_config/extensions/seek/options/property_options.php:475
+#: theme_config/extensions/seek/options/property_options.php:476
+#: theme_config/extensions/seek/options/property_options.php:477
+msgid "Road Type"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:479
+msgid "Enter Road Type description"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:488
+#: theme_config/extensions/seek/options/property_options.php:490
+#: theme_config/extensions/seek/options/property_options.php:491
+#: theme_config/extensions/seek/options/property_options.php:492
+#: theme_config/extensions/seek/options/property_options.php:493
+msgid "Roof"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:495
+msgid "Enter roof description"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:504
+#: theme_config/extensions/seek/options/property_options.php:506
+#: theme_config/extensions/seek/options/property_options.php:507
+#: theme_config/extensions/seek/options/property_options.php:508
+#: theme_config/extensions/seek/options/property_options.php:509
+msgid "Sewer"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:511
+msgid "Enter sewer description"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:520
+#: theme_config/extensions/seek/options/property_options.php:522
+#: theme_config/extensions/seek/options/property_options.php:523
+#: theme_config/extensions/seek/options/property_options.php:524
+#: theme_config/extensions/seek/options/property_options.php:525
+msgid "Water"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:527
+msgid "Enter water description"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:536
+#: theme_config/extensions/seek/options/property_options.php:538
+#: theme_config/extensions/seek/options/property_options.php:539
+#: theme_config/extensions/seek/options/property_options.php:540
+#: theme_config/extensions/seek/options/property_options.php:541
+msgid "Zoning"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:543
+msgid "Enter zoning description"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:556
+msgid "Map"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:562
+msgid "Google Map Position"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:563
+msgid "Check if property has google maps position"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:573
+msgid "Google Map Latitude"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:574
+msgid "Enter Google Maps Latitude"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:584
+msgid "Google Map Longitude"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:585
+msgid "Enter Google Maps Longitude"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_options.php:595
+msgid "Choose Map Position"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_template_zones_options.php:10
+msgid "Content"
+msgstr ""
+
+#: theme_config/extensions/seek/options/property_template_zones_options.php:13
+msgid "Header"
+msgstr ""
+
+#: theme_config/extensions/seek/options/seek_setup_options.php:21
+msgid "Property Name, singular"
+msgstr ""
+
+#: theme_config/extensions/seek/options/seek_setup_options.php:22
+msgid ""
+"The name of the property being sold. (i.e. property, house, automobile) in "
+"singular form."
+msgstr ""
+
+#: theme_config/extensions/seek/options/seek_setup_options.php:28
+msgid "Property Name, plural"
+msgstr ""
+
+#: theme_config/extensions/seek/options/seek_setup_options.php:29
+msgid ""
+"The name of the property being sold. (i.e. properties, houses, automobiles) "
+"in plural form."
+msgstr ""
+
+#: theme_config/extensions/seek/options/seek_setup_options.php:36
+msgid "Money Currency, singular"
+msgstr ""
+
+#: theme_config/extensions/seek/options/seek_setup_options.php:37
+msgid ""
+"The name of the currency being used. (i.e. Dollar, Euro, Pound) in singular "
+"form."
+msgstr ""
+
+#: theme_config/extensions/seek/options/seek_setup_options.php:43
+msgid "Money Currency, plural"
+msgstr ""
+
+#: theme_config/extensions/seek/options/seek_setup_options.php:44
+msgid ""
+"The name of the currency being used. (i.e. Dollars, Euros, Pounds) in plural "
+"form."
+msgstr ""
+
+#: theme_config/extensions/seek/options/seek_setup_options.php:50
+msgid "Money Currency, symbol"
+msgstr ""
+
+#: theme_config/extensions/seek/options/seek_setup_options.php:51
+msgid "The symbol of the currency being used. (i.e. $, €, £) in singular form."
+msgstr ""
+
+#: theme_config/extensions/seek/options/seek_setup_options.php:58
+msgid "Area"
+msgstr ""
+
+#: theme_config/extensions/seek/options/seek_setup_options.php:59
+msgid "Select unit of measure for area."
+msgstr ""
+
+#: theme_config/extensions/seek/views/forms/header-form.php:15
+msgid "SEARCHING FOR"
+msgstr ""
+
+#: theme_config/extensions/seek/views/forms/header-form.php:18
+msgid "Advanced"
+msgstr ""
+
+#: theme_config/extensions/seek/views/forms/header-form.php:19
+msgid "ON"
+msgstr ""
+
+#: theme_config/extensions/seek/views/forms/header-form.php:19
+msgid "OFF"
+msgstr ""
+
+#: theme_config/extensions/seek/views/forms/slider-form.php:22
+#, php-format
+msgid "FIND %s"
+msgstr ""
+
+#: theme_config/extensions/seek/views/zones/content.php:43
+#, php-format
+msgid "%s Details"
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/latest_posts.php:45
+#: theme_config/extensions/shortcodes/shortcodes/popular_posts.php:45
+msgid "by "
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/latest_posts.php:52
+#: theme_config/extensions/shortcodes/shortcodes/popular_posts.php:54
+msgid "Read more"
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/login.php:17
+msgid "Login Form"
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/login.php:20
+msgid "Username"
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/login.php:24
+msgid "Password"
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/login.php:28
+msgid "Remember Me"
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/login.php:31
+msgid "Forgot Password?"
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/newsletter.php:21
+msgid "Newsletter"
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/newsletter.php:32
+#: theme_config/widgets/TFuse_Widget_Newsletter.php:25
+msgid "Thank you for your subscribtion."
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/newsletter.php:33
+#: theme_config/widgets/TFuse_Widget_Newsletter.php:28
+msgid "Your email format is wrong!"
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/newsletter.php:34
+#: theme_config/widgets/TFuse_Widget_Newsletter.php:31
+msgid "Sad, but we couldn't add you to our mailing list ATM."
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/newsletter.php:41
+msgid "You can also "
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/newsletter.php:41
+#: theme_config/widgets/TFuse_Widget_Newsletter.php:38
+msgid "Subscribe to our RSS"
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/newsletter.php:42
+msgid "Loading"
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/search.php:14
+msgid "SEARCH WIDGET"
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/search.php:23
+#: theme_config/widgets/TF_Widget_Search.php:25
+msgid "Submit"
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/toggle_code.php:15
+#: theme_config/extensions/shortcodes/shortcodes/toggle_code.php:135
+msgid "Toggle Content (click to open)"
+msgstr ""
+
+#: theme_config/extensions/shortcodes/shortcodes/widget.php:29
+#, php-format
+msgid ""
+"%s: Widget class not found. Make sure this widget exists and the class name "
+"is correct"
+msgstr ""
+
+#: theme_config/theme_includes/AJAX_CALLBACKS.php:128
+msgid "Invalid taxonomy"
+msgstr ""
+
+#: theme_config/theme_includes/THEME_FUNCTIONS.php:265
+msgid "No Comments"
+msgstr ""
+
+#: theme_config/theme_includes/THEME_FUNCTIONS.php:267
+msgid " Comments"
+msgstr ""
+
+#: theme_config/theme_includes/THEME_FUNCTIONS.php:273
+msgid "Comments are off"
+msgstr ""
+
+#: theme_config/theme_includes/THEME_FUNCTIONS.php:648
+msgid "<span>PREVIOUS</span>"
+msgstr ""
+
+#: theme_config/theme_includes/THEME_FUNCTIONS.php:649
+msgid "<span>NEXT</span>"
+msgstr ""
+
+#: theme_config/theme_includes/THEME_FUNCTIONS.php:650
+msgid "PREVIOUS"
+msgstr ""
+
+#: theme_config/theme_includes/THEME_FUNCTIONS.php:651
+msgid "NEXT"
+msgstr ""
+
+#: theme_config/theme_includes/THEME_FUNCTIONS.php:987
+msgid "View Images"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Contact_Agent.php:9
+msgid "TFuse - Contact The Agent"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Contact_Agent.php:29
+msgid "First Name"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Contact_Agent.php:34
+msgid "Last Name"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Contact_Agent.php:39
+msgid "How should we contact you"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Contact_Agent.php:40
+msgid "by Email"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Contact_Agent.php:41
+msgid "by Phone"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Contact_Agent.php:42
+msgid "both"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Contact_Agent.php:46
+msgid "Your Email"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Contact_Agent.php:51
+msgid "Your Phone"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Contact_Agent.php:56
+msgid "Message"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Contact_Agent.php:57
+msgid "I would like to inquire about  the property at"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Contact_Agent.php:62
+msgid "I&rsquo;d like to receive"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Contact_Agent.php:62
+msgid "newsletter"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Contact_Agent.php:74
+msgid "OR CALL US RIGHT NOW"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Contact_Agent.php:96
+#: theme_config/widgets/TFuse_Widget_Newsletter.php:61
+#: theme_config/widgets/TFuse_Widget_Popular_Post.php:51
+#: theme_config/widgets/TFuse_Widget_Selected_Categories.php:103
+#: theme_config/widgets/TFuse_Widget_Selected_Pages.php:64
+#: theme_config/widgets/TF_Nav_Menu_Widget.php:58
+#: theme_config/widgets/TF_Widget_Archives.php:66
+#: theme_config/widgets/TF_Widget_Calendar.php:39
+#: theme_config/widgets/TF_Widget_Categories.php:105
+#: theme_config/widgets/TF_Widget_Commented_Posts.php:50
+#: theme_config/widgets/TF_Widget_Contact.php:85
+#: theme_config/widgets/TF_Widget_Filter_Search.php:37
+#: theme_config/widgets/TF_Widget_Meta.php:48
+#: theme_config/widgets/TF_Widget_Pages.php:55
+#: theme_config/widgets/TF_Widget_Recent_Comments.php:111
+#: theme_config/widgets/TF_Widget_Recent_Posts.php:50
+#: theme_config/widgets/TF_Widget_Search.php:47
+#: theme_config/widgets/TF_Widget_Tag_Cloud.php:54
+#: theme_config/widgets/TF_Widget_Text.php:67
+msgid "Title:"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Contact_Agent.php:100
+msgid "Contact Phone"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Facebook.class.php:14
+msgid "TFuse - Facebook"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Facebook.class.php:33
+msgid "Facebook Social Plugins:"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Flickr.php:9
+msgid "TFuse - Flickr"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Flickr.php:20
+msgid "Flickr Photos"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Flickr.php:40
+msgid "Flickr ID:"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Flickr.php:44
+msgid "Number of photos"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Newsletter.php:9
+msgid "TFuse - Newsletter"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Newsletter.php:37
+msgid "Send"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Newsletter.php:38
+msgid "You can also"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Newsletter.php:65
+msgid "Activate RSS"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Popular_Post.php:9
+msgid "TFuse - Popular Posts"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Popular_Post.php:14
+msgid "Popular Posts"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Popular_Post.php:55
+#: theme_config/widgets/TFuse_Widget_Tabs.php:67
+#: theme_config/widgets/TF_Widget_Commented_Posts.php:54
+#: theme_config/widgets/TF_Widget_Recent_Posts.php:54
+msgid "Number of posts"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Selected_Categories.php:33
+msgid "Show Selected Categories"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Selected_Categories.php:34
+msgid "TFuse Selected Categories"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Selected_Categories.php:108
+#: theme_config/widgets/TF_Widget_Archives.php:68
+#: theme_config/widgets/TF_Widget_Categories.php:112
+msgid "Show post counts"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Selected_Categories.php:110
+msgid "Select Categories List"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Selected_Pages.php:5
+msgid "Show Selected Pages"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Selected_Pages.php:6
+msgid "TFuse Selected Pages"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Selected_Pages.php:70
+msgid "Select Pages List"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Tabs.php:9
+msgid "TFuse - Tabs"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Tabs.php:26
+#: theme_config/widgets/TF_Widget_Recent_Posts.php:13
+msgid "Recent Posts"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Tabs.php:27
+msgid "Most Commented"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Twitter.class.php:9
+msgid "Tfuse - Twitter Stream"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Twitter.class.php:45
+msgid "Title (optional):"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Twitter.class.php:49
+msgid "Username:"
+msgstr ""
+
+#: theme_config/widgets/TFuse_Widget_Twitter.class.php:53
+msgid "Limit:"
+msgstr ""
+
+#: theme_config/widgets/TF_Nav_Menu_Widget.php:5
+msgid "Add a custom menus as a widget."
+msgstr ""
+
+#: theme_config/widgets/TF_Nav_Menu_Widget.php:6
+msgid "TFuse Custom Menu"
+msgstr ""
+
+#: theme_config/widgets/TF_Nav_Menu_Widget.php:51
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: theme_config/widgets/TF_Nav_Menu_Widget.php:62
+msgid "Select Menu:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Archives.php:5
+msgid "A monthly archive of your site&#8217;s posts"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Archives.php:6
+msgid "TFuse Archives"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Archives.php:16
+msgid "Archives"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Archives.php:30
+msgid "Select Month"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Archives.php:70
+msgid "Display as a drop down"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Calendar.php:5
+msgid "A calendar of your site&#8217;s posts"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Calendar.php:6
+msgid "TFuse Calendar"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Categories.php:5
+msgid "A list or dropdown of categories"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Categories.php:6
+msgid "TFuse Categories"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Categories.php:40
+msgid "Select Category"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Categories.php:109
+msgid "Show as dropdown"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Categories.php:115
+msgid "Show hierarchy"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Categories.php:118
+msgid "Show empty categories"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Categories.php:121
+msgid "Show as subcategories menu"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Commented_Posts.php:8
+msgid "TFuse - Discussed Posts"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Commented_Posts.php:13
+msgid "Discussed Posts"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Contact.php:7
+msgid "Add Contact in Sidebar"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Contact.php:8
+msgid "TFuse Contact Widgets"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Contact.php:32
+msgid "Phone"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Contact.php:40
+msgid "Call us on"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Contact.php:44
+msgid "Follow on"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Contact.php:48
+msgid "Join us on"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Contact.php:89
+msgid "Adress:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Contact.php:93
+msgid "Phone:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Contact.php:97
+msgid "Email:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Contact.php:101
+msgid "Extra 1 Title:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Contact.php:105
+msgid "Extra 1 Content:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Contact.php:109
+msgid "Extra 2 Title:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Contact.php:113
+msgid "Extra 2 Content:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Contact.php:117
+msgid "Skype ID:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Contact.php:121
+msgid "Twitter URL:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Contact.php:125
+msgid "Facebook:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Filter_Search.php:8
+msgid "TFuse - Filter Results"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Filter_Search.php:9
+msgid "TFuse Filter Results"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Filter_Search.php:14
+msgid "FILTER THE RESULTS"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Links.php:5
+msgid "Your blogroll"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Links.php:6
+msgid "TFuse Links"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Links.php:25
+#: theme_config/widgets/TF_Widget_Links.php:63
+msgid "All Links"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Links.php:61
+msgid "Select Link Category"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Links.php:74
+msgid "Show Link Image"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Links.php:76
+msgid "Show Link Name"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Links.php:78
+msgid "Show Link Description"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Links.php:80
+msgid "Show Link Rating"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Meta.php:5
+msgid "Log in/out, admin, feed and WP links"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Meta.php:6
+msgid "TFuse Meta"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Meta.php:11
+msgid "Meta"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Meta.php:26
+msgid "Syndicate this site using RSS 2.0"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Meta.php:26
+msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Meta.php:27
+msgid "The latest comments to all posts in RSS"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Meta.php:27
+msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Meta.php:28
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Pages.php:5
+msgid "Your site&#8217;s WordPress Pages"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Pages.php:6
+msgid "TFuse Pages"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Pages.php:12
+msgid "Pages"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Pages.php:60
+msgid "Page title"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Pages.php:61
+msgid "Page order"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Pages.php:62
+msgid "Page ID"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Pages.php:66
+msgid "Exclude:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Pages.php:68
+msgid "Page IDs, separated by commas."
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Recent_Comments.php:11
+msgid "The most recent comments"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Recent_Comments.php:12
+msgid "TFuse Recent Comments"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Recent_Comments.php:46
+msgid "LATEST DISCUSSIONS:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Recent_Comments.php:73
+msgid "by"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Recent_Comments.php:80
+msgid "VIEW ALL POSTS"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Recent_Comments.php:115
+msgid "Number of comments to show:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Recent_Comments.php:120
+msgid "View All Posts Button"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Recent_Posts.php:8
+msgid "TFuse - Recent Posts"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Search.php:8
+msgid "A search form for your site"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Search.php:9
+msgid "TFuse Search"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Search.php:14
+msgid "Search widget:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Search.php:23
+msgid "Search for"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Tag_Cloud.php:5
+msgid "Your most used tags in cloud format"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Tag_Cloud.php:6
+msgid "TFuse Tag Cloud"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Tag_Cloud.php:16
+msgid "Tags"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Tag_Cloud.php:56
+msgid "Taxonomy:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Text.php:5
+msgid "Arbitrary text or HTML"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Text.php:7
+msgid "TFuse Text"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Text.php:70
+msgid "Class:"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Text.php:76
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Text.php:77
+msgid "No Margin and padding"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Text.php:78
+msgid "Disable filters"
+msgstr ""
+
+#: theme_config/widgets/TF_Widget_Text.php:79
+msgid "Remove text div"
+msgstr ""

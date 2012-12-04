@@ -1,0 +1,40 @@
+/* =============== SELECTSEARCH OPTIGEN  CSS    ==============  */
+.tf_multicontrol_selectsearch{
+
+    box-shadow: 0px 0px 25px 1px #ccc;
+    border-radius: 5px;
+    border:1px solid #ccc;
+    max-width: 275px;
+
+}
+
+.tf_multicontrol_selectsearch .tf_save_controls , .tf_multicontrol_selectsearch .tf_groups_controls{
+    float:left;
+
+    clear: both;
+
+}
+.tf_div_none{
+    display: none;
+}
+
+.tf_multicontrol_selectsearch .tf_save_controls a{
+    float: right;
+    margin: 5px;
+}
+
+.tf_multicontrol_selectsearch .tf_groups_controls{
+
+}
+
+.tf_multicontrol_selectsearch .tf_groups_controls a{
+    margin: 5px;
+}
+
+.tf_multicontrol_selectsearch .tf_search_dpdw{
+
+    float:left;
+    display: block;
+}
+
+/* =============== END SELECTSEARCH OPTIGEN CSS ==============  */

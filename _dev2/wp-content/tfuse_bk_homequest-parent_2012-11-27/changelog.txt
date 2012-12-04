@@ -1,0 +1,4 @@
+*** HomeQuest Changelog ***
+
+ 2012.08.20 - version 1.0
+ * First release!

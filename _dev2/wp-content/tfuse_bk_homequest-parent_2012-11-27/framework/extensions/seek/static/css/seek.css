@@ -1,0 +1,26 @@
+.tf_seek_sortable_list_container {
+    min-width: 333px;
+    width: 100%;
+}
+.tf_seek_sortable_list {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+.tf_seek_sortable_list li {
+    height: 27px;
+}
+.tf_seek_sortable_list li h3 {
+    padding: 7px 14px 7px 14px;
+}
+.tf_seek_sortable_list .ui-sortable-placeholder {
+    height: 27px !important;
+    border: 1px dashed #CCC !important;
+    background-image: url('../images/back_placeholder.png');
+    visibility: visible !important;
+}
+
+.ui-sortable-seek-zones .postbox.tfes-placeholder {
+    min-height: 37px;
+}
