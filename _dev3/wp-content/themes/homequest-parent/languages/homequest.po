@@ -1,0 +1,3136 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HomeQuest\n"
+"POT-Creation-Date: 2012-10-22 18:12+0200\n"
+"PO-Revision-Date: 2012-10-22 18:12+0200\n"
+"Last-Translator: \n"
+"Language-Team: Themefuse <support@themefuse.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: E:\\wamp\\www\\345\\homequest\\wp-content\\themes"
+"\\homequest-parent\n"
+
+#: homequest-parent/404.php:18
+msgid "Page not found"
+msgstr ""
+
+#: homequest-parent/404.php:19
+msgid "The page you were looking for doesn&rsquo;t seem to exist"
+msgstr ""
+
+#: homequest-parent/archive.php:27
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: homequest-parent/comments-template.php:22
+msgid "Pingback:"
+msgstr ""
+
+#: homequest-parent/comments-template.php:22
+msgid "Edit"
+msgstr ""
+
+#: homequest-parent/comments-template.php:55
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: homequest-parent/comments.php:16
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: homequest-parent/comments.php:30
+msgid "No Comments Yet"
+msgstr ""
+
+#: homequest-parent/comments.php:30
+msgid "Comment Added"
+msgstr ""
+
+#: homequest-parent/comments.php:30
+msgid "Comments Added"
+msgstr ""
+
+#: homequest-parent/comments.php:31
+msgid "Join the conversation"
+msgstr ""
+
+#: homequest-parent/comments.php:34
+#: homequest-parent/comments.php:55
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: homequest-parent/comments.php:35
+#: homequest-parent/comments.php:56
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: homequest-parent/comments.php:62
+msgid "No comments yet."
+msgstr ""
+
+#: homequest-parent/comments.php:71
+#: homequest-parent/content-contact-form.php:26
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/contactform.php:32
+msgid "Leave a Reply"
+msgstr ""
+
+#: homequest-parent/comments.php:78
+msgid "You must be"
+msgstr ""
+
+#: homequest-parent/comments.php:78
+msgid "logged in"
+msgstr ""
+
+#: homequest-parent/comments.php:78
+msgid "to post a comment."
+msgstr ""
+
+#: homequest-parent/comments.php:86
+msgid "Logged in as"
+msgstr ""
+
+#: homequest-parent/comments.php:86
+msgid "Log out of this account"
+msgstr ""
+
+#: homequest-parent/comments.php:86
+msgid "Logout"
+msgstr ""
+
+#: homequest-parent/comments.php:91
+#: homequest-parent/content-contact-form.php:33
+msgid "Name"
+msgstr ""
+
+#: homequest-parent/comments.php:98
+#: homequest-parent/content-contact-form.php:40
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:33
+msgid "Email"
+msgstr ""
+
+#: homequest-parent/comments.php:98
+#: homequest-parent/content-contact-form.php:40
+msgid "never published"
+msgstr ""
+
+#: homequest-parent/comments.php:105
+msgid "You can use these tags"
+msgstr ""
+
+#: homequest-parent/comments.php:108
+#: homequest-parent/content-contact-form.php:47
+msgid "Website"
+msgstr ""
+
+#: homequest-parent/comments.php:113
+#: homequest-parent/content-contact-form.php:52
+msgid "Comment"
+msgstr ""
+
+#: homequest-parent/comments.php:119
+msgid "POSTS COMMENT"
+msgstr ""
+
+#: homequest-parent/content-author.php:42
+msgid "CONTACT THE AUTHOR:"
+msgstr ""
+
+#: homequest-parent/content-contact-form.php:56
+msgid "SEND MESSAGE"
+msgstr ""
+
+#: homequest-parent/content-contact-form.php:65
+msgid "Your message has been sent!"
+msgstr ""
+
+#: homequest-parent/content-contact-form.php:66
+msgid "Thank you for contacting us,"
+msgstr ""
+
+#: homequest-parent/content-contact-form.php:66
+msgid "We will get back to you within 2 business days."
+msgstr ""
+
+#: homequest-parent/content-contact-form.php:70
+msgid "Oops!"
+msgstr ""
+
+#: homequest-parent/content-contact-form.php:71
+msgid ""
+"Due to an unknown error, your form was not submitted, please resubmit it or "
+"try later."
+msgstr ""
+
+#: homequest-parent/content-map.php:30
+msgid "We"
+msgstr ""
+
+#: homequest-parent/content-map.php:30
+#: homequest-parent/content-map.php:40
+msgid "are"
+msgstr ""
+
+#: homequest-parent/content-map.php:30
+#: homequest-parent/content-map.php:40
+msgid "here"
+msgstr ""
+
+#: homequest-parent/content-map.php:40
+msgid "You"
+msgstr ""
+
+#: homequest-parent/content-map.php:413
+#: homequest-parent/content-map.php:441
+msgid "Hide the Map "
+msgstr ""
+
+#: homequest-parent/content-map.php:444
+msgid "Show the Map "
+msgstr ""
+
+#: homequest-parent/content-property.php:26
+#, php-format
+msgid "About this %s"
+msgstr ""
+
+#: homequest-parent/content-property.php:33
+msgid "Back to Properties Listing"
+msgstr ""
+
+#: homequest-parent/content-property.php:40
+#: homequest-parent/search.php:123
+#: homequest-parent/taxonomy.php:161
+msgid "Remove Offer"
+msgstr ""
+
+#: homequest-parent/content-property.php:42
+#: homequest-parent/search.php:125
+#: homequest-parent/taxonomy.php:163
+msgid "Save Offer"
+msgstr ""
+
+#: homequest-parent/content-property.php:44
+msgid "Print this Page"
+msgstr ""
+
+#: homequest-parent/content-property.php:58
+msgid "Send to a Friend"
+msgstr ""
+
+#: homequest-parent/content-single.php:18
+msgid "Posted by "
+msgstr ""
+
+#: homequest-parent/content-single.php:30
+msgid "Share"
+msgstr ""
+
+#: homequest-parent/content-single.php:30
+msgid "via"
+msgstr ""
+
+#: homequest-parent/footer-jcarousel.php:117
+msgid "SIMILAR PROPERTIES"
+msgstr ""
+
+#: homequest-parent/header-search_narrow.php:8
+msgid "SEARCH FOR HOMES"
+msgstr ""
+
+#: homequest-parent/header.php:48
+msgid "MY SAVED OFFERS"
+msgstr ""
+
+#: homequest-parent/latest-added.php:62
+msgid "Latest added"
+msgstr ""
+
+#: homequest-parent/latest-added.php:62
+msgid "Properties"
+msgstr ""
+
+#: homequest-parent/latest-added.php:72
+msgid "Property Type"
+msgstr ""
+
+#: homequest-parent/latest-added.php:73
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:278
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:279
+msgid "Asking Price"
+msgstr ""
+
+#: homequest-parent/latest-added.php:90
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:56
+msgid "Rooms"
+msgstr ""
+
+#: homequest-parent/latest-added.php:91
+msgid "City"
+msgstr ""
+
+#: homequest-parent/latest-added.php:91
+msgid "Town"
+msgstr ""
+
+#: homequest-parent/latest-added.php:92
+msgid "view property"
+msgstr ""
+
+#: homequest-parent/listing-blog.php:15
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/blog_entries.php:56
+msgid "Posted by"
+msgstr ""
+
+#: homequest-parent/listing-blog.php:19
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/blog_entries.php:61
+msgid "Continue reading"
+msgstr ""
+
+#: homequest-parent/property-sl_content.php:37
+msgid "click on image to enlarge"
+msgstr ""
+
+#: homequest-parent/search.php:24
+#: homequest-parent/taxonomy.php:99
+#: homequest-parent/taxonomy.php:185
+msgid "Latest Added"
+msgstr ""
+
+#: homequest-parent/search.php:28
+#: homequest-parent/taxonomy.php:100
+#: homequest-parent/taxonomy.php:186
+msgid "Price High - Low"
+msgstr ""
+
+#: homequest-parent/search.php:32
+msgid "Price Low - High"
+msgstr ""
+
+#: homequest-parent/search.php:36
+msgid "Names A - Z"
+msgstr ""
+
+#: homequest-parent/search.php:40
+msgid "Names Z - A"
+msgstr ""
+
+#: homequest-parent/search.php:70
+msgid "OFFERS"
+msgstr ""
+
+#: homequest-parent/search.php:70
+msgid "OFFER"
+msgstr ""
+
+#: homequest-parent/search.php:70
+msgid " OFFERS"
+msgstr ""
+
+#: homequest-parent/search.php:70
+msgid "PROPERTIES"
+msgstr ""
+
+#: homequest-parent/search.php:71
+msgid "SEARCH RESULTS"
+msgstr ""
+
+#: homequest-parent/search.php:71
+msgid "FAVORITES"
+msgstr ""
+
+#: homequest-parent/search.php:120
+#: homequest-parent/taxonomy.php:157
+msgid "View Details"
+msgstr ""
+
+#: homequest-parent/search.php:127
+#: homequest-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:939
+msgid "View on Map"
+msgstr ""
+
+#: homequest-parent/search.php:137
+msgid "Sorry, but nothing matched your search criteria."
+msgstr ""
+
+#: homequest-parent/search.php:138
+msgid "Sorry, no favorites added yet"
+msgstr ""
+
+#: homequest-parent/searchform.php:5
+#: homequest-parent/theme_config/extensions/seek/views/forms/header-form.php:49
+msgid "Search"
+msgstr ""
+
+#: homequest-parent/taxonomy.php:89
+msgid "FOR"
+msgstr ""
+
+#: homequest-parent/taxonomy.php:97
+#: homequest-parent/taxonomy.php:183
+msgid "Sort by"
+msgstr ""
+
+#: homequest-parent/taxonomy.php:101
+#: homequest-parent/taxonomy.php:187
+msgid "Price Low - Hight"
+msgstr ""
+
+#: homequest-parent/taxonomy.php:102
+#: homequest-parent/taxonomy.php:188
+msgid "Names A-Z"
+msgstr ""
+
+#: homequest-parent/taxonomy.php:103
+#: homequest-parent/taxonomy.php:189
+msgid "Names Z-A"
+msgstr ""
+
+#: homequest-parent/taxonomy.php:108
+#: homequest-parent/taxonomy.php:194
+msgid "Jump to page"
+msgstr ""
+
+#: homequest-parent/taxonomy.php:115
+#: homequest-parent/taxonomy.php:201
+msgid "Page"
+msgstr ""
+
+#: homequest-parent/taxonomy.php:115
+#: homequest-parent/taxonomy.php:201
+#: homequest-parent/theme_config/extensions/seek/includes/custom_functions.php:121
+msgid "of"
+msgstr ""
+
+#: homequest-parent/taxonomy.php:115
+#: homequest-parent/taxonomy.php:201
+#: homequest-parent/theme_config/extensions/seek/includes/custom_functions.php:123
+#: homequest-parent/theme_config/extensions/seek/includes/custom_functions.php:125
+msgid "Previous"
+msgstr ""
+
+#: homequest-parent/taxonomy.php:115
+#: homequest-parent/taxonomy.php:201
+#: homequest-parent/theme_config/extensions/seek/includes/custom_functions.php:128
+#: homequest-parent/theme_config/extensions/seek/includes/custom_functions.php:130
+msgid "Next"
+msgstr ""
+
+#: homequest-parent/taxonomy.php:173
+msgid "Page not found."
+msgstr ""
+
+#: homequest-parent/taxonomy.php:174
+msgid "The page you were looking for doesn&rsquo;t seem to exist."
+msgstr ""
+
+#: homequest-parent/framework/core/OPTIGEN.php:261
+#: homequest-parent/framework/core/OPTIGEN.php:282
+msgid "Select a category:"
+msgstr ""
+
+#: homequest-parent/framework/core/OPTIGEN.php:305
+#: homequest-parent/framework/core/OPTIGEN.php:326
+msgid "Select a page:"
+msgstr ""
+
+#: homequest-parent/framework/core/OPTIGEN.php:369
+msgid "Select a tag:"
+msgstr ""
+
+#: homequest-parent/framework/core/OPTIGEN.php:433
+#: homequest-parent/framework/core/OPTIGEN.php:437
+#: homequest-parent/framework/core/OPTIGEN.php:447
+msgid "Remove"
+msgstr ""
+
+#: homequest-parent/framework/core/OPTIGEN.php:444
+msgid "Type here to search"
+msgstr ""
+
+#: homequest-parent/framework/core/OPTIGEN.php:636
+msgid "Upload"
+msgstr ""
+
+#: homequest-parent/framework/core/UPDATER.php:132
+msgid "Proceed"
+msgstr ""
+
+#: homequest-parent/framework/extensions/export/TF_EXPORT.php:4
+#: homequest-parent/framework/extensions/import/TF_IMPORT.php:4
+msgid "Direct access forbidden."
+msgstr ""
+
+#: homequest-parent/framework/extensions/export/views/after_download.php:7
+msgid "Failed to export XML file"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/TFUSE_WP_IMPORT.php:62
+#: homequest-parent/framework/extensions/import/TFUSE_WP_IMPORT.php:71
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:134
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:143
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:220
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:224
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:233
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/TFUSE_WP_IMPORT.php:63
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/TFUSE_WP_IMPORT.php:448
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:930
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/views/install_error.php:7
+msgid "Failed to import XML file"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/parsers.php:42
+#: homequest-parent/framework/extensions/import/wordpress-importer/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/parsers.php:67
+#: homequest-parent/framework/extensions/import/wordpress-importer/parsers.php:72
+#: homequest-parent/framework/extensions/import/wordpress-importer/parsers.php:262
+#: homequest-parent/framework/extensions/import/wordpress-importer/parsers.php:451
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:179
+msgid "All done."
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:179
+msgid "Have fun!"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:180
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:225
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:241
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:266
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:292
+msgid "Assign Authors"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:293
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:295
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:305
+msgid "Import Attachments"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:308
+msgid "Download and import file attachments"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:325
+msgid "Import author:"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:336
+msgid "or create new user with login name:"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:339
+msgid "as a new user:"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:347
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:349
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:350
+msgid "- Select -"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:400
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:449
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:487
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:531
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:657
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:553
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:574
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:629
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:779
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:786
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:849
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:862
+msgid "Invalid file type"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:906
+msgid "Remote server did not respond"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:912
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:924
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:1029
+msgid "Import WordPress"
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:1036
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:1051
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: homequest-parent/framework/extensions/import/wordpress-importer/wordpress-importer.php:1052
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seek/TF_SEEK.php:152
+msgid "Add New "
+msgstr ""
+
+#: homequest-parent/framework/extensions/seek/TF_SEEK.php:153
+#: homequest-parent/theme_config/common_includes/CUSTOM_POSTS.php:28
+msgid "Nothing found"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seek/TF_SEEK.php:855
+#: homequest-parent/framework/extensions/seek/TF_SEEK.php:891
+msgid "Zone"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seek/TF_SEEK.php:864
+#: homequest-parent/framework/extensions/seek/TF_SEEK.php:900
+msgid "Priority"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seek/TF_SEEK.php:910
+msgid "Features Display Priority"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seek/TF_SEEK_IMPORT.php:38
+#, php-format
+msgid "Error importing seek index table: Cannot find \"%s\" file in \"%s\""
+msgstr ""
+
+#: homequest-parent/framework/extensions/seek/TF_SEEK_IMPORT.php:53
+#, php-format
+msgid ""
+"Skipping seek index table import: Table \"%s\" already exists and is not "
+"empty"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seek/TF_SEEK_IMPORT.php:73
+#, php-format
+msgid ""
+"Error importing Seek index table: No sql read from file \"%s\" in \"%s\""
+msgstr ""
+
+#: homequest-parent/framework/extensions/seek/views/drag_options_to_zones.php:21
+msgid "No Zone"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seek/views/drag_options_to_zones.php:157
+msgid ""
+"Drag features in this box if you don't want them to appear on the website"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:72
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:121
+#, php-format
+msgid "Title for %s"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:73
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:122
+#, php-format
+msgid ""
+"Enter custom title for %s. These settings may be overridden for individual "
+"%s."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:80
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:129
+#, php-format
+msgid "Description for %s"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:81
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:130
+#, php-format
+msgid ""
+"Enter custom description for %s. These settings may be overridden for "
+"individual %s."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:90
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:138
+#, php-format
+msgid "Keywords for %s"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:91
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:139
+#, php-format
+msgid ""
+"Enter custom meta keywords for %s. These settings may be overridden for "
+"individual %s."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:147
+#, php-format
+msgid "Use noindex for %s"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:148
+#, php-format
+msgid "Enable or disable using of noindex for %s"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:163
+msgid "XML Sitemaps"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:166
+msgid "Enable XML Sitemaps"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:167
+msgid ""
+"Enable or disable XML Sitemaps. Sitemap will be generated when a new content "
+"will be added."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:182
+msgid ""
+"Please check the appropriate box below if there's a post type that you do "
+"<b>NOT</b> want to include in your sitemap"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:194
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:221
+#, php-format
+msgid "Exclude %s"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:209
+msgid ""
+"Please check the appropriate box below if there's a taxonomy that you do "
+"<b>NOT</b> want to include in your sitemap"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:239
+msgid "Use META keywords"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:240
+msgid "Use META keywords."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:247
+msgid "Use Canonical URLs"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:248
+msgid "Use Canonical URLs."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:255
+msgid "Title separator"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:256
+msgid ""
+"Title separator. Will be used by default to generate titles if some titles "
+"are not set"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:264
+msgid "General META"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:267
+msgid "General Description"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:268
+msgid ""
+"Enter general description for all the pages (categories, arhives,  posts, "
+"etc)"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:276
+msgid "General Keywords"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:277
+msgid ""
+"Enter general keywords for all the pages (categories, arhives,  posts, etc)"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:287
+msgid "Title for Homepage"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:288
+msgid "Enter custom title for Homepage."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:294
+msgid "Description for Homepage"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:295
+msgid "Enter custom description for Homepage."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:303
+msgid "Keywords for Homepage"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:304
+msgid "Enter custom keywords for Homepage."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:314
+msgid "Title for Archives"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:315
+msgid ""
+"Enter custom title for Archives. This title may be overridden by other "
+"specific archives (tags, categories, etc)"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:321
+msgid "Description for Archives"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:322
+msgid ""
+"Enter custom description for Archives. This description may be overridden by "
+"other specific archives (tags, categories, etc)"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:329
+msgid "Keywords for Archives"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:330
+msgid ""
+"Enter custom keywords for Archives. This keywords may be overridden by other "
+"specific archives (tags, categories, etc)"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:338
+msgid "Use noindex for Archive"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:339
+msgid "Enable or disable using of noindex for Archives."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:347
+msgid "Title for Author"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:348
+msgid "Enter custom title for Author Archives."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:354
+msgid "Description for Author"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:355
+msgid "Enter custom description for Author Archives."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:362
+msgid "Keywords for Author"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:363
+msgid "Enter custom keywords for Author Archives."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:371
+msgid "Use noindex for Author"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:372
+msgid "Enable or disable using of noindex for Author Archives."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:380
+msgid "Title for Date"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:381
+msgid "Enter custom title for Date Archives."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:387
+msgid "Description for Date"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:388
+msgid "Enter custom description for Date Archives."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:395
+msgid "Keywords for Date"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:396
+msgid "Enter custom keywords for Date Archives."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:404
+msgid "Use noindex for Date"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:405
+msgid "Enable or disable using of noindex for Date Archives."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:413
+msgid "Title for Attachment"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:414
+msgid "Enter custom title for Attachment."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:420
+msgid "Description for Attachment"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:421
+msgid "Enter custom description for Attachment."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:429
+msgid "Keywords for Attachment"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:430
+msgid "Enter custom keywords for Attachment."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:440
+msgid "Title for Search"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:441
+msgid "Enter custom title for Search."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:447
+msgid "Description for Search"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:448
+msgid "Enter custom description for Search."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:455
+msgid "Keywords for Search"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:456
+msgid "Enter custom keywords for Search."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:464
+msgid "Use noindex for Search"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:465
+msgid "Enable or disable using of noindex for Search."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:473
+msgid "Title for 404"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:474
+msgid "Enter custom title for 404."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:480
+msgid "Description for 404"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:481
+msgid "Enter custom description for 404."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:489
+msgid "Keywords for 404"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:490
+msgid "Enter custom keywords for 404."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:500
+msgid "Title for Paged"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:501
+msgid "Enter custom title suffix for Paged."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:520
+msgid "Help"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:527
+msgid ""
+"These tags can be included and will be replaced when a page is displayed."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:531
+msgid "Replaced with the date of the post/page"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:535
+msgid "Replaced with the title of the post/page"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:539
+msgid "The site's name"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:543
+msgid "The site's tagline / description"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:547
+msgid ""
+"Replaced with the post/page excerpt (or auto-generated if it does not exist)"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:551
+msgid "Replaced with the post/page excerpt (without auto-generation)"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:555
+msgid "Replaced with the current tag/tags"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:559
+msgid "Replaced with the post categories (comma separated)"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:563
+msgid "Replaced with the category description"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:567
+msgid "Replaced with the tag description"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:571
+msgid "Replaced with the term description"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:575
+msgid "Replaced with the term name"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:579
+msgid "Replaced with the post/page modified time"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:583
+msgid "Replaced with the post/page ID"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:587
+msgid "Replaced with the post/page author's 'nicename'"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:591
+msgid "Replaced with the post/page author's userid"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:595
+msgid "Replaced with the current search phrase"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:599
+msgid "Replaced with the current time"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:603
+msgid "Replaced with the current date"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:607
+msgid "Replaced with the current month"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:611
+msgid "Replaced with the current year"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:615
+msgid "Replaced with the current page number (i.e. page 2 of 4)"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:619
+msgid "Replaced with the current page total"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:623
+msgid "Replaced with the current page number"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:627
+msgid "Attachment caption"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:660
+msgid "SEO"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:666
+msgid "Page Title"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:667
+msgid "Enter your prefered custom title or leave blank for deafault value."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:673
+msgid "Page Description"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:674
+msgid ""
+"Enter your prefered custom description or leave blank for deafault value."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:681
+msgid "Page Keywords"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/TF_SEO.php:682
+msgid "Enter your prefered custom keywords or leave blank for deafault value."
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/helpers/SEO.php:321
+msgid "Archive"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/helpers/SEO.php:353
+msgid "Author Archives"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/helpers/SEO.php:361
+msgid "Date Archive"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/helpers/SEO.php:393
+msgid "Search Results for "
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/helpers/SEO.php:393
+#, php-format
+msgid "'%s'"
+msgstr ""
+
+#: homequest-parent/framework/extensions/seo/helpers/SEO.php:407
+msgid "Page Not Found - 404 error"
+msgstr ""
+
+#: homequest-parent/framework/extensions/slider/TF_SLIDER.php:416
+msgid "Select Slider:"
+msgstr ""
+
+#: homequest-parent/framework/helpers/GENERAL.php:26
+#: homequest-parent/theme_config/extensions/seek/includes/post_attachmets/POST_ATTACHMENTS.php:41
+msgid "Exclude from slider"
+msgstr ""
+
+#: homequest-parent/framework/helpers/GENERAL.php:28
+#: homequest-parent/framework/helpers/GENERAL.php:34
+#: homequest-parent/theme_config/extensions/seek/includes/post_attachmets/POST_ATTACHMENTS.php:43
+#: homequest-parent/theme_config/extensions/seek/includes/post_attachmets/POST_ATTACHMENTS.php:49
+msgid "Yes"
+msgstr ""
+
+#: homequest-parent/framework/helpers/GENERAL.php:32
+#: homequest-parent/theme_config/extensions/seek/includes/post_attachmets/POST_ATTACHMENTS.php:47
+msgid "Set as main"
+msgstr ""
+
+#: homequest-parent/framework/helpers/INTERFACE.php:39
+msgid "ThemeFuse Download Group"
+msgstr ""
+
+#: homequest-parent/framework/helpers/INTERFACE.php:61
+msgid "ThemeFuse Gallery Group"
+msgstr ""
+
+#: homequest-parent/framework/helpers/UPGRADER.php:23
+#, php-format
+msgid "Updating %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: homequest-parent/framework/helpers/UPGRADER.php:24
+msgid "The package is at the latest version."
+msgstr ""
+
+#: homequest-parent/framework/helpers/UPGRADER.php:25
+#, php-format
+msgid "Removing the old version of the %s&#8230;"
+msgstr ""
+
+#: homequest-parent/framework/helpers/UPGRADER.php:26
+msgid "Could not remove the old version of the "
+msgstr ""
+
+#: homequest-parent/framework/helpers/UPGRADER.php:27
+msgid "Update failed."
+msgstr ""
+
+#: homequest-parent/framework/helpers/UPGRADER.php:28
+msgid "Package updated successfully."
+msgstr ""
+
+#: homequest-parent/framework/helpers/UPGRADER.php:29
+msgid "Backing up files&#8230;"
+msgstr ""
+
+#: homequest-parent/framework/helpers/UPGRADER.php:30
+msgid "Could not create backup directory."
+msgstr ""
+
+#: homequest-parent/framework/helpers/UPGRADER.php:35
+msgid "Return to Framework page"
+msgstr ""
+
+#: homequest-parent/framework/views/framework_header.php:25
+msgid "Framework"
+msgstr ""
+
+#: homequest-parent/framework/views/framework_header.php:29
+msgid "ThemeMods"
+msgstr ""
+
+#: homequest-parent/framework/views/framework_header.php:33
+msgid "Templates"
+msgstr ""
+
+#: homequest-parent/framework/views/updater/update_page.php:3
+#: homequest-parent/framework/views/updater/upgrade_preamble.php:3
+msgid "ThemeFuse Updates"
+msgstr ""
+
+#: homequest-parent/framework/views/updater/upgrade_preamble.php:6
+#, php-format
+msgid "Last checked on %1$s at %2$s."
+msgstr ""
+
+#: homequest-parent/framework/views/updater/upgrade_preamble.php:7
+msgid "Check Again"
+msgstr ""
+
+#: homequest-parent/framework/views/updater/upgrade_preamble.php:13
+#, php-format
+msgid "You have the latest version of %s."
+msgstr ""
+
+#: homequest-parent/framework/views/updater/upgrade_preamble.php:17
+#, php-format
+msgid ""
+"You have the latest version of %s. You do not need to update. However, if "
+"you want to re-install current version, you can do so automatically."
+msgstr ""
+
+#: homequest-parent/framework/views/updater/upgrade_preamble.php:21
+#, php-format
+msgid ""
+"Upgrading %1$s will overwrite the current installed version of this theme. "
+"We recommend backing up your theme files before reinstalling the %1$s."
+msgstr ""
+
+#: homequest-parent/framework/views/updater/upgrade_preamble.php:25
+msgid "Re-install Now"
+msgstr ""
+
+#: homequest-parent/framework/views/updater/upgrade_preamble.php:30
+msgid ""
+"<strong>Important:</strong> before updating, please <a href=\"http://codex."
+"wordpress.org/WordPress_Backups\" target=\"_blank\">back up your database "
+"and files</a>. For help with updates, visit the <a href=\"http://codex."
+"wordpress.org/Updating_WordPress\" target=\"_blank\">Updating WordPress</a> "
+"Codex page."
+msgstr ""
+
+#: homequest-parent/framework/views/updater/upgrade_preamble.php:34
+#, php-format
+msgid "An updated version of %s is available."
+msgstr ""
+
+#: homequest-parent/framework/views/updater/upgrade_preamble.php:38
+msgid "Update Now"
+msgstr ""
+
+#: homequest-parent/framework/views/updater/upgrade_preamble.php:80
+#, php-format
+msgid ""
+"<strong>Please Note:</strong> Any customizations you have made to theme "
+"files will be lost. Please consider using <a href=\"%s\">child themes</a> "
+"for modifications."
+msgstr ""
+
+#: homequest-parent/framework/views/updater/upgrade_preamble.php:86
+msgid ""
+"While your site is being updated, it will be in maintenance mode. As soon as "
+"your updates are complete, your site will return to normal."
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/COMMON_FUNC.php:36
+msgid "Default Reading Settings"
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/COMMON_FUNC.php:37
+msgid "CATEGORIES"
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/CUSTOM_POSTS.php:21
+#: homequest-parent/theme_config/common_includes/CUSTOM_POSTS.php:50
+msgid "Add New"
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/CUSTOM_POSTS.php:22
+msgid "Add New Testimonial"
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/CUSTOM_POSTS.php:23
+msgid "Edit Testimonial"
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/CUSTOM_POSTS.php:24
+msgid "New Testimonial"
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/CUSTOM_POSTS.php:25
+msgid "All Testimonials"
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/CUSTOM_POSTS.php:26
+msgid "View Testimonial"
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/CUSTOM_POSTS.php:27
+msgid "Search Testimonials"
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/CUSTOM_POSTS.php:29
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/CUSTOM_POSTS.php:51
+msgid "Add New Reservation"
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/CUSTOM_POSTS.php:52
+msgid "Edit Reservation info"
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/CUSTOM_POSTS.php:53
+msgid "New Reservation"
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/CUSTOM_POSTS.php:54
+msgid "All Reservations"
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/CUSTOM_POSTS.php:55
+msgid "View Reservation info"
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/CUSTOM_POSTS.php:80
+msgid "Add New Reservation Form"
+msgstr ""
+
+#: homequest-parent/theme_config/common_includes/MENU.php:13
+msgid "Default Navigation"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_functions.php:121
+msgid "Page:"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_functions.php:141
+msgid "Jump to page:"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_functions.php:169
+#: homequest-parent/theme_config/widgets/TF_Widget_Pages.php:58
+msgid "Sort by:"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:16
+#: homequest-parent/theme_config/widgets/TF_Widget_Categories.php:12
+msgid "Categories"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:17
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:454
+msgid "Category"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:18
+msgid "Search Categories"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:19
+msgid "All Categories"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:20
+msgid "Parent Category"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:21
+msgid "Parent Category:"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:22
+msgid "Edit Category"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:23
+msgid "Update Category"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:24
+msgid "Add New Category"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:25
+msgid "New Category Name"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:26
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:27
+msgid "Separate categories with commas"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:36
+msgid "Locations"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:37
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:61
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:79
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:94
+msgid "Location"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:38
+msgid "Search Locations"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:39
+msgid "All Locations"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:40
+msgid "Parent Location"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:41
+msgid "Parent Location:"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:42
+msgid "Edit Location"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:43
+msgid "Update Location"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:44
+msgid "Add New Location"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:45
+msgid "New Location Name"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:46
+msgid "Choose from the most used locations"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:47
+msgid "Separate location with commas"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:57
+msgid "Room"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:58
+msgid "Search Rooms"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:59
+msgid "All Rooms"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:60
+msgid "Parent Room"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:61
+msgid "Parent Room:"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:62
+msgid "Edit Room"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:63
+msgid "Update Room"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:64
+msgid "Add New Room"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:65
+msgid "New Room Name"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:66
+msgid "Choose from the most used rooms"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:67
+msgid "Separate rooms with commas"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:76
+msgid "Amenities"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:77
+msgid "Amenity"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:78
+msgid "Search Amenities"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:79
+msgid "All Amenities"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:80
+msgid "Parent Amenity"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:81
+msgid "Parent Amenity:"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:82
+msgid "Edit Amenity"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:83
+msgid "Update Amenity"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:84
+msgid "Add New Amenity"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:85
+msgid "New Amenity Name"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:86
+msgid "Choose from the most used amenities"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:87
+msgid "Separate amenities with commas"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:96
+msgid "Agents"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:97
+msgid "Agent"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:98
+msgid "Search Agents"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:99
+msgid "All Agents"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:100
+msgid "Parent Agent"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:101
+msgid "Parent Agent:"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:102
+msgid "Edit Agent"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:103
+msgid "Update Agent"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:104
+msgid "Add New Agent"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:105
+msgid "New Agent Name"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:106
+msgid "Choose from the most used agents"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:107
+msgid "Separate agents with commas"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:116
+msgid "Styles"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:117
+msgid "Style"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:118
+msgid "Search Styles"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:119
+msgid "All Styles"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:120
+msgid "Parent Style"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:121
+msgid "Parent Style:"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:122
+msgid "Edit Style"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:123
+msgid "Update Style"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:124
+msgid "Add New Style"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:125
+msgid "New Style Name"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:126
+msgid "Choose from the most used styles"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:127
+msgid "Separate styles with commas"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:136
+msgid "Features"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:137
+msgid "Feature"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:138
+msgid "Search Features"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:139
+msgid "All Features"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:140
+msgid "Parent Feature"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:141
+msgid "Parent Feature:"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:142
+msgid "Edit Feature"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:143
+msgid "Update Feature"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:144
+msgid "Add New Feature"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:145
+msgid "New Feature Name"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:146
+msgid "Choose from the most used features"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/custom_taxonomies.php:147
+msgid "Separate features with commas"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/google_maps/GOOGLE_MAPS.php:76
+#, php-format
+msgid "The folder %s needs to have write and execute permisssions. %s"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/includes/google_maps/GOOGLE_MAPS.php:78
+msgid "Learn out how you could fix that"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:47
+msgid "City / Town"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:62
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:95
+msgid "All locations"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:80
+msgid "Add NEW Location"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:131
+msgid "Price Range"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:138
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:407
+#: homequest-parent/theme_config/extensions/seek/views/items/range-slider.php:93
+msgid "k"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:138
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:407
+#: homequest-parent/theme_config/extensions/seek/views/items/range-slider.php:85
+msgid "Mil"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:159
+msgid "No of rooms"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:162
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:360
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:192
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:298
+msgid "Beds"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:180
+msgid "No of Baths"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:183
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:289
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:383
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:310
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:315
+msgid "Baths"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:219
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:344
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:347
+msgid "Square feet"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:219
+msgid "Sq. meters"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:246
+#, php-format
+msgid "Price(%s)"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:265
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:184
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:190
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:293
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:296
+msgid "Bedrooms"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:269
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:293
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:317
+msgid "offer"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:270
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:294
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:318
+msgid "offers"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:313
+msgid "Square Ft"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:313
+msgid "Square M"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:337
+msgid "Transaction"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/items_options.php:356
+msgid "No. of rooms"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:189
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:295
+msgid "Bedroom"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:191
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:297
+msgid "Bed"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:194
+#, php-format
+msgid "Choose sale type of this %s"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:222
+#, php-format
+msgid "%s details"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:255
+msgid "Sale / Rent"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:257
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:258
+msgid "Sale type"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:262
+#, php-format
+msgid "Choose the transaction type for this %s"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:276
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:280
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:281
+msgid "Price"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:283
+#, php-format
+msgid ""
+"Enter the %s price without the currency symbol. You can <a href=\"admin.php?"
+"page=themefuse\">change the global currency options</a> in the Fuse "
+"Framework."
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:300
+msgid "Enter number of bedrooms"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:312
+msgid "Bathroom"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:313
+msgid "Bathrooms"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:314
+msgid "Bath"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:317
+msgid "Enter number of baths"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:327
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:330
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:332
+msgid "Half-Baths"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:329
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:331
+msgid "Half-Bath"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:334
+msgid "Enter number of half-baths"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:346
+msgid "Square foot"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:348
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:349
+msgid "Sq ft"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:351
+msgid "Enter square feet"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:361
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:364
+msgid "Square meters"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:363
+msgid "Square meter"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:365
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:366
+msgid "Sq m"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:368
+msgid "Enter square meteres"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:379
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:381
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:382
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:383
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:384
+msgid "Basement"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:386
+msgid "Enter basement description"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:395
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:397
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:398
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:399
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:400
+msgid "Exterior"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:402
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:450
+msgid "Enter exterior description"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:411
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:413
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:415
+msgid "Fireplace"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:414
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:416
+msgid "Fireplaces"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:418
+msgid "Enter number of fireplaces"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:427
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:429
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:430
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:431
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:432
+msgid "Flooring"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:434
+msgid "Enter flooring"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:443
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:445
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:446
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:447
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:448
+msgid "Garage"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:459
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:461
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:462
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:463
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:464
+msgid "Air Conditioning"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:466
+msgid "Enter Air Conditioning desciption"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:475
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:477
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:478
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:479
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:480
+msgid "Heat"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:482
+msgid "Enter Heat desciption"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:491
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:493
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:494
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:495
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:496
+msgid "Lot Size"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:498
+msgid "Enter Lot Size"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:507
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:509
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:510
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:511
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:512
+msgid "Road Type"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:514
+msgid "Enter Road Type description"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:523
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:525
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:526
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:527
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:528
+msgid "Roof"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:530
+msgid "Enter roof description"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:539
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:541
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:542
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:543
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:544
+msgid "Sewer"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:546
+msgid "Enter sewer description"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:555
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:557
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:558
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:559
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:560
+msgid "Water"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:562
+msgid "Enter water description"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:571
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:573
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:574
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:575
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:576
+msgid "Zoning"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:578
+msgid "Enter zoning description"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:591
+msgid "Map"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:597
+msgid "Google Map Position"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:598
+msgid "Check if property has google maps position"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:608
+msgid "Google Map Latitude"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:609
+msgid "Enter Google Maps Latitude"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:619
+msgid "Google Map Longitude"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:620
+msgid "Enter Google Maps Longitude"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_options.php:630
+msgid "Choose Map Position"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_template_zones_options.php:10
+msgid "Header"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/property_template_zones_options.php:13
+msgid "Content"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:21
+msgid "Property Name, singular"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:22
+msgid ""
+"The name of the property being sold. (i.e. property, house, automobile) in "
+"singular form."
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:28
+msgid "Property Name, plural"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:29
+msgid ""
+"The name of the property being sold. (i.e. properties, houses, automobiles) "
+"in plural form."
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:36
+msgid "Money Currency, singular"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:37
+msgid ""
+"The name of the currency being used. (i.e. Dollar, Euro, Pound) in singular "
+"form."
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:43
+msgid "Money Currency, plural"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:44
+msgid ""
+"The name of the currency being used. (i.e. Dollars, Euros, Pounds) in plural "
+"form."
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:50
+msgid "Money Currency, symbol"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:51
+msgid "The symbol of the currency being used. (i.e. $, €, £) in singular form."
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:58
+msgid "Area"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:59
+msgid "Select unit of measure for area."
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:67
+msgid "Contact Agent"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:68
+msgid ""
+"When the users will submit the Contact the agent form for a property, do you "
+"want the email to go to the agent that property belongs to? If you select No "
+"the email will go to the administrator of the website."
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:75
+msgid "Default transaction type"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:76
+msgid "Select default transaction type for your header search forms."
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:84
+msgid "Send to friend subject"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:85
+msgid ""
+"When the users will choose to send a specific property link to a friend this "
+"will be the subject of that email. Note that you can use the [title] short "
+"code to bring in the title of that property."
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:92
+msgid "Send to friend email body"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/options/seek_setup_options.php:93
+msgid ""
+"This is the email body the friend will receive. Use the [link] short code to "
+"incorporate a link for that specific property."
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/views/forms/filter-form.php:38
+msgid "FILTER RESULTS"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/views/forms/header-form.php:16
+msgid "SEARCHING FOR"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/views/forms/header-form.php:19
+msgid "Advanced"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/views/forms/header-form.php:20
+msgid "ON"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/views/forms/header-form.php:20
+msgid "OFF"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/views/forms/slider-form.php:22
+#, php-format
+msgid "FIND %s"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/views/items/switch-sale-type.php:17
+msgid "Sale"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/views/items/switch-sale-type.php:18
+msgid "Rent"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/seek/views/zones/content.php:44
+#, php-format
+msgid "%s Details"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/faq.php:75
+msgid "Q:"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/latest_posts.php:45
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/popular_posts.php:45
+msgid "by "
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/latest_posts.php:52
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/popular_posts.php:54
+msgid "Read more"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/login.php:17
+msgid "Login Form"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/login.php:20
+msgid "Username"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/login.php:24
+msgid "Password"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/login.php:28
+msgid "Remember Me"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/login.php:31
+msgid "Forgot Password?"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/login.php:34
+msgid "LOG IN"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:21
+msgid "Newsletter"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:31
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Newsletter.php:25
+msgid "Thank you for your subscribtion."
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:32
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Newsletter.php:28
+msgid "Your email format is wrong!"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:33
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Newsletter.php:31
+msgid "Sad, but we couldn't add you to our mailing list ATM."
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:37
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:38
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:39
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Newsletter.php:36
+msgid "Enter your email address"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:43
+msgid "You can also "
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:43
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Newsletter.php:38
+msgid "Subscribe to our RSS"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/newsletter.php:44
+msgid "Loading"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/search.php:14
+msgid "SEARCH WIDGET"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/search.php:23
+#: homequest-parent/theme_config/widgets/TF_Widget_Search.php:25
+msgid "Submit"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/toggle_code.php:15
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/toggle_code.php:135
+msgid "Toggle Content (click to open)"
+msgstr ""
+
+#: homequest-parent/theme_config/extensions/shortcodes/shortcodes/widget.php:29
+#, php-format
+msgid ""
+"%s: Widget class not found. Make sure this widget exists and the class name "
+"is correct"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/AJAX_CALLBACKS.php:76
+msgid "No Category"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/AJAX_CALLBACKS.php:107
+msgid "No Location"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/AJAX_CALLBACKS.php:129
+msgid "No Agent"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/AJAX_CALLBACKS.php:144
+msgid "Invalid taxonomy"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/AJAX_CALLBACKS.php:238
+msgid "First Name:"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/AJAX_CALLBACKS.php:239
+msgid "Last Name:"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/AJAX_CALLBACKS.php:240
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:93
+msgid "Phone:"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/AJAX_CALLBACKS.php:241
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:97
+msgid "Email:"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/AJAX_CALLBACKS.php:242
+msgid "Property:"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/AJAX_CALLBACKS.php:245
+msgid "I would prefer to be contacted by "
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/AJAX_CALLBACKS.php:257
+msgid "From:"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/AJAX_CALLBACKS.php:285
+#: homequest-parent/theme_config/theme_includes/AJAX_CALLBACKS.php:301
+msgid "From :"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/AJAX_CALLBACKS.php:287
+msgid "To view the message, please use an HTML compatible email viewer!"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:265
+msgid "No Comments"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:267
+msgid " Comments"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:269
+msgid "1 Comment"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:273
+msgid "Comments are off"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:650
+msgid "<span>PREVIOUS</span>"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:651
+msgid "<span>NEXT</span>"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:652
+msgid "PREVIOUS"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:653
+msgid "NEXT"
+msgstr ""
+
+#: homequest-parent/theme_config/theme_includes/THEME_FUNCTIONS.php:971
+msgid "View Images"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:9
+msgid "TFuse - Contact The Agent"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:29
+msgid "First Name"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:30
+msgid "enter your first name"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:34
+msgid "Last Name"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:35
+msgid "enter your last name"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:39
+msgid "How should we contact you"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:40
+msgid "by Email"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:41
+msgid "by Phone"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:42
+msgid "both"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:46
+msgid "Your Email"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:47
+msgid "enter your email"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:51
+msgid "Your Phone"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:52
+msgid "enter your phone"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:56
+msgid "Message"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:57
+msgid "I would like to inquire about  the property at"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:62
+msgid "I&rsquo;d like to receive"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:62
+msgid "newsletter"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:65
+msgid "Your message has been sent."
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:66
+msgid "Oops something went wrong."
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:67
+msgid "Please try again later"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:74
+msgid "OR CALL US RIGHT NOW"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:96
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Newsletter.php:61
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Popular_Post.php:51
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php:103
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Selected_Pages.php:64
+#: homequest-parent/theme_config/widgets/TF_Nav_Menu_Widget.php:58
+#: homequest-parent/theme_config/widgets/TF_Widget_Archives.php:66
+#: homequest-parent/theme_config/widgets/TF_Widget_Calendar.php:39
+#: homequest-parent/theme_config/widgets/TF_Widget_Categories.php:105
+#: homequest-parent/theme_config/widgets/TF_Widget_Commented_Posts.php:50
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:85
+#: homequest-parent/theme_config/widgets/TF_Widget_Filter_Search.php:37
+#: homequest-parent/theme_config/widgets/TF_Widget_Meta.php:48
+#: homequest-parent/theme_config/widgets/TF_Widget_Pages.php:55
+#: homequest-parent/theme_config/widgets/TF_Widget_Recent_Comments.php:111
+#: homequest-parent/theme_config/widgets/TF_Widget_Recent_Posts.php:50
+#: homequest-parent/theme_config/widgets/TF_Widget_Search.php:47
+#: homequest-parent/theme_config/widgets/TF_Widget_Tag_Cloud.php:54
+#: homequest-parent/theme_config/widgets/TF_Widget_Text.php:67
+msgid "Title:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Contact_Agent.php:100
+msgid "Contact Phone"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Facebook.class.php:14
+msgid "TFuse - Facebook"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Facebook.class.php:33
+msgid "Facebook Social Plugins:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Flickr.php:9
+msgid "TFuse - Flickr"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Flickr.php:20
+msgid "Flickr Photos"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Flickr.php:40
+msgid "Flickr ID:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Flickr.php:44
+msgid "Number of photos"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Newsletter.php:9
+msgid "TFuse - Newsletter"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Newsletter.php:37
+msgid "Send"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Newsletter.php:38
+msgid "You can also"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Newsletter.php:41
+msgid "Loading..."
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Newsletter.php:65
+msgid "Activate RSS"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Popular_Post.php:9
+msgid "TFuse - Popular Posts"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Popular_Post.php:14
+msgid "Popular Posts"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Popular_Post.php:55
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Tabs.php:67
+#: homequest-parent/theme_config/widgets/TF_Widget_Commented_Posts.php:54
+#: homequest-parent/theme_config/widgets/TF_Widget_Recent_Posts.php:54
+msgid "Number of posts"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php:33
+msgid "Show Selected Categories"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php:34
+msgid "TFuse Selected Categories"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php:108
+#: homequest-parent/theme_config/widgets/TF_Widget_Archives.php:68
+#: homequest-parent/theme_config/widgets/TF_Widget_Categories.php:112
+msgid "Show post counts"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Selected_Categories.php:110
+msgid "Select Categories List"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Selected_Pages.php:5
+msgid "Show Selected Pages"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Selected_Pages.php:6
+msgid "TFuse Selected Pages"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Selected_Pages.php:70
+msgid "Select Pages List"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Tabs.php:9
+msgid "TFuse - Tabs"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Tabs.php:26
+#: homequest-parent/theme_config/widgets/TF_Widget_Recent_Posts.php:13
+msgid "Recent Posts"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Tabs.php:27
+msgid "Most Commented"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Twitter.class.php:8
+msgid "Add your Twitter feed to your sidebar."
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Twitter.class.php:9
+msgid "Tfuse - Twitter Stream"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Twitter.class.php:45
+msgid "Title (optional):"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Twitter.class.php:49
+msgid "Username:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TFuse_Widget_Twitter.class.php:53
+msgid "Limit:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Nav_Menu_Widget.php:5
+msgid "Add a custom menus as a widget."
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Nav_Menu_Widget.php:6
+msgid "TFuse Custom Menu"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Nav_Menu_Widget.php:51
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Nav_Menu_Widget.php:62
+msgid "Select Menu:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Archives.php:5
+msgid "A monthly archive of your site&#8217;s posts"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Archives.php:6
+msgid "TFuse Archives"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Archives.php:16
+msgid "Archives"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Archives.php:30
+msgid "Select Month"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Archives.php:70
+msgid "Display as a drop down"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Calendar.php:5
+msgid "A calendar of your site&#8217;s posts"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Calendar.php:6
+msgid "TFuse Calendar"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Categories.php:5
+msgid "A list or dropdown of categories"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Categories.php:6
+msgid "TFuse Categories"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Categories.php:40
+msgid "Select Category"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Categories.php:109
+msgid "Show as dropdown"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Categories.php:115
+msgid "Show hierarchy"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Categories.php:118
+msgid "Show empty categories"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Categories.php:121
+msgid "Show as subcategories menu"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Commented_Posts.php:8
+msgid "TFuse - Discussed Posts"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Commented_Posts.php:13
+msgid "Discussed Posts"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:7
+msgid "Add Contact in Sidebar"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:8
+msgid "TFuse Contact Widgets"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:32
+msgid "Phone"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:40
+msgid "Call us on"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:44
+msgid "Follow on"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:48
+msgid "Join us on"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:89
+msgid "Adress:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:101
+msgid "Extra 1 Title:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:105
+msgid "Extra 1 Content:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:109
+msgid "Extra 2 Title:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:113
+msgid "Extra 2 Content:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:117
+msgid "Skype ID:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:121
+msgid "Twitter URL:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Contact.php:125
+msgid "Facebook:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Filter_Search.php:8
+msgid "TFuse - Filter Results"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Filter_Search.php:9
+msgid "TFuse Filter Results"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Filter_Search.php:14
+msgid "FILTER THE RESULTS"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Links.php:5
+msgid "Your blogroll"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Links.php:6
+msgid "TFuse Links"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Links.php:25
+#: homequest-parent/theme_config/widgets/TF_Widget_Links.php:63
+msgid "All Links"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Links.php:61
+msgid "Select Link Category"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Links.php:74
+msgid "Show Link Image"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Links.php:76
+msgid "Show Link Name"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Links.php:78
+msgid "Show Link Description"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Links.php:80
+msgid "Show Link Rating"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Meta.php:5
+msgid "Log in/out, admin, feed and WP links"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Meta.php:6
+msgid "TFuse Meta"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Meta.php:11
+msgid "Meta"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Meta.php:26
+msgid "Syndicate this site using RSS 2.0"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Meta.php:26
+msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Meta.php:27
+msgid "The latest comments to all posts in RSS"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Meta.php:27
+msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Meta.php:28
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Pages.php:5
+msgid "Your site&#8217;s WordPress Pages"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Pages.php:6
+msgid "TFuse Pages"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Pages.php:12
+msgid "Pages"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Pages.php:60
+msgid "Page title"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Pages.php:61
+msgid "Page order"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Pages.php:62
+msgid "Page ID"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Pages.php:66
+msgid "Exclude:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Pages.php:68
+msgid "Page IDs, separated by commas."
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Recent_Comments.php:11
+msgid "The most recent comments"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Recent_Comments.php:12
+msgid "TFuse Recent Comments"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Recent_Comments.php:46
+msgid "LATEST DISCUSSIONS:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Recent_Comments.php:73
+msgid "by"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Recent_Comments.php:80
+msgid "VIEW ALL POSTS"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Recent_Comments.php:115
+msgid "Number of comments to show:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Recent_Comments.php:120
+msgid "View All Posts Button"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Recent_Posts.php:8
+msgid "TFuse - Recent Posts"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Search.php:8
+msgid "A search form for your site"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Search.php:9
+msgid "TFuse Search"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Search.php:14
+msgid "Search widget:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Search.php:23
+msgid "Search for"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Tag_Cloud.php:5
+msgid "Your most used tags in cloud format"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Tag_Cloud.php:6
+msgid "TFuse Tag Cloud"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Tag_Cloud.php:16
+msgid "Tags"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Tag_Cloud.php:56
+msgid "Taxonomy:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Text.php:5
+msgid "Arbitrary text or HTML"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Text.php:7
+msgid "TFuse Text"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Text.php:70
+msgid "Class:"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Text.php:76
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Text.php:77
+msgid "No Margin and padding"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Text.php:78
+msgid "Disable filters"
+msgstr ""
+
+#: homequest-parent/theme_config/widgets/TF_Widget_Text.php:79
+msgid "Remove text div"
+msgstr ""

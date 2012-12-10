@@ -1,0 +1,32 @@
+.ui-autocomplete {
+    position: relative;
+    z-index: 5;
+    background: url(../images/opacity_gray_90.png);
+    border: 1px solid #0F0F0F;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    list-style-type: none;
+    
+    /* useful if you don't want a bg color from leaking outside the border: */
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+.ui-autocomplete li {
+    margin: 0;
+}
+.ui-autocomplete li a {
+    display: block;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 7px 20px 7px 10px;
+    zoom: 1;
+    border-top: 1px solid #222;
+    color: #999;
+}
+.ui-autocomplete li:first-child a {
+    border: none;
+}
+.ui-autocomplete li a.ui-state-hover {
+    background: #424242;
+    color: #CCC;
+}

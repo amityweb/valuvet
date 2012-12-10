@@ -1,0 +1,312 @@
+/*
+Theme Name: HomeQuest Child
+Theme URI: http://themefuse.com/demo/wp/homequest/
+Description: Child theme for the HomeQuest. Child themes are the recommended way of making modifications to a theme. <a href="http://codex.wordpress.org/Child_Themes">Reade More</a>
+Author: ThemeFuse
+Author URI: http://themefuse.com
+Template: homequest-parent
+*/
+
+@import url("../homequest-parent/style.css");
+
+.line_plus {
+    background: url("../homequest-parent/images/divider_line_fix.gif") no-repeat scroll left center transparent;
+    clear: both;
+    padding: 30px 0px;
+    width: 620px;
+}
+
+
+h3.toggle, h3.toggle.box {
+    text-transform: capitalize;
+}
+ 
+ 
+h3.toggle{
+	padding:10px 20px;
+	color:#8ea5c4;
+	font-size:13px !important;
+	color:#000000;
+	font-weight:normal;
+	font-family:'Lato', Arial, sans-serif;
+	background:#e9e9e9;
+	background:-webkit-gradient(linear, left top, left bottom, from(#e9e9e9), to(#b3b3b3));
+	background:-moz-linear-gradient(top,  #e9e9e9,  #b3b3b3);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e9e9e9', endColorstr='#b3b3b3');
+	border-top:1px solid #e2e2e2;
+	border-bottom:1px solid #9b9b9b;
+	border-left:1px solid #cdcdcd;
+	border-right:1px solid #cdcdcd;
+	position:relative;
+	margin:20px 0 0 0 !important;
+	display:block;
+	box-shadow:0 1px 3px #000; 
+	-moz-box-shadow:0 1px 3px rgba(0,0,0,0.2); 
+	-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.2)
+	
+	
+
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px
+
+	
+	
+	
+}
+.toggle.active{
+	-webkit-border-radius:4px;
+	-webkit-border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius:4px;
+	-moz-border-radius-bottomright:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-radius:4px;
+	border-bottom-right-radius:0px;
+	border-bottom-left-radius:0px;
+	background:#e7e7e7;
+	border-bottom:1px solid #cdcdcd
+}
+ 
+
+  .toggle .ico{
+	background:url(../homequest-parent/images/icons/toggle_icons.png) 0 0 no-repeat;
+	width:18px;
+	height:19px;
+	font-size:10px;
+	margin-left:0px;
+	position:absolute;
+	top:9px;
+	right:10px;
+}
+ 
+
+.toggle.active .ico{
+	background:url(../homequest-parent/images/icons/toggle_icons.png) 0 -19px no-repeat
+}
+ 
+ 
+ 
+.entry .col_1_3 img.alignleft, img.alignleft {
+    margin:0px !important;
+}
+
+h4, em {color:#976F5C;}
+
+.before_content h2, .before_content .carusel_title, .header_carusel .carusel_title { margin: 0 0 15px 22px;}
+.before_content .container_12 {padding-top: 15px;}
+
+.before_content .carusel_small, .header_carusel .carusel_small {
+    height: 180px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.header_top {
+    height: 88px;
+}
+.header_phone {
+/* background: url("../homequest-parent/images/line_vertical.gif") no-repeat scroll 0 50% transparent;*/
+background:none;
+    color: #000000;
+    display: block;
+    font-family: 'Lato',Arial,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    height: 35px;
+    padding:0px;
+    top:15px;
+    right:0px;
+    position: absolute;
+   text-align: right;
+    text-shadow: 1px 1px 1px #7D7D7D;
+    text-transform: uppercase;
+   width: 700px;
+    border:0px solid #00f;
+    vertical-align: top;
+}
+
+.header_phone span {
+    color: #FFCC1D;
+  font-size: 18px;}
+
+#header_phone_list {margin:0px; padding:0px;}
+#header_phone_list li{
+display: inline-block;
+list-style-type:none;
+border:0px solid #0f0;
+margin:0px;
+height:35px;
+vertical-align: top;
+border:0px solid #f00;
+text-align:right;
+}
+
+#header_phone_list li span.div_line { display: inline-block; height:35px; width:5px; margin: -10px 0px 0px 0px; padding:0px 15px; background: url("../homequest-parent/images/line_vertical.gif") no-repeat center center transparent;}
+
+#header_phone_list li span.header_search, #header_phone_list li span.header_search form  {
+    padding: 0px 0px;
+    top:-5px;
+}
+.logo {width: 200px;}
+.topmenu {
+width: 750px;
+padding: 60px 0 0;
+border:0px solid #f60;
+}
+
+
+/* header_search */	
+.header_search{
+	width:none;
+	padding:0px;
+}
+
+.header_search form{
+	width:none;
+	height:28px;
+	padding:0px;
+	position:relative
+}
+
+
+.header_search .inputField{
+	font-style:italic;
+	color:#b3b3b3;
+	float:left;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	border-right:none;
+	width:40px
+}
+
+.header_search  .btn-arrow{
+	border:none;
+	background:url('../homequest-parent/images/selects-1.png') -142px -93px no-repeat;
+	width:22px;
+	height:30px;
+	overflow:hidden;
+	text-indent:5000px;
+	float:left;
+	margin:0;
+	float:right;
+}
+
+
+
+.middle .container_12 {
+ padding: 15px 0 70px;
+}
+
+.text-block-1 span {
+ font-size: 25px;
+
+}
+
+
+/* -----------------CUSTOM CSS --------------*/
+
+/* Border & Vignette Setup */
+#trans-border{
+    position: relative;
+    display: block;
+    line-height: 0;
+    margin-bottom: 8px;
+    border: 8px solid #EBEBEB;
+}
+
+/* THUMBNAIL 150 x 150 */
+#trans-border.trans-border-thumb{
+	width: 150px;
+	height: 150px;
+}
+
+/* add a shadow */
+#trans-border.shdw{
+    -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8);
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,.8);
+}
+
+/* Outer Border Setup */
+#trans-border::before{
+    content: "";
+    position: absolute;
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px;    
+}
+/* Add a border to the image */
+#trans-border img{
+    outline: 0px solid #00F;
+}
+/* Add a border to the outer border */
+#trans-border::before{
+    outline: 0px solid #f00;
+}
+
+/* Add a vignette to the image */
+/**/
+#trans-border.vignette img{
+    z-index: 1;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;    
+}
+/**/
+
+
+/* Overlay Method */
+
+#trans-border.overlay::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    z-index: 2;
+
+ pointer-events: none; /* "all" disables mouse access to image */
+ 
+}
+
+/* Vignette size - thumbnail 150 x 150 */
+
+#trans-border.vignette-150::after{
+   /* Mozilla Setting */
+    background-image: -moz-radial-gradient(
+        center, circle contain, rgba(0,0,0,0) 80px, rgba(0,0,0,.3) 100px
+        );
+    
+    /* Webkit Setting */
+    background-image: -webkit-gradient(
+        radial, 50% 50%, 80, 50% 50%, 100, from(rgba(0,0,0,0)), to(rgba(0,0,0,.3))
+        );
+}
+
+
+/* Inset Transparent Border */
+
+#trans-border.inset::after{ 
+  box-shadow: inset 1px 1px 1px 8px rgba(255,255,255,0.5);
+-webkit-box-shadow: inset 1px 1px 1px 8px rgba(255,255,255,0.5);
+-moz-box-shadow: inset 1px 1px 1px 8px rgba(255,255,255,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+/* CSS helpers
+
+http://css3generator.com
+http://jsfiddle.net/kDJUa/
+*/

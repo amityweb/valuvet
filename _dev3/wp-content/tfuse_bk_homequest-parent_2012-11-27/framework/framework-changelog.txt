@@ -1,0 +1,67 @@
+*** Framework Changelog ***
+
+ 2012.08.21 - version 2.2.1
+ * fixed mysql import bug
+
+ 2012.08.20 - version 2.2
+ * added Seek extension
+ * added MEM in core
+
+ 2012.08.17 - version 2.1.7
+ * fixed somme minor bugs
+
+ 2012.08.16 - version 2.1.6
+ * export/import contact form options
+
+ 2012.08.15 - version 2.1.5
+ * fixed bug #Failed to import XML file
+
+ 2012.08.10 - version 2.1.4
+ * fixed bug with captcha and reset button text in contact form extension
+
+ 2012.08.9 - version 2.1.3
+ * contact form updates
+
+ 2012.08.3 - version 2.1.2
+ * fixed issues with tabs
+
+ 2012.07.19 - version 2.1.1
+ * fixed bug with including  javascript files from child theme
+
+ 2012.06.20 - version 2.1
+ * added contact form extension
+
+ 2012.06.14 - version 2.0.8
+ * fixed bug with css/js inlcude path
+
+ 2012.06.14 - version 2.0.7
+ * wp 3.4 fix
+
+ 2012.06.13 - version 2.0.6
+ * fixed bug with update for multisite
+ * fixed bug with importer
+
+ 2012.05.25 - version 2.0.5
+ * fixed bug in SEO extension
+ * fixed bug with stripslashes on save slider
+
+ 2012.04.20 - version 2.0.4
+ * fixed bug with update on translated wordpress
+ * SEO extension added
+
+ 2012.04.19 - version 2.0.3
+ * fixed bug when saving textareas
+
+ 2012.04.18 - version 2.0.2
+ * fixed issues with php5.3 and minifyer
+ * some updater bugs
+
+ 2012.03.20 - version 2.0.1
+ * TimThumb updated to version 2.8.10
+ * WordPress Importer updated to version 0.6
+ * prettyPhoto version 3.1.4 inlcuded in framework
+ * added innerdocs functionality
+ * backup theme files before update
+
+ 2012.02.27 - version 2.0
+ * First release!
