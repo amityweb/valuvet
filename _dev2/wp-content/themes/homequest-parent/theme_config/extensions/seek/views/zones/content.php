@@ -44,6 +44,9 @@ foreach($options as $id=>$val){
     <h2><?php print( sprintf( __('%s Details','tfuse'), TF_SEEK_HELPER::get_option('seek_property_name_singular','Property') ) ); ?>:</h2>
     <ul class="split_list">
         <?php print( implode("\n", $result) ); ?>
+        <li><strong>Number of Full-time Vet:</strong> <?php meta('full-time-vet'); ?></li>
+        <li><strong>Number of Nurse:</strong> <?php meta('number-nurse'); ?></li>
+        <li><strong>Practice Manager:</strong> <?php meta('practice-manager'); ?></li>
     </ul>
     <div class="clear"></div>
 </div>

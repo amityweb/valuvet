@@ -297,7 +297,15 @@ border:0px solid #f60;
 }
 
 
+.block_hr .re-price {
+	float: right;
+}
 
+.re-full h1 {
+	background: url(images/divider_line_fix.gif) 0 bottom no-repeat;
+	padding: 10px;
+	margin-bottom: 30px;
+}
 
 
 

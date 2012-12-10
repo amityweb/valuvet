@@ -252,7 +252,7 @@ $options = array(
         'divider'       => true,
     ),
     array(
-        'name'          => __('Sale / Rent', 'tfuse'),
+        'name'          => __('Sale / Lease', 'tfuse'),
         'pluralization' => array(
             'single'        => __('Sale type', 'tfuse'),
             'plural'        => __('Sale type', 'tfuse'),
@@ -265,7 +265,8 @@ $options = array(
         'type'          => 'select',
         'options'       => array(
             1 => 'Sale',
-            2 => 'Rent'
+            2 => 'Lease',
+            3 => 'Not for sale'
         ),
         'searchable'    => TRUE,
         'valtype'       => 'int',
@@ -289,300 +290,301 @@ $options = array(
         'template_zone' => '',
         'template_zone_priority' => 0
     ),
-    array(
-        'name'          => __('Bedrooms','tfuse'),
-        'pluralization' => array(
-            'single'        => __('Bedroom','tfuse'),
-            'plural'        => __('Bedrooms','tfuse'),
-            'single_abbr'   => __('Bed', 'tfuse'),
-            'plural_abbr'   => __('Beds', 'tfuse')
-        ),
-        'desc'          => __('Enter number of bedrooms', 'tfuse'),
-        'id'            => 'seek_property_bedrooms',
-        'value'         => '',
-        'type'          => 'text',
-        'searchable'    => TRUE,
-        'valtype'       => 'int',
-        'template_zone' => 'header',
-        'template_zone_priority' => 0
-    ),
-    array(
-        'name'          => __('Baths','tfuse'),
-        'pluralization' => array(
-            'single'        => __('Bathroom','tfuse'),
-            'plural'        => __('Bathrooms','tfuse'),
-            'single_abbr'   => __('Bath', 'tfuse'),
-            'plural_abbr'   => __('Baths', 'tfuse')
-        ),
-        'desc'          => __('Enter number of baths', 'tfuse'),
-        'id'            => 'seek_property_baths',
-        'value'         => '',
-        'type'          => 'text',
-        'searchable'    => TRUE,
-        'valtype'       => 'int',
-        'template_zone' => 'header',
-        'template_zone_priority' => 1
-    ),
-    array(
-        'name'          => __('Half-Baths','tfuse'),
-        'pluralization' => array(
-            'single'        => __('Half-Bath','tfuse'),
-            'plural'        => __('Half-Baths','tfuse'),
-            'single_abbr'   => __('Half-Bath', 'tfuse'),
-            'plural_abbr'   => __('Half-Baths', 'tfuse')
-        ),
-        'desc'          => __('Enter number of half-baths', 'tfuse'),
-        'id'            => 'seek_property_half_baths',
-        'value'         => '',
-        'type'          => 'text',
-        'searchable'    => FALSE,
-        'template_zone' => 'header',
-        'template_zone_priority' => 2
-    ),
-    ( TF_SEEK_HELPER::get_option('seek_property_area_type') == 'feets'
-        ? array(
-            'name'          => __('Square feet','tfuse'),
-            'pluralization' => array(
-                'single'        => __('Square foot','tfuse'),
-                'plural'        => __('Square feet','tfuse'),
-                'single_abbr'   => __('Sq ft', 'tfuse'),
-                'plural_abbr'   => __('Sq ft', 'tfuse')
-            ),
-            'desc'          => __('Enter square feet','tfuse'),
-            'id'            => 'seek_property_square',
-            'value'         => '',
-            'type'          => 'text',
-            'searchable'    => TRUE,
-            'valtype'       => 'int',
-            'template_zone' => 'header',
-            'template_zone_priority' => 4
-        )
-        : array(
-            'name'          => __('Square meters','tfuse'),
-            'pluralization' => array(
-                'single'        => __('Square meter','tfuse'),
-                'plural'        => __('Square meters','tfuse'),
-                'single_abbr'   => __('Sq m', 'tfuse'),
-                'plural_abbr'   => __('Sq m', 'tfuse')
-            ),
-            'desc'          => __('Enter square meteres','tfuse'),
-            'id'            => 'seek_property_square',
-            'value'         => '',
-            'type'          => 'text',
-            'searchable'    => TRUE,
-            'valtype'       => 'int',
-            'template_zone' => 'header',
-            'template_zone_priority' => 4
-        )
-    ),
-    array(
-        'name'          => __('Basement','tfuse'),
-        'pluralization' => array(
-            'single'        => __('Basement','tfuse'),
-            'plural'        => __('Basement','tfuse'),
-            'single_abbr'   => __('Basement', 'tfuse'),
-            'plural_abbr'   => __('Basement', 'tfuse')
-        ),
-        'desc'          => __('Enter basement description','tfuse'),
-        'id'            => 'seek_property_basement',
-        'value'         => '',
-        'type'          => 'text',
-        'searchable'    => FALSE,
-        'template_zone' => 'content',
-        'template_zone_priority' => 1
-    ),
-    array(
-        'name'          => __('Exterior','tfuse'),
-        'pluralization' => array(
-            'single'        => __('Exterior','tfuse'),
-            'plural'        => __('Exterior','tfuse'),
-            'single_abbr'   => __('Exterior', 'tfuse'),
-            'plural_abbr'   => __('Exterior', 'tfuse')
-        ),
-        'desc'          => __('Enter exterior description','tfuse'),
-        'id'            => 'seek_property_exterior',
-        'value'         => '',
-        'type'          => 'text',
-        'searchable'    => FALSE,
-        'template_zone' => 'content',
-        'template_zone_priority' => 2
-    ),
-    array(
-        'name'          => __('Fireplace','tfuse'),
-        'pluralization' => array(
-            'single'        => __('Fireplace','tfuse'),
-            'plural'        => __('Fireplaces','tfuse'),
-            'single_abbr'   => __('Fireplace', 'tfuse'),
-            'plural_abbr'   => __('Fireplaces', 'tfuse')
-        ),
-        'desc'          => __('Enter number of fireplaces', 'tfuse'),
-        'id'            => 'seek_property_fireplaces',
-        'value'         => '',
-        'type'          => 'text',
-        'searchable'    => FALSE,
-        'template_zone' => 'content',
-        'template_zone_priority' => 3
-    ),
-    array(
-        'name'          => __('Flooring','tfuse'),
-        'pluralization' => array(
-            'single'        => __('Flooring','tfuse'),
-            'plural'        => __('Flooring','tfuse'),
-            'single_abbr'   => __('Flooring', 'tfuse'),
-            'plural_abbr'   => __('Flooring', 'tfuse')
-        ),
-        'desc'          => __('Enter flooring','tfuse'),
-        'id'            => 'seek_property_flooring',
-        'value'         => '',
-        'type'          => 'text',
-        'searchable'    => FALSE,
-        'template_zone' => 'content',
-        'template_zone_priority' => 5
-    ),
-    array(
-        'name'          => __('Garage','tfuse'),
-        'pluralization' => array(
-            'single'        => __('Garage','tfuse'),
-            'plural'        => __('Garage','tfuse'),
-            'single_abbr'   => __('Garage', 'tfuse'),
-            'plural_abbr'   => __('Garage', 'tfuse')
-        ),
-        'desc'          => __('Enter exterior description','tfuse'),
-        'id'            => 'seek_property_garage',
-        'value'         => '',
-        'type'          => 'text',
-        'searchable'    => FALSE,
-        'template_zone' => 'content',
-        'template_zone_priority' => 6
-    ),
-    array(
-        'name'          => __('Air Conditioning','tfuse'),
-        'pluralization' => array(
-            'single'        => __('Air Conditioning','tfuse'),
-            'plural'        => __('Air Conditioning','tfuse'),
-            'single_abbr'   => __('Air Conditioning', 'tfuse'),
-            'plural_abbr'   => __('Air Conditioning', 'tfuse')
-        ),
-        'desc'          => __('Enter Air Conditioning desciption','tfuse'),
-        'id'            => 'seek_property_air_conditioning',
-        'value'         => '',
-        'type'          => 'text',
-        'searchable'    => FALSE,
-        'template_zone' => 'content',
-        'template_zone_priority' => 7
-    ),
-    array(
-        'name'          => __('Heat','tfuse'),
-        'pluralization' => array(
-            'single'        => __('Heat','tfuse'),
-            'plural'        => __('Heat','tfuse'),
-            'single_abbr'   => __('Heat', 'tfuse'),
-            'plural_abbr'   => __('Heat', 'tfuse')
-        ),
-        'desc'          => __('Enter Heat desciption','tfuse'),
-        'id'            => 'seek_property_heat',
-        'value'         => '',
-        'type'          => 'text',
-        'searchable'    => FALSE,
-        'template_zone' => 'content',
-        'template_zone_priority' => 8
-    ),
-    array(
-        'name'          => __('Lot Size','tfuse'),
-        'pluralization' => array(
-            'single'        => __('Lot Size','tfuse'),
-            'plural'        => __('Lot Size','tfuse'),
-            'single_abbr'   => __('Lot Size', 'tfuse'),
-            'plural_abbr'   => __('Lot Size', 'tfuse')
-        ),
-        'desc'          => __('Enter Lot Size','tfuse'),
-        'id'            => 'seek_property_lot_size',
-        'value'         => '',
-        'type'          => 'text',
-        'searchable'    => FALSE,
-        'template_zone' => 'content',
-        'template_zone_priority' => 9
-    ),
-    array(
-        'name'          => __('Road Type','tfuse'),
-        'pluralization' => array(
-            'single'        => __('Road Type','tfuse'),
-            'plural'        => __('Road Type','tfuse'),
-            'single_abbr'   => __('Road Type', 'tfuse'),
-            'plural_abbr'   => __('Road Type', 'tfuse')
-        ),
-        'desc'          => __('Enter Road Type description','tfuse'),
-        'id'            => 'seek_property_road_type',
-        'value'         => '',
-        'type'          => 'text',
-        'searchable'    => FALSE,
-        'template_zone' => 'content',
-        'template_zone_priority' => 10
-    ),
-    array(
-        'name'          => __('Roof','tfuse'),
-        'pluralization' => array(
-            'single'        => __('Roof','tfuse'),
-            'plural'        => __('Roof','tfuse'),
-            'single_abbr'   => __('Roof', 'tfuse'),
-            'plural_abbr'   => __('Roof', 'tfuse')
-        ),
-        'desc'          => __('Enter roof description','tfuse'),
-        'id'            => 'seek_property_roof',
-        'value'         => '',
-        'type'          => 'text',
-        'searchable'    => FALSE,
-        'template_zone' => 'content',
-        'template_zone_priority' => 12
-    ),
-    array(
-        'name'          => __('Sewer','tfuse'),
-        'pluralization' => array(
-            'single'        => __('Sewer','tfuse'),
-            'plural'        => __('Sewer','tfuse'),
-            'single_abbr'   => __('Sewer', 'tfuse'),
-            'plural_abbr'   => __('Sewer', 'tfuse')
-        ),
-        'desc'          => __('Enter sewer description','tfuse'),
-        'id'            => 'seek_property_sewer',
-        'value'         => '',
-        'type'          => 'text',
-        'searchable'    => FALSE,
-        'template_zone' => 'content',
-        'template_zone_priority' => 13
-    ),
-    array(
-        'name'          => __('Water','tfuse'),
-        'pluralization' => array(
-            'single'        => __('Water','tfuse'),
-            'plural'        => __('Water','tfuse'),
-            'single_abbr'   => __('Water', 'tfuse'),
-            'plural_abbr'   => __('Water', 'tfuse')
-        ),
-        'desc'          => __('Enter water description','tfuse'),
-        'id'            => 'seek_property_water',
-        'value'         => '',
-        'type'          => 'text',
-        'searchable'    => FALSE,
-        'template_zone' => 'content',
-        'template_zone_priority' => 15
-    ),
-    array(
-        'name'          => __('Zoning','tfuse'),
-        'pluralization' => array(
-            'single'        => __('Zoning','tfuse'),
-            'plural'        => __('Zoning','tfuse'),
-            'single_abbr'   => __('Zoning', 'tfuse'),
-            'plural_abbr'   => __('Zoning', 'tfuse')
-        ),
-        'desc'          => __('Enter zoning description','tfuse'),
-        'id'            => 'seek_property_zoning',
-        'value'         => '',
-        'type'          => 'text',
-        'searchable'    => FALSE,
-        'template_zone' => 'content',
-        'template_zone_priority' => 16
-    ),
+    // array(
+    //     'name'          => __('Bedrooms','tfuse'),
+    //     'pluralization' => array(
+    //         'single'        => __('Bedroom','tfuse'),
+    //         'plural'        => __('Bedrooms','tfuse'),
+    //         'single_abbr'   => __('Bed', 'tfuse'),
+    //         'plural_abbr'   => __('Beds', 'tfuse')
+    //     ),
+    //     'desc'          => __('Enter number of bedrooms', 'tfuse'),
+    //     'id'            => 'seek_property_bedrooms',
+    //     'value'         => '',
+    //     'type'          => 'text',
+    //     'searchable'    => TRUE,
+    //     'valtype'       => 'int',
+    //     'template_zone' => 'header',
+    //     'template_zone_priority' => 0
+    // ),
+    // array(
+    //     'name'          => __('Baths','tfuse'),
+    //     'pluralization' => array(
+    //         'single'        => __('Bathroom','tfuse'),
+    //         'plural'        => __('Bathrooms','tfuse'),
+    //         'single_abbr'   => __('Bath', 'tfuse'),
+    //         'plural_abbr'   => __('Baths', 'tfuse')
+    //     ),
+    //     'desc'          => __('Enter number of baths', 'tfuse'),
+    //     'id'            => 'seek_property_baths',
+    //     'value'         => '',
+    //     'type'          => 'text',
+    //     'searchable'    => TRUE,
+    //     'valtype'       => 'int',
+    //     'template_zone' => 'header',
+    //     'template_zone_priority' => 1
+    // ),
+    // array(
+    //     'name'          => __('Half-Baths','tfuse'),
+    //     'pluralization' => array(
+    //         'single'        => __('Half-Bath','tfuse'),
+    //         'plural'        => __('Half-Baths','tfuse'),
+    //         'single_abbr'   => __('Half-Bath', 'tfuse'),
+    //         'plural_abbr'   => __('Half-Baths', 'tfuse')
+    //     ),
+    //     'desc'          => __('Enter number of half-baths', 'tfuse'),
+    //     'id'            => 'seek_property_half_baths',
+    //     'value'         => '',
+    //     'type'          => 'text',
+    //     'searchable'    => FALSE,
+    //     'template_zone' => 'header',
+    //     'template_zone_priority' => 2
+    // ),
+    // ( TF_SEEK_HELPER::get_option('seek_property_area_type') == 'feets'
+    //     ? array(
+    //         'name'          => __('Square feet','tfuse'),
+    //         'pluralization' => array(
+    //             'single'        => __('Square foot','tfuse'),
+    //             'plural'        => __('Square feet','tfuse'),
+    //             'single_abbr'   => __('Sq ft', 'tfuse'),
+    //             'plural_abbr'   => __('Sq ft', 'tfuse')
+    //         ),
+    //         'desc'          => __('Enter square feet','tfuse'),
+    //         'id'            => 'seek_property_square',
+    //         'value'         => '',
+    //         'type'          => 'text',
+    //         'searchable'    => TRUE,
+    //         'valtype'       => 'int',
+    //         'template_zone' => 'header',
+    //         'template_zone_priority' => 4
+    //     )
+    //     : array(
+    //         'name'          => __('Square meters','tfuse'),
+    //         'pluralization' => array(
+    //             'single'        => __('Square meter','tfuse'),
+    //             'plural'        => __('Square meters','tfuse'),
+    //             'single_abbr'   => __('Sq m', 'tfuse'),
+    //             'plural_abbr'   => __('Sq m', 'tfuse')
+    //         ),
+    //         'desc'          => __('Enter square meteres','tfuse'),
+    //         'id'            => 'seek_property_square',
+    //         'value'         => '',
+    //         'type'          => 'text',
+    //         'searchable'    => TRUE,
+    //         'valtype'       => 'int',
+    //         'template_zone' => 'header',
+    //         'template_zone_priority' => 4
+    //     )
+    // ),
+    // array(
+    //     'name'          => __('Basement','tfuse'),
+    //     'pluralization' => array(
+    //         'single'        => __('Basement','tfuse'),
+    //         'plural'        => __('Basement','tfuse'),
+    //         'single_abbr'   => __('Basement', 'tfuse'),
+    //         'plural_abbr'   => __('Basement', 'tfuse')
+    //     ),
+    //     'desc'          => __('Enter basement description','tfuse'),
+    //     'id'            => 'seek_property_basement',
+    //     'value'         => '',
+    //     'type'          => 'text',
+    //     'searchable'    => FALSE,
+    //     'template_zone' => 'content',
+    //     'template_zone_priority' => 1
+    // ),
+    // array(
+    //     'name'          => __('Exterior','tfuse'),
+    //     'pluralization' => array(
+    //         'single'        => __('Exterior','tfuse'),
+    //         'plural'        => __('Exterior','tfuse'),
+    //         'single_abbr'   => __('Exterior', 'tfuse'),
+    //         'plural_abbr'   => __('Exterior', 'tfuse')
+    //     ),
+    //     'desc'          => __('Enter exterior description','tfuse'),
+    //     'id'            => 'seek_property_exterior',
+    //     'value'         => '',
+    //     'type'          => 'text',
+    //     'searchable'    => FALSE,
+    //     'template_zone' => 'content',
+    //     'template_zone_priority' => 2
+    // ),
+    // array(
+    //     'name'          => __('Fireplace','tfuse'),
+    //     'pluralization' => array(
+    //         'single'        => __('Fireplace','tfuse'),
+    //         'plural'        => __('Fireplaces','tfuse'),
+    //         'single_abbr'   => __('Fireplace', 'tfuse'),
+    //         'plural_abbr'   => __('Fireplaces', 'tfuse')
+    //     ),
+    //     'desc'          => __('Enter number of fireplaces', 'tfuse'),
+    //     'id'            => 'seek_property_fireplaces',
+    //     'value'         => '',
+    //     'type'          => 'text',
+    //     'searchable'    => FALSE,
+    //     'template_zone' => 'content',
+    //     'template_zone_priority' => 3
+    // ),
+    // array(
+    //     'name'          => __('Flooring','tfuse'),
+    //     'pluralization' => array(
+    //         'single'        => __('Flooring','tfuse'),
+    //         'plural'        => __('Flooring','tfuse'),
+    //         'single_abbr'   => __('Flooring', 'tfuse'),
+    //         'plural_abbr'   => __('Flooring', 'tfuse')
+    //     ),
+    //     'desc'          => __('Enter flooring','tfuse'),
+    //     'id'            => 'seek_property_flooring',
+    //     'value'         => '',
+    //     'type'          => 'text',
+    //     'searchable'    => FALSE,
+    //     'template_zone' => 'content',
+    //     'template_zone_priority' => 5
+    // ),
+    // array(
+    //     'name'          => __('Garage','tfuse'),
+    //     'pluralization' => array(
+    //         'single'        => __('Garage','tfuse'),
+    //         'plural'        => __('Garage','tfuse'),
+    //         'single_abbr'   => __('Garage', 'tfuse'),
+    //         'plural_abbr'   => __('Garage', 'tfuse')
+    //     ),
+    //     'desc'          => __('Enter exterior description','tfuse'),
+    //     'id'            => 'seek_property_garage',
+    //     'value'         => '',
+    //     'type'          => 'text',
+    //     'searchable'    => FALSE,
+    //     'template_zone' => 'content',
+    //     'template_zone_priority' => 6
+    // ),
+    // array(
+    //     'name'          => __('Air Conditioning','tfuse'),
+    //     'pluralization' => array(
+    //         'single'        => __('Air Conditioning','tfuse'),
+    //         'plural'        => __('Air Conditioning','tfuse'),
+    //         'single_abbr'   => __('Air Conditioning', 'tfuse'),
+    //         'plural_abbr'   => __('Air Conditioning', 'tfuse')
+    //     ),
+    //     'desc'          => __('Enter Air Conditioning desciption','tfuse'),
+    //     'id'            => 'seek_property_air_conditioning',
+    //     'value'         => '',
+    //     'type'          => 'text',
+    //     'searchable'    => FALSE,
+    //     'template_zone' => 'content',
+    //     'template_zone_priority' => 7
+    // ),
+    // array(
+    //     'name'          => __('Heat','tfuse'),
+    //     'pluralization' => array(
+    //         'single'        => __('Heat','tfuse'),
+    //         'plural'        => __('Heat','tfuse'),
+    //         'single_abbr'   => __('Heat', 'tfuse'),
+    //         'plural_abbr'   => __('Heat', 'tfuse')
+    //     ),
+    //     'desc'          => __('Enter Heat desciption','tfuse'),
+    //     'id'            => 'seek_property_heat',
+    //     'value'         => '',
+    //     'type'          => 'text',
+    //     'searchable'    => FALSE,
+    //     'template_zone' => 'content',
+    //     'template_zone_priority' => 8
+    // ),
+    // array(
+    //     'name'          => __('Lot Size','tfuse'),
+    //     'pluralization' => array(
+    //         'single'        => __('Lot Size','tfuse'),
+    //         'plural'        => __('Lot Size','tfuse'),
+    //         'single_abbr'   => __('Lot Size', 'tfuse'),
+    //         'plural_abbr'   => __('Lot Size', 'tfuse')
+    //     ),
+    //     'desc'          => __('Enter Lot Size','tfuse'),
+    //     'id'            => 'seek_property_lot_size',
+    //     'value'         => '',
+    //     'type'          => 'text',
+    //     'searchable'    => FALSE,
+    //     'template_zone' => 'content',
+    //     'template_zone_priority' => 9
+    // ),
+    // array(
+    //     'name'          => __('Road Type','tfuse'),
+    //     'pluralization' => array(
+    //         'single'        => __('Road Type','tfuse'),
+    //         'plural'        => __('Road Type','tfuse'),
+    //         'single_abbr'   => __('Road Type', 'tfuse'),
+    //         'plural_abbr'   => __('Road Type', 'tfuse')
+    //     ),
+    //     'desc'          => __('Enter Road Type description','tfuse'),
+    //     'id'            => 'seek_property_road_type',
+    //     'value'         => '',
+    //     'type'          => 'text',
+    //     'searchable'    => FALSE,
+    //     'template_zone' => 'content',
+    //     'template_zone_priority' => 10
+    // ),
+    // array(
+    //     'name'          => __('Roof','tfuse'),
+    //     'pluralization' => array(
+    //         'single'        => __('Roof','tfuse'),
+    //         'plural'        => __('Roof','tfuse'),
+    //         'single_abbr'   => __('Roof', 'tfuse'),
+    //         'plural_abbr'   => __('Roof', 'tfuse')
+    //     ),
+    //     'desc'          => __('Enter roof description','tfuse'),
+    //     'id'            => 'seek_property_roof',
+    //     'value'         => '',
+    //     'type'          => 'text',
+    //     'searchable'    => FALSE,
+    //     'template_zone' => 'content',
+    //     'template_zone_priority' => 12
+    // ),
+    // array(
+    //     'name'          => __('Sewer','tfuse'),
+    //     'pluralization' => array(
+    //         'single'        => __('Sewer','tfuse'),
+    //         'plural'        => __('Sewer','tfuse'),
+    //         'single_abbr'   => __('Sewer', 'tfuse'),
+    //         'plural_abbr'   => __('Sewer', 'tfuse')
+    //     ),
+    //     'desc'          => __('Enter sewer description','tfuse'),
+    //     'id'            => 'seek_property_sewer',
+    //     'value'         => '',
+    //     'type'          => 'text',
+    //     'searchable'    => FALSE,
+    //     'template_zone' => 'content',
+    //     'template_zone_priority' => 13
+    // ),
+    // array(
+    //     'name'          => __('Water','tfuse'),
+    //     'pluralization' => array(
+    //         'single'        => __('Water','tfuse'),
+    //         'plural'        => __('Water','tfuse'),
+    //         'single_abbr'   => __('Water', 'tfuse'),
+    //         'plural_abbr'   => __('Water', 'tfuse')
+    //     ),
+    //     'desc'          => __('Enter water description','tfuse'),
+    //     'id'            => 'seek_property_water',
+    //     'value'         => '',
+    //     'type'          => 'text',
+    //     'searchable'    => FALSE,
+    //     'template_zone' => 'content',
+    //     'template_zone_priority' => 15
+    // ),
+    // array(
+    //     'name'          => __('Zooning','tfuse'),
+    //     'pluralization' => array(
+    //         'single'        => __('Zooning','tfuse'),
+    //         'plural'        => __('Zooning','tfuse'),
+    //         'single_abbr'   => __('Zooning', 'tfuse'),
+    //         'plural_abbr'   => __('Zooning', 'tfuse')
+    //     ),
+    //     'desc'          => __('Enter zoning description','tfuse'),
+    //     'id'            => 'seek_property_zoning',
+    //     'value'         => '',
+    //     'type'          => 'text',
+    //     'searchable'    => FALSE,
+    //     'template_zone' => 'content',
+    //     'template_zone_priority' => 16
+    // ),
+    // 
     
     // Google Maps Options
     // ! This options is used by ../includes/google_maps/GOOGLE_MAPS.php

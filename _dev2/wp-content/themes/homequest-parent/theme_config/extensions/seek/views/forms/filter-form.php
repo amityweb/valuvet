@@ -14,9 +14,7 @@ if (!defined('TFUSE'))
     TF_SEEK_HELPER::print_form_item('tax_ids_category');
 ?>
 
-<?php
-    TF_SEEK_HELPER::print_form_item('bedrooms_checkboxes');
-?>
+
 
 <?php
     TF_SEEK_HELPER::print_form_item('baths_checkboxes');
@@ -37,3 +35,6 @@ if (!defined('TFUSE'))
 <div class="row rowSubmit">
     <input type="submit" value="<?php _e('FILTER RESULTS', 'tfuse'); ?>" class="btn-submit">
 </div>
+<?php
+    TF_SEEK_HELPER::print_form_item('bedrooms_checkboxes');
+?>

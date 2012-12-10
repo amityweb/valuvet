@@ -113,18 +113,18 @@ add_action( $post_type . '_agents_add_form', 'tfuse_taxonomy_redirect_note_form_
 register_taxonomy($post_type . '_styles', array($post_type), array(
     'hierarchical'  => true,
     'labels'        => array(
-        'name'                      => __('Styles','tfuse'),
-        'singular_name'             => __('Style','tfuse'),
-        'search_items'              => __('Search Styles','tfuse'),
-        'all_items'                 => __('All Styles','tfuse'),
-        'parent_item'               => __('Parent Style','tfuse'),
-        'parent_item_colon'         => __('Parent Style:','tfuse'),
-        'edit_item'                 => __('Edit Style','tfuse'),
-        'update_item'               => __('Update Style','tfuse'),
-        'add_new_item'              => __('Add New Style','tfuse'),
-        'new_item_name'             => __('New Style Name','tfuse'),
-        'choose_from_most_used'     => __('Choose from the most used styles','tfuse'),
-        'separate_items_with_commas'=> __('Separate styles with commas','tfuse')
+        'name'                      => __('Staff','tfuse'),
+        'singular_name'             => __('Staff','tfuse'),
+        'search_items'              => __('Search Staff','tfuse'),
+        'all_items'                 => __('All Staff','tfuse'),
+        'parent_item'               => __('Parent Staff','tfuse'),
+        'parent_item_colon'         => __('Parent Staff:','tfuse'),
+        'edit_item'                 => __('Edit Staff','tfuse'),
+        'update_item'               => __('Update Staff','tfuse'),
+        'add_new_item'              => __('Add New Staff','tfuse'),
+        'new_item_name'             => __('New Staff Name','tfuse'),
+        'choose_from_most_used'     => __('Choose from the most used staff','tfuse'),
+        'separate_items_with_commas'=> __('Separate staff with commas','tfuse')
     ),
     'show_ui'       => true,
     'query_var'     => true
