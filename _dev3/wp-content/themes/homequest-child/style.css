@@ -9,6 +9,9 @@ Template: homequest-parent
 
 @import url("../homequest-parent/style.css");
 
+ul {
+	margin-left: 15px;
+}
 .line_plus {
     background: url("../homequest-parent/images/divider_line_fix.gif") no-repeat scroll left center transparent;
     clear: both;
@@ -297,14 +300,45 @@ border:0px solid #f60;
 }
 
 
+.block_hr .re-price {
+	float: right;
+}
 
+.re-full h1 {
+	background: url(images/divider_line_fix.gif) 0 bottom no-repeat;
+	padding: 10px;
+	margin-bottom: 30px;
+}
 
+.re-description {
+	border-bottom: 1px solid #E5E5E5;
+}
 
+.list-top, .list-right {
+	color: #333;
+}
+.list-right {
+	float: right;
+	margin-top: 10px;
+	width: 200px;
+}
+.list-right-details {
+	float: right;
+	width: 215px;
+	color: #333;
+	font-weight: bold;
+}
+.list-left-details {
+	float: left;
+	color: #333;
+}
+.re-details h6 {
+	margin: 10px 0 5px;
+}
 
-
-
-
-
+.footer {
+	clear: both;
+}
 /* CSS helpers
 
 http://css3generator.com
