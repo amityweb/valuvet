@@ -48,7 +48,6 @@ function tfuse_columns_head_only_properties($defaults) {
     unset($defaults['date']);
     $defaults['prop_categories'] = 'Categories';
     $defaults['prop_locations'] = 'Locations';
-    $defaults['prop_agents'] = 'Agents';
     $defaults['date'] = 'Date';
     return $defaults;
 }

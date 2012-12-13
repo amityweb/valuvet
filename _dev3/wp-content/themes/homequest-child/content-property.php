@@ -12,29 +12,29 @@
 
     <div class="re-full">
         <?php //tfuse_custom_title(); ?>
-        <h1><?php meta('property-is-for'); ?> - <?php the_title(); ?> - <?php meta('suburb'); ?>, <?php meta('practice-state'); ?></h1>
+        <h1><?php meta('practice_is_for'); ?> - <?php the_title(); ?> - <?php meta('suburb'); ?>, <?php meta('practice_state'); ?></h1>
 
         <?php get_template_part('property', 'sl_content');?>
 
         <div class="re-description">
             <div class="block_hr">
                 
-                <div class="re-price"><strong>$ <?php echo number_format(get_meta('property-value')); ?></strong></div>    
+                <div class="re-price"><strong>$ <?php echo number_format(get_meta('property_value')); ?></strong></div>    
             </div>
             <h2><?php print( sprintf( __('%s Overview','tfuse'), TF_SEEK_HELPER::get_option('seek_property_name_singular','Property') ) ); ?>:</h2>
             <?php if(get_meta('practice-confidential') != 1) { ?>
             <ul class="list-top">
-                <li><strong>Business Name:</strong> <?php meta('practice-name'); ?></li>
-                <li><strong>Address:</strong> <?php meta('business-address'); ?>, <?php meta('suburb'); ?>, <?php meta('practice-state'); ?>, <?php meta('post-code'); ?></li>
+                <li><strong>Business Name:</strong> <?php meta('practice_name'); ?></li>
+                <li><strong>Address:</strong> <?php meta('business_address'); ?>, <?php meta('suburb'); ?>, <?php meta('practice_state'); ?>, <?php meta('post_code'); ?></li>
             </ul>
             <?php } ?>
             <ul class="list-right">
-                <li><strong>Business:</strong> <?php meta('property-is-for'); ?></li>
-                <li><strong>Building:</strong> <?php meta('real-estate-available-for'); ?></li>
-                <li><strong>Equipment:</strong> <?php if(get_meta('equipments-included') != '') { echo "Included"; } else { echo "Not Included"; } ?></li>
-                <li><strong>Stock:</strong> <?php if(get_meta('stock-included') != '') { echo "Included"; } else { echo "Not Included"; } ?></li>
-                <li><strong>ValuVet Valuation:</strong> <?php if(get_meta('valuation-by') != '') { echo "Available"; } else { echo "Not Available"; } ?></li>
-                <li><strong>ValuVet Report:</strong> <?php if(get_meta('practice-report') != '') { echo "Available"; } else { echo "Not Available"; } ?></li>
+                <li><strong>Business:</strong> <?php meta('practice_is_for'); ?></li>
+                <li><strong>Building:</strong> <?php meta('real_estate_available_for_sale'); ?></li>
+                <li><strong>Equipment:</strong> <?php if(get_meta('equipments_on_sale') != '') { echo "Included"; } else { echo "Not Included"; } ?></li>
+                <li><strong>Stock:</strong> <?php if(get_meta('stock_on_sale') != '') { echo "Included"; } else { echo "Not Included"; } ?></li>
+                <li><strong>ValuVet Valuation:</strong> <?php if(get_meta('valuation_by_valuvet') != '') { echo "Available"; } else { echo "Not Available"; } ?></li>
+                <li><strong>ValuVet Report:</strong> <?php if(get_meta('practice_report_by_valuvet') != '') { echo "Available"; } else { echo "Not Available"; } ?></li>
             </ul>
             
 
@@ -46,17 +46,17 @@
 
         <!-- Property Overal description -->
         <div class="re-overview">
-            <?php if(get_meta('the-business') != '') { ?>
+            <?php if(get_meta('the_business') != '') { ?>
                 <h3>The Business</h3>
-                <p><?php meta('the-business'); ?></p>
+                <p><?php meta('the_business'); ?></p>
             <?php } ?>
-            <?php if(get_meta('the-opportunity') != '') { ?>
+            <?php if(get_meta('the_opportunity') != '') { ?>
                 <h3>The Opportunity</h3>
-                <p><?php meta('the-opportunity'); ?></p>
+                <p><?php meta('the_opportunity'); ?></p>
             <?php } ?>
-            <?php if(get_meta('the-location') != '') { ?>
+            <?php if(get_meta('the_location') != '') { ?>
                 <h3>The Location</h3>
-                <p><?php meta('the-location'); ?></p>
+                <p><?php meta('the_location'); ?></p>
             <?php } ?>
         </div>
 
@@ -71,7 +71,7 @@
                 <?php if ($this_saved) { ?>
                 <a href="#" class="tooltip link-saved" rel="<?php echo $post->ID; ?>" title="<?php _e('Remove Offer','tfuse'); ?>"><?php _e('Remove Offer','tfuse'); ?></a>
                 <?php } else {?>
-                <a href="#" class="link-save tooltip" rel="<?php echo $post->ID; ?>" title="<?php _e('Save Offer','tfuse'); ?>"><?php _e('Save Offer','tfuse'); ?></a>
+                <a href="#" class="link-save tooltip" rel="<?php echo $post->ID; ?>" title="<?php _e('Add to Fav','tfuse'); ?>"><?php _e('Add to Fav','tfuse'); ?></a>
                     <?php } ?>
                 <a href="#" class="link-print tooltip" title="<?php _e('Print this Page', 'tfuse'); ?>"><?php _e('Print this Page', 'tfuse'); ?></a>
                 <?php
