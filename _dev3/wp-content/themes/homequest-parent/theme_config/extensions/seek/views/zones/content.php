@@ -41,16 +41,9 @@ foreach($options as $id=>$val){
         <div class="list-left-details">
             <h6>Type of Practice</h6>
             <ul>
-                <li><strong>Type:</strong> <?php meta('type-of-practice'); ?>
+                <li><strong>Type:</strong> <?php meta('type_of_practice'); ?>
 
                 </li>
-                <strong>Software:</strong> <?php if (get_meta('other-softwares') != '') {
-                        meta('other-softwares'); 
-                    }
-                    else {
-                        meta('computer-software');
-                    }
-                    ?>
                 
                 <?php if(get_meta('small-animal-percentage') != '') {
                     echo '<li><strong>'.get_meta('small-animal-percentage').'%</strong>'; 
@@ -88,7 +81,7 @@ foreach($options as $id=>$val){
                     
                     if(get_meta('beef') != '') { array_push($bovine_animal, "Beef"); }
                     if(get_meta('dairy') != '') { array_push($bovine_animal, "Dairy"); }
-                    if(get_meta('bovine-stud') != '') { array_push($bovine_animal, "Stud"); }
+                    if(get_meta('bovine_stud') != '') { array_push($bovine_animal, "Stud"); }
                     
                     $bovine_animal  = implode(', ', $bovine_animal);
                     echo ' ('.$bovine_animal.')</li>';
@@ -115,26 +108,26 @@ foreach($options as $id=>$val){
             </ul>
             <h6>Staff</h6>
             <ul>
-                <li><strong>Number of Full-time Vet:</strong> <?php meta('full-time-vet'); ?></li>
-                <li><strong>Number of Nurse:</strong> <?php meta('number-nurse'); ?></li>
-                <li><strong>Practice Manager:</strong> <?php meta('practice-manager'); ?></li>
+                <li><strong>Number of Full-time Vet:</strong> <?php meta('number_of_fulltime_vet_equivalents_40_hrs'); ?></li>
+                <li><strong>Number of Nurse:</strong> <?php meta('number_of_fulltime_vet_equivalents_40_hrs_'); ?></li>
+                <li><strong>Practice Manager:</strong> <?php meta('practice_manager'); ?></li>
             </ul>
             <h6>Facilities</h6>
             <ul>
-                <li><strong>Building Type:</strong> <?php meta('building-type'); ?></li>
+                <li><strong>Building Type:</strong> <?php meta('building_type'); ?></li>
                 <!-- if owned or lease -->
                 <li>
                     <strong>Building:</strong> 
                     <?php 
-                    meta('building-owndership'); 
-                    if (get_meta('lease-details') != '') {
-                        echo ' - '.get_meta('lease-details');          
+                    meta('building_owndership'); 
+                    if (get_meta('lease_details') != '') {
+                        echo ' - '.get_meta('lease_details');          
                     }
                     ?>
                 </li>
-                <li><strong>Building Area:</strong> <?php meta('building-area-sqm'); ?></li>
-                <li><strong>Branch Clinics:</strong> <?php meta('number-of-branch-clinics'); ?></li>
-                <li><strong>Open:</strong> <?php meta('number-of-days-open-per-week'); ?></li>
+                <li><strong>Building Area:</strong> <?php meta('building_area_sqm'); ?> sqm</li>
+                <li><strong>Branch Clinics:</strong> <?php meta('number_of_branch_clinics'); ?></li>
+                <li><strong>Open:</strong> <?php meta('number_of_days_open_per_week'); ?></li>
                 <!-- Facilities Include -->
                 <li>
                     <strong>Facilities Include:</strong> 
@@ -143,21 +136,21 @@ foreach($options as $id=>$val){
                     
                     if(get_meta('kennels') != '') { array_push($facilities, "Kennels"); }
                     if(get_meta('stables') != '') { array_push($facilities, "Stables"); }
-                    if(get_meta('off-street-parking') != '') { array_push($facilities, "Parking"); }
+                    if(get_meta('off_street_parking') != '') { array_push($facilities, "Parking"); }
                     
                     $facilities  = implode(', ', $facilities);
                     echo ' '.$facilities;
                     ?>
                 </li>
-                <li><strong>Number of Car Parks:</strong> <?php meta('no-of-off-street-cars'); ?></li>
-                <li><strong>Number of Computers:</strong> <?php meta('number-computer-terminals'); ?></li>
+                <li><strong>Number of Car Parks:</strong> <?php meta('no_of_off_street_cars'); ?></li>
+                <li><strong>Number of Computers:</strong> <?php meta('number_of_computer_terminals'); ?></li>
                 <!-- if isset other scrivo other if not scrivo computer software -->
                 <li>
-                    <strong>Software:</strong> <?php if (get_meta('other-softwares') != '') {
-                        meta('other-softwares'); 
+                    <strong>Software:</strong> <?php if (get_meta('other_softwares') != '') {
+                        meta('other_softwares'); 
                     }
                     else {
-                        meta('computer-software');
+                        meta('computer_software');
                     }
                     ?>
 

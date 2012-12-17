@@ -160,7 +160,7 @@ if (!empty($_COOKIE['favorite_posts'])) $fav_saved = explode(',', $_COOKIE['favo
                                     <?php if ($this_saved) { ?>
                                     <a href="#" class="tooltip link-saved" rel="<?php echo $property['ID']; ?>" title="<?php _e('Remove Offer','tfuse'); ?>"><?php _e('Remove Offer','tfuse'); ?></a>
                                     <?php } else {?>
-                                    <a href="#" class="link-save tooltip" rel="<?php echo $property['ID']; ?>" title="<?php _e('Save Offer','tfuse'); ?>"><?php _e('Save Offer','tfuse'); ?></a>
+                                    <a href="#" class="link-save tooltip" rel="<?php echo $property['ID']; ?>" title="<?php _e('Add to Fav','tfuse'); ?>"><?php _e('Add to Fav','tfuse'); ?></a>
                                     <?php } ?>
                                     <?php tfuse_get_property_images($property['ID']);?>
                                 </div>

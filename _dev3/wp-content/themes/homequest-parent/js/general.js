@@ -195,7 +195,7 @@ jQuery(document).ready(function($) {
         jQuery('#my_saved_offers em').html(saved_prop.length);
         saved_prop = saved_prop.join();
         setCookie('favorite_posts', saved_prop, 366);
-        jQuery(this).removeClass('link-saved').addClass('link-save').attr('title','Save Offer').html('Save Offer');
+        jQuery(this).removeClass('link-saved').addClass('link-save').attr('title','Add to Fav').html('Add to Fav');
         return false;
     });
 

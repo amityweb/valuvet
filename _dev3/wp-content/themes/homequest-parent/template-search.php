@@ -67,8 +67,8 @@ if (!empty($_COOKIE['favorite_posts'])) $fav_saved = explode(',', $_COOKIE['favo
 <div class="grid_8 content">
 
     <div class="title_small">
-        <?php if (!empty($_GET['properties'])) {if($search_results['total'] > 1) $span_content = $search_results['total'] . ' ' .  __('OFFERS','tfuse'); elseif($search_results['total'] == 1) $span_content = $search_results['total'] . ' ' .  __('OFFER','tfuse'); else $span_content = $search_results['total'] . ' ' .  __(' OFFERS','tfuse'); echo '<h1>' . __('PROPERTIES', 'tfuse') . ' <span>(' . $span_content.  ')</span></h1>'; } else { ?>
-        <h1><?php if(!isset($_GET['favorites'])) _e('SEARCH RESULTS','tfuse'); else  _e('FAVORITES','tfuse'); ?>  <span>(<?php print($search_results['total']); ?> <?php print( mb_strtoupper( TF_SEEK_HELPER::get_option( ( intval($search_results['total'])==1 ? 'seek_property_name_singular' : 'seek_property_name_plural'),'OFFERS'), 'UTF-8')); ?>)</span></h1>
+        <?php if (!empty($_GET['properties'])) {if($search_results['total'] > 1) $span_content = $search_results['total'] . '' .  __('','tfuse'); elseif($search_results['total'] == 1) $span_content = $search_results['total'] . '' .  __('','tfuse'); else $span_content = $search_results['total'] . '' .  __('','tfuse'); echo '<h1>' . __('PROPERTIES', 'tfuse') . ' <span>(' . $span_content.  ')</span></h1>'; } else { ?>
+        <h1><?php if(!isset($_GET['favorites'])) _e('SEARCH RESULTS','tfuse'); else  _e('FAVORITES','tfuse'); ?>  <span>(<?php print($search_results['total']); ?>)</span></h1>
             <?php } ?>
     </div>
 
@@ -122,7 +122,7 @@ if (!empty($_COOKIE['favorite_posts'])) $fav_saved = explode(',', $_COOKIE['favo
                             <?php if ($this_saved) { ?>
                             <a href="#" class="tooltip link-saved" rel="<?php echo $spost['ID']; ?>" title="<?php _e('Remove Offer','tfuse'); ?>"><?php _e('Remove Offer','tfuse'); ?></a>
                             <?php } else {?>
-                            <a href="#" class="link-save tooltip" rel="<?php echo $spost['ID']; ?>" title="<?php _e('Save Offer','tfuse'); ?>"><?php _e('Save Offer','tfuse'); ?></a>
+                            <a href="#" class="link-save tooltip" rel="<?php echo $spost['ID']; ?>" title="<?php _e('Add to Fav','tfuse'); ?>"><?php _e('Add to Fav','tfuse'); ?></a>
                             <?php } ?>
                             <a href="<?php print(get_permalink($spost['ID'])); ?>" class="link-viewmap tooltip" title="<?php _e('View on Map', 'tfuse'); ?>"><?php _e('View on Map', 'tfuse'); ?></a><?php tfuse_get_property_images($spost['ID']);?>
 
