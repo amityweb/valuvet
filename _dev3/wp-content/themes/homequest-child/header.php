@@ -53,7 +53,7 @@
 					<div class="header_phone">
 					<ul id="header_phone_list"><li><?php echo tfuse_options('header_text_box'); ?></li>
 					<li><span class="div_line" /></li>
-					<li><a href="<?php echo site_url('?s=~&tfseekfid=main_search&favorites'); ?>" id="my_saved_offers"><?php _e('MY SAVED OFFERS', 'tfuse'); ?> <em><?php if(!empty($_COOKIE['favorite_posts'])) echo sizeof(explode(',',$_COOKIE['favorite_posts'])); else echo '0'; ?></em></a>	</li>					
+					<li><a href="<?php echo site_url('?s=~&tfseekfid=main_search&favorites'); ?>" id="my_saved_offers"><?php _e('MY FAVOURITE OFFERS', 'tfuse'); ?> <em><?php if(!empty($_COOKIE['favorite_posts'])) echo sizeof(explode(',',$_COOKIE['favorite_posts'])); else echo '0'; ?></em></a>	</li>					
 					<li><span class="div_line" /></li>
 					<li>        <!-- search widget -->
         <span class="header_search" >

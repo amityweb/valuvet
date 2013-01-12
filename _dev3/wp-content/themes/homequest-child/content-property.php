@@ -17,9 +17,8 @@
         <?php get_template_part('property', 'sl_content');?>
 
         <div class="re-description">
-            <div class="block_hr">
-                
-                <div class="re-price"><strong>$ <?php echo number_format(get_meta('property_value')); ?></strong></div>    
+            <div class="block_hr">   
+                <div class="re-price"><strong><?php if(get_meta('show_asking_price') != '') { echo '$ '.number_format(get_meta('property_value')); } else { echo 'P. O. A'; }?></strong></div>    
             </div>
             <h2><?php print( sprintf( __('%s Overview','tfuse'), TF_SEEK_HELPER::get_option('seek_property_name_singular','Property') ) ); ?>:</h2>
             <?php if(get_meta('practice-confidential') != 1) { ?>
