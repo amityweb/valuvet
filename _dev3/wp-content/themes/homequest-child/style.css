@@ -96,14 +96,38 @@ h3.toggle{
 
 h4, em {color:#976F5C;}
 
-.before_content h2, .before_content .carusel_title, .header_carusel .carusel_title { margin: 0 0 15px 22px;}
+
+/* ------- HEADER CAROUSEL ------- */
+
+/* increase carousel caption to 2 lines */
+.carusel_list .jcarousel-list li.jcarousel-item {
+    padding-bottom:15px;
+    margin-bottom: 1000px;
+      border:0px solid #f60;
+}
+
+.header_carusel .item_name a {
+  line-height:18px; 
+  display:block; 
+  border:0px solid #f60;
+}
+.header_carusel .item_name a span.price {
+color:#FFCC1D;
+text-shadow: 0 1px 1px #191919;
+}
+
+.before_content h2, .before_content .carusel_title, .header_carusel .carusel_title { margin: 0 0 10px 22px;}
 .before_content .container_12 {padding-top: 15px;}
 
 .before_content .carusel_small, .header_carusel .carusel_small {
-    height: 180px;
+    height: 190px;
     margin-bottom: 15px;
     overflow: hidden;
 }
+
+
+
+/* ------- HEADER CUSTOMISATION ------- */
 
 .header_top {
     height: 88px;
@@ -151,9 +175,9 @@ text-align:right;
     padding: 0px 0px;
     top:-5px;
 }
-.logo {width: 200px;}
+.logo {width: 254px;}
 .topmenu {
-width: 750px;
+width: 700px;
 padding: 60px 0 0;
 border:0px solid #f60;
 }
@@ -206,6 +230,7 @@ border:0px solid #f60;
  font-size: 25px;
 
 }
+
 
 
 /* -----------------CUSTOM CSS --------------*/
@@ -302,6 +327,7 @@ border:0px solid #f60;
 
 .block_hr .re-price {
 	float: right;
+	padding-left: 10px;
 }
 
 .re-full h1 {
@@ -339,8 +365,229 @@ border:0px solid #f60;
 .footer {
 	clear: both;
 }
-/* CSS helpers
 
-http://css3generator.com
-http://jsfiddle.net/kDJUa/
-*/
+
+.maptop_hidebtn span {
+	background: url(images/pikachoose/prev-vertical.png) center 0 no-repeat;
+}
+.maptop_hidebtn span:hover, .maptop_hidebtn span:active {
+	background-position: center -10px;
+}
+.map_hide .maptop_hidebtn span {
+	background: url(images/pikachoose/next-vertical.png) no-repeat center 0;
+}
+.map_hide .maptop_hidebtn span:hover, .map_hide .maptop_hidebtn span:active {
+	background-position: center -10px;
+}
+
+
+.white_select a {
+	display: block;
+	padding: 10px 20px 8px 10px;
+	border-top: none;
+	color:#fff;
+	background:url(../images/divider_line_black.png) top repeat-x}
+
+.white_select a:first-child,
+.white_select a:hover:first-child {
+	background:none}
+
+.white_select a:hover,
+.white_select .cuselOptHover {
+	color: #f6c20f;
+	background:url(../images/divider_line_black.png) top repeat-x
+}
+
+.form_sort {
+	position: relative;
+}
+.default_caption {
+	font-family: 'Lato', Arial, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #404040;
+	position: absolute;
+	top: 2px;
+	left: 60px;
+	z-index: 1000;
+
+}
+
+/* ninja form */
+.ninja-forms-form {
+	position: relative;
+	min-height: 300px;
+	padding-bottom: 100px;
+}
+.ninja-forms-form br {
+	display: none;
+}
+#ninja_forms_required_items {
+	margin: 20px 0;
+}
+.field-wrap {
+	clear: both;
+	margin-top: 20px;
+	min-height: 30px;
+	position: relative;
+}
+#ninja_forms_field_98_div_wrap, #ninja_forms_field_42_div_wrap, #ninja_forms_field_43_div_wrap, #ninja_forms_field_44_div_wrap {
+	min-height: 70px;
+}
+
+.field-wrap label {
+	float: left;
+	width: 190px;
+	text-align: right;
+}
+
+#ninja_forms_field_1_div_wrap label {
+	width: 325px;
+}
+.termchecklist {
+	clear: both;
+}
+.termchecklist label {
+	float: none;
+}
+.ninja-forms-form p {
+	margin: 0;
+	padding: 0;
+}
+#ninja_forms_mp_prev {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+#ninja_forms_mp_next {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+#ninja_forms_form_1_save_progress {
+	position: absolute;
+	bottom: 10px;
+	left: 170px;
+}
+.ninja-forms-help-text {
+	position: absolute;
+	top: 0px;
+	left: 195px;
+}
+
+.ninja-forms-form input[type=text], .ninja-forms-form input[type=checkbox] {
+	position: absolute;
+	top: 0px;
+	left: 220px;
+	width: 175px;
+}
+.ninja-forms-form input[type=file] {
+	margin-left: 30px;
+}
+.ninja-forms-form  input[type="radio"], input[type="checkbox"] {
+	margin: 5px 0;
+}
+.ninja-forms-form textarea {
+	position: absolute;
+	top: 0px;
+	left: 220px;
+	width: 300px;
+	height: 60px;
+	padding: 5px;
+	overflow-y: auto; 
+}
+.ninja-forms-form select {
+	font-size:17px;
+    line-height:27px;
+    display:block;
+    float:left;
+    height:27px;
+    width:200px;
+    margin-left: 30px;
+	margin-bottom: 10px;
+}
+.ninja-forms-form input[type=submit] {
+	border-radius: 5px;
+	padding: 0 25px;
+	margin-top: 0px;
+}
+.submit-wrap {
+	text-align: center;
+}
+.submit-wrap input[type=submit] {
+	margin-top: 40px;
+}
+
+
+.col_animal {
+	float: left;
+	width: 150px;
+}
+.col_animal div {
+	display: inline-block;
+}
+.col_animal label {
+	text-align: left;
+	margin: 0 20px;
+}
+#ninja_forms_field_55_div_wrap, #ninja_forms_field_56_div_wrap, #ninja_forms_field_57_div_wrap {
+	float: left;
+	clear: none;
+}
+#ninja_forms_field_55_div_wrap label, #ninja_forms_field_56_div_wrap label {
+	padding-right: 45px;
+}
+#ninja_forms_field_56_div_wrap label {
+	width: 105px;
+}
+#ninja_forms_field_56_div_wrap input[type=checkbox] {
+	left: 135px;
+}
+#ninja_forms_field_57_div_wrap label {
+	width: 170px;
+}
+#ninja_forms_field_57_div_wrap input[type=checkbox] {
+	left: 200px;
+}
+#ninja_forms_field_67_div_wrap label, #ninja_forms_field_73_div_wrap label, #ninja_forms_field_77_div_wrap label, #ninja_forms_field_81_div_wrap label {
+	margin: 0;
+}
+.upload-wrap label {
+	float: none;
+	text-align: left;
+	width: auto;
+	margin-right: 30px;
+	display: block;
+}
+label[for=ninja_forms_field_100], label[for=ninja_forms_field_101] {
+	margin-top: 20px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 17px;
+}
+.col_animal input[type=text] {
+	position: relative;
+	top: 0;
+	left: 0px;
+	width: 50px;
+}
+
+.col_animal input[type=checkbox] {
+	left: 0px;
+}
+
+.ninja-forms-form ul.termchecklist li {
+	position: relative;
+	float: left;
+	margin-top: 10px;
+}
+.ninja-forms-form ul.termchecklist li label {
+	text-align: left;
+	padding-left: 25px;
+	width: 170px;
+}
+.ninja-forms-form ul.termchecklist li input[type=checkbox] {
+	top: 0px;
+	left: 0px;
+}
