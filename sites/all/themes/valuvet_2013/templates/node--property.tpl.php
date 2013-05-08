@@ -93,7 +93,6 @@ function _valuvet_glue_list($field) {
 
 
   <h1 class="title">
-    <?php print $node->field_property_disposal['und'][0]['value']; ?> -
     <?php print $node->field_property_headline['und'][0]['value']; ?> -
     <?php print $node->field_business_address['und'][0]['city']; ?>, <?php print $node->field_business_address['und'][0]['province']; ?>
   </h1>
@@ -102,7 +101,7 @@ function _valuvet_glue_list($field) {
     <ul id="vv-listing-image" class="clearfix">
       <li >
 		<a href="<?php print image_style_url('property_gallery_main', 'images/property/'.$node->field_property_listing_image['und'][0]['filename']); ?>"><?php print render($content['field_property_listing_image']); ?></a>
-		<?php 
+		<?php
 			$arrCaption = explode('.', $node->field_property_listing_image['und'][0]['filename']);
 			echo '<span>'.$arrCaption[0].'</span>';
 		?>
@@ -110,14 +109,14 @@ function _valuvet_glue_list($field) {
 	<?php foreach($node->field_property_image_gallery['und'] as $delta => $image) : ?>
 		<li>
 		        <a  href="<?php print image_style_url('property_gallery_main','images/property/'.$image['filename']); ?>"><?php print render($content['field_property_image_gallery'][$delta]); ?></a>
-			<?php 
+			<?php
 			$arrCaption = explode('.', $image['filename']);
 			echo '<span>'.$arrCaption[0].'</span>';
 			?>
-		</li>		
+		</li>
 	<?php endforeach; ?>
     </ul>
-		
+
   </div>
   <div class="separator" id="vv-overview-container">
     <div id="vv-overview">
@@ -220,10 +219,10 @@ if (jQuery) {
     $(window).load(function() {
 
       $('#vv-listing-image').pikachoose({autoPlay:false, carousel:true,carouselVertical:true, showCaption:true});
-		
+
 		//$('pika-stage img').first().wrap('<a href="'+$('pika-stage img').first().attr('src')+'" class="new" />');
-	  
-	  
+
+
       $('.clip a').click(function(event){ event.preventDefault();  });
 
       $('.pika-stage a').first().click(function(event){
