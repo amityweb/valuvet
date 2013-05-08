@@ -99,8 +99,8 @@ function _valuvet_glue_list($field) {
 
   <div class="separator" id="vv-overview-container-photo" style="display:none">
     <ul id="vv-listing-image" class="clearfix">
-      <li >
-		<a href="<?php print image_style_url('property_gallery_main', 'images/property/'.$node->field_property_listing_image['und'][0]['filename']); ?>"><?php print render($content['field_property_listing_image']); ?></a>
+      <li>
+		<a style="" href="<?php print image_style_url('property_gallery_main', 'images/property/'.$node->field_property_listing_image['und'][0]['filename']); ?>"><img src="<?php print image_style_url('property_gallery_main', 'images/property/'.$node->field_property_listing_image['und'][0]['filename']); ?>" /></a>
 		<?php
 			$arrCaption = explode('.', $node->field_property_listing_image['und'][0]['filename']);
 			echo '<span>'.$arrCaption[0].'</span>';
@@ -215,23 +215,16 @@ $nodeUrl = $base_root . request_uri();
 if (jQuery) {
 (function($) {
 
-
     $(window).load(function() {
 
       $('#vv-listing-image').pikachoose({autoPlay:false, carousel:true,carouselVertical:true, showCaption:true});
-
-		//$('pika-stage img').first().wrap('<a href="'+$('pika-stage img').first().attr('src')+'" class="new" />');
-
-
-      $('.clip a').click(function(event){ event.preventDefault();  });
-
+      $('.clip a').click(function(event){ event.preventDefault(); });
       $('.pika-stage a').first().click(function(event){
 	  event.preventDefault();
 	  $('.pika-stage a').first().addClass('galpika');
-	  var evita = $('.pika-stage a').first().attr('href');
-
+	  var avoid = $('.pika-stage img').first().attr('src');
 	  $('.clip a').each(function( index ) {
-	      if($(this).attr('href') !== evita)
+	      if($(this).attr('href') !== avoid)
 	      {
 		  $(this).addClass('galpika');
 	      }
@@ -240,6 +233,7 @@ if (jQuery) {
 
 	  $('.galpika').colorbox({rel:'galpika', slideshow:false, onClosed:function(){
 		$.colorbox.remove();
+		$('.clip a').removeClass('galpika');
 	      }
 	  });
 
