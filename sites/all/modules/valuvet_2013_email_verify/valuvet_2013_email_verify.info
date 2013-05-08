@@ -1,0 +1,11 @@
+name = "valuvet_2013_Email verify"
+description = "Verifies email addresses during registration and account edit. Fork of http://drupal.org/project/email_verify"
+core = 7.x
+dependencies[] = user
+
+; Information added by drupal.org packaging script on 2013-03-04
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "valuvet_2013_email_verify"
+datestamp = "1362401761"
+

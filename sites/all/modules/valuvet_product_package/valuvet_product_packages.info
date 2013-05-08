@@ -1,0 +1,6 @@
+name = Product Packages
+description = Alters some forms and implement some magic to make purchasing and upgrading ads packages easier.
+dependencies[] = commerce_product_reference
+package = ValuVet
+core = 7.x
+version = 7.x-1.0

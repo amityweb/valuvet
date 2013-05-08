@@ -1,0 +1,15 @@
+<?php
+function valuvet_rich_forms_install() {
+
+  $weight = db_select('system', 's')
+              ->fields('s', array('weight'))
+              ->condition('name', 'pupload', '=')
+              ->execute()
+              ->fetchField();
+
+  db_update('system')
+    ->fields(array('weight' => $weight + 1))
+    ->condition('name', 'valuvet_rich_forms', '=')
+    ->execute();
+
+}

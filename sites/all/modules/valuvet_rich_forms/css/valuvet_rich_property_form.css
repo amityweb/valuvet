@@ -1,0 +1,19 @@
+#progressbar-container {
+    padding: 0 10px;
+    margin: 10px 0;
+}
+
+#progressbar {
+    background-color: #555;
+    border-radius: 20px; /* (height of inner div) / 2 + padding */
+    padding: 10px;
+}
+
+#progressbar div.meter {
+    background-color: orange;
+    width: 0; /* Adjust with JavaScript */
+    height: 20px;
+    border-radius: 20px;
+    color: #555;
+    text-align: center;
+}

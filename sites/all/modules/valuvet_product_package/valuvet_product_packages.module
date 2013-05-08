@@ -1,0 +1,71 @@
+<?php
+/**
+ * @file
+ * Core file for ValuVet custom module
+ */
+
+/**
+ * This module takes care of hiding a particular field the user should set
+ * on node creation ONLY. The field is put in a fieldgroup on production site
+ * but empty fieldgroups are hidden automagically.
+ */
+
+/**
+ * Implements hook_help().
+ */
+function valuvet_product_packages_help($path, $arg) {
+  /* INFO:
+   * The help hook is for displaying helpful messages at the top of pages indicated
+   * by $section to further explain how they work. Adding certain "keywords" to the end of
+   * a given path (like admin/modules#description) will cause this text to display elsewhere
+   * in the page as well (in this case, in the description section for the given module).
+   */
+  switch ($path) {
+    case 'admin/help#valuvet_product_packages':
+      return t("This module implements form_alter to render the related-product field disabled and hidden after saving a node. This allows for the user to select a package once and only once at node creation.");
+    // OPTIONAL: Add additional cases for other paths that should display help text.
+  }
+}
+
+
+/**
+ * Implements hook_form_BASE_FORM_ID_alter().
+ */
+function valuvet_product_packages_form_node_form_alter(&$form, &$form_state, $form_id) {
+
+  // get the node we're working on
+  $node = $form['#node'];
+
+  // get the affected bundles
+  $affected_bundles = _valuvet_product_packages_get_packageable_types();
+
+  // IF
+  //   the node is of the wrong type OR
+  //   user has administer node permissions OR
+  //   the node is in creation (no nid and status is not published)
+  // THEN
+  //   do nothing :)
+  if (
+     !in_array($node->type, array_keys($affected_bundles)) ||
+     user_access('administer nodes') ||
+     ($node->status == 0 && empty($form['nid']['#value']))
+  ) return;
+
+  // ELSE
+  //   the node is in edit mode by a 'normal' user, so hide the package field(s)
+  foreach ($affected_bundles[$node->type] as $field_name) {
+    $form[$field_name]['#access'] = FALSE;
+  }
+}
+
+/**
+ * Private function to return allowed node types (serves as a proxy for future admin interface)
+ */
+function _valuvet_product_packages_get_packageable_types() {
+
+  // this will soon become an administrative option
+  return array(
+    'property'  => array('field_property_package'),
+    'career'    => array('field_career_package'),
+  );
+}

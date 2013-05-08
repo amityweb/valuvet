@@ -1,0 +1,5 @@
+name = Rich JavaScript forms
+description = Adds JavaScript sugar to complex forms to render elements and add behaviors.
+package = ValuVet
+core = 7.x
+version = 7.x-1.0

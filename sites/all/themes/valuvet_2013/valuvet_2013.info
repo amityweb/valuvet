@@ -1,0 +1,27 @@
+name = valuvet_2013
+description = Bootstrap subtheme
+version = 7.x-2.0-beta2
+core = 7.x
+base theme = bootstrap
+
+regions[navigation]     = 'Main Navigation'
+regions[header]         = 'Header'
+regions[jcarousel]		= 'Jcarousel'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_right]  = 'Sidebar right'
+regions[preface_first]  = 'Preface First'
+regions[preface_second] = 'Preface Second'
+regions[preface_third]  = 'Preface Third'
+regions[footer]         = 'Footer'
+
+
+stylesheets[all][] = css/valuvet_2013_style.css
+stylesheets[all][] = css/mediaquery.css
+stylesheets[all][] = css/vinz.css
+
+scripts[] = js/valuvet_2013_script.js
+
+settings[toggle_name] = 0
+settings[toggle_search] = 1

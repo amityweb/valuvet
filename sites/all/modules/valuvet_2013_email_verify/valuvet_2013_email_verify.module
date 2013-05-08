@@ -1,0 +1,121 @@
+<?php
+/**
+ * @file
+ * Verifies thoroughly that email addresses are correctly entered
+ * Copyright: Daniel Bonniot <bonniot@users.sourceforge.net>
+ * License:   GNU GPL v2 or later
+ */
+
+/**
+ * Implements hook_help().
+ */
+function valuvet_2013_email_verify_help($path, $arg) {
+  if ($path == 'admin/help#email_verify') {
+    $txt = 'This module verifies that email addresses are valid during account registration or edit.';
+    return '<p>' . t($txt) . '</p>';
+  }
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function valuvet_2013_email_verify_form_user_register_form_alter(&$form, &$form_state, $form_id) {
+  $form['#validate'][] = 'valuvet_2013_email_verify_edit_validate';
+
+  // NOTE begin code added by Vincenzo Di Biaggio
+  $form['account']['mail']['#prefix'] = '<div id="email_display_error">';
+  $form['account']['mail']['#suffix'] = '</div>';
+  $form['account']['mail']['#ajax'] =  array(
+			        'callback' => 'valuvet_2013_email_verify_edit_validate_ajax',
+				'wrapper' => 'email_display_error',
+				'event' => 'focusout',
+				'method' => 'replace'
+			);
+  $form['account']['mail']['#default_value'] = '';
+  
+  $mail = (isset($form_state['input']['mail'])) ? $form_state['input']['mail'] : $form['account']['mail']['#default_value'];
+  if (isset($form_state['input']['mail']) && $error = valuvet_2013_email_verify_check($mail))
+  {
+	form_set_error('mail', $error);
+  }  
+  // END
+}
+
+// NOTE begin code added by Vincenzo Di Biaggio
+function valuvet_2013_email_verify_edit_validate_ajax($form, &$form_state) {
+  return $form['account']['mail'];
+}
+// END
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function valuvet_2013_email_verify_form_user_profile_form_alter(&$form, &$form_state, $form_id) {
+  $form['#validate'][] = 'valuvet_2013_email_verify_edit_validate';
+
+  // NOTE begin code added by Vincenzo Di Biaggio
+  $form['account']['mail']['#prefix'] = '<div id="email_display_error">';
+  $form['account']['mail']['#suffix'] = '</div>';
+  $form['account']['mail']['#ajax'] =  array(
+			        'callback' => 'valuvet_2013_email_verify_edit_validate_ajax',
+				'wrapper' => 'email_display_error',
+				'event' => 'focusout',
+				'method' => 'replace'
+			);
+  $form['account']['mail']['#default_value'] = '';
+  
+  $mail = (isset($form_state['input']['mail'])) ? $form_state['input']['mail'] : $form['account']['mail']['#default_value'];
+  if (isset($form_state['input']['mail']) && $error = valuvet_2013_email_verify_check($mail))
+  {
+	form_set_error('mail', $error);
+  }  
+  // END
+}
+
+/**
+ * Additional vaidation for the user form.
+ *
+ * @param form_id
+ *   The form ID of the passed form.
+ * @param $form_state
+ *   The form values which you may perform validation on.
+ */
+function valuvet_2013_email_verify_edit_validate($form, &$form_state) {
+  // Validate the e-mail address:
+  if ($error = valuvet_2013_email_verify_check($form_state['input']['mail'])) {
+    form_set_error('mail', $error);
+  }
+}
+
+/**
+ * Verifies whether the given mail address exists.
+ *
+ * @param $mail
+ *   Email address to verify.
+ *
+ * @return string
+ *   NULL if the address exists, or an error message if we found a problem with
+ *   the address.
+ */
+function valuvet_2013_email_verify_check($mail) {
+  include_once DRUPAL_ROOT . '/' . drupal_get_path('module', 'valuvet_2013_email_verify') . '/valuvet_2013_email_verify.inc.php';
+  return _valuvet_2013_email_verify_check($mail);
+}
+
+/**
+ * Implements hook_menu().
+ */
+function valuvet_2013_email_verify_menu() {
+  $items['admin/user/user/valuvet_2013_email_verify'] = array(
+    'title' => 'Email Verify',
+    'page callback' => 'valuvet_2013_email_verify_checkall',
+    'access arguments' => array('administer users'),
+    'type' => MENU_LOCAL_TASK,
+    'file' => 'valuvet_2013_email_verify.check.inc',
+  );
+  return $items;
+}
+
+// Local Variables:
+// mode: php
+// End:

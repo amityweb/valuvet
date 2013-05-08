@@ -1,0 +1,5 @@
+name = Limit location countries
+description = Limit the number of available countries to AU and NZ in the Location module by form alter.
+core = 7.x
+package = ValuVet
+version = 7.x-1.0

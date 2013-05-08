@@ -1,0 +1,96 @@
+#block-views-exp-side-search-page {
+    background: none repeat scroll 0 0 #F3F3F3;
+    border: 8px solid #EBEBEB;
+    margin: 0 0 30px;
+    overflow: hidden;
+}
+#block-views-exp-side-search-page .views-exposed-widget {
+	border-bottom: 1px solid #DADADA;
+    border-top: 1px solid #FFFFFF;
+    margin: 0;
+	padding: 20px;
+	float: none !important;
+	clear: both;
+}
+
+#block-views-exp-side-search-page  h2 {
+    border-bottom: 1px solid #DADADA;
+    color: #333333;
+    font-family: 'Mako',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px 0 10px 20px;
+    text-shadow: 0 1px 1px #FFFFFF;
+    text-transform: uppercase;
+}
+#block-views-exp-side-search-page label {
+    font-weight: normal;
+	font-size: 13px;
+}
+
+#block-views-exp-side-search-page #edit-field-property-asking-price-amount-wrapper .form-text {
+	width: 70px;
+	max-width: 70px;
+}
+
+#block-views-exp-side-search-page #edit-field-property-asking-price-amount-wrapper .views-widget {
+	width: 220px;
+}
+#block-views-exp-side-search-page #edit-field-property-asking-price-amount-wrapper > *,
+#block-views-exp-side-search-page #edit-field-property-asking-price-amount-wrapper .controls > *,
+#block-views-exp-side-search-page #edit-field-property-asking-price-amount-wrapper .control-group > *
+{
+	margin-right: 4px;
+	float: left;
+}
+#block-views-exp-side-search-page #edit-field-property-asking-price-amount-wrapper:after,
+#block-views-exp-side-search-page #edit-field-property-vv-pract-report-value-wrapper:after,
+#block-views-exp-side-search-page #edit-field-property-vv-valuation-value-wrapper:after,
+#block-views-exp-side-search-page #edit-field-property-vets-n-value-wrapper:after,
+#block-views-exp-side-search-page #edit-field-property-has-manager-value-wrapper:after
+{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+#block-views-exp-side-search-page #edit-field-property-type-value-wrapper .control-group label,
+#block-views-exp-side-search-page #edit-field-property-disposal-value-wrapper .control-group label,
+#block-views-exp-side-search-page #edit-field-property-real-estate-value-wrapper .control-group label
+{
+	float: left;
+	clear: right;
+	margin-left: 4px;
+	width: 250px;
+}
+#block-views-exp-side-search-page #edit-field-property-type-value-wrapper .control-group input,
+#block-views-exp-side-search-page #edit-field-property-disposal-value-wrapper .control-group input,
+#block-views-exp-side-search-page #edit-field-property-real-estate-value-wrapper .control-group input
+{
+	float: left;
+}
+
+#block-views-exp-side-search-page #edit-field-property-vv-pract-report-value-wrapper .views-widget,
+#block-views-exp-side-search-page #edit-field-property-vv-valuation-value-wrapper .views-widget,
+#block-views-exp-side-search-page #edit-field-property-vets-n-value-wrapper .views-widget,
+#block-views-exp-side-search-page #edit-field-property-has-manager-value-wrapper .views-widget
+{
+	margin-right: 4px;
+	float: left;
+	clear: right;
+}
+#block-views-exp-side-search-page #edit-field-property-vv-pract-report-value-wrapper label,
+#block-views-exp-side-search-page #edit-field-property-vv-valuation-value-wrapper label,
+#block-views-exp-side-search-page #edit-field-property-vets-n-value-wrapper label,
+#block-views-exp-side-search-page #edit-field-property-has-manager-value-wrapper label
+{
+	width: 150px;
+	float: left;
+}
+
+#block-views-exp-side-search-page .views-submit-button button {
+	display: block;
+	margin: 0 auto;
+}

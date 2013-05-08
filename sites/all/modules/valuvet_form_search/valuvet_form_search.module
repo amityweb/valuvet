@@ -1,0 +1,110 @@
+<?php
+
+//echo ini_get('max_input_vars');
+/*
+ * Implementation of hook_form_alter()
+ */
+function valuvet_form_search_form_alter(&$form, &$form_state, $form_id){
+	if ( 'views_exposed_form' == $form_id && 'views-exposed-form-search-page' == $form['#id'])
+	{
+		
+		if(!empty($form_state['values'])) {
+			$form_state['input'] = array_merge($form_state['input'],$form_state['values']);
+		}
+		
+		//drupal_add_js(drupal_get_path('module', 'valuvet_form_search').'/js/valuvet_form_search.js', 'file');
+		$form['country'] = array(
+			'#type' => 'select',
+			'#options' => array(	'sl'  => 'Select...',
+						'au'  => 'Australia',
+						'nz'  => 'New Zealand'),
+			'#ajax' => array(
+			        'callback' => 'valuvet_form_search_callback',
+			        'wrapper' => 'prov_wrapper',
+				'event' => 'change',
+				'progress' => array('type' => 'none'),
+				'effect' => 'fade'
+			),
+			'#default_value' => variable_get('country', 'au'),
+	    );
+
+		$form['province'] = array(
+			'#type' => 'select',
+			'#default_value' => variable_get('province', 1),
+			'#options' => valuvet_form_search_get_provinces($form, $form_state),
+			'#prefix' => '<div id="prov_wrapper">',
+			'#suffix' => '</div>'
+	    );
+		
+		
+		
+
+
+	}
+}
+
+
+function valuvet_form_search_callback($form, $form_state) { 
+	return $form['province'];
+}
+
+function valuvet_form_search_get_provinces(&$form, &$form_state){
+	$country = (isset($form_state['input']['country'])) ? $form_state['input']['country'] : $form['country']['#default_value'];
+
+	$curDir = getcwd();
+	$filePath = realpath($curDir.'/sites/all/modules/location/supported/');
+	
+	$prov = array();
+
+	switch($country) {
+		case 'nz':
+			if (file_exists($filePath.'/location.nz.inc')) {
+				include($filePath.'/location.nz.inc');
+				$prov = location_province_list_nz();
+			}
+			else {
+				$prov = array(
+							'AUK' => "Auckland",
+						    'BOP' => "Bay of Plenty",
+						    'CAN' => "Canterbury",
+						    'GIS' => "Gisborne",
+						    'HKB' => "Hawke's Bay",
+						    'MBH' => "Marlborough",
+						    'MWT' => "Manawatu-Wanganui",
+						    'NSN' => "Nelson",
+						    'NTL' => "Northland",
+						    'OTA' => "Otago",
+						    'STL' => "Southland",
+						    'TAS' => "Tasman",
+						    'TKI' => "Taranaki",
+						    'WGN' => "Wellington",
+						    'WKO' => "Waikato",
+						    'WTC' => "West Coast");
+			}
+		break;
+		case 'au':
+			if (file_exists($filePath.'/location.au.inc')) {
+				include($filePath.'/location.au.inc');
+				$prov = location_province_list_au();
+			}
+			else {
+				$prov = array(
+					    'ACT' => 'Australian Capital Territory',
+					    'NSW' => 'New South Wales',
+					    'NT'  => 'Northern Territory',
+					    'QLD' => 'Queensland',
+					    'SA'  => 'South Australia',
+					    'TAS' => 'Tasmania',
+					    'VIC' => 'Victoria',
+					    'WA'  => 'Western Australia');
+			}
+		break;
+
+		default:
+			return 'Error';
+		break;
+	}
+	
+	return $prov;
+
+}

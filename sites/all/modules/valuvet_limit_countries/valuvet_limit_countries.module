@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * TODO:
+ *   - consider an array of [ content-types => field-name ] so that this trick is applied everywhere
+ *   - create a hook menu for nation selection (use a variable instead of the array)
+ */
+
+function valuvet_limit_countries_form_node_form_alter(&$form, &$form_state, $form_id) {
+  $form['#after_build'][] = '_valuvet_limit_countries_after_build';
+}
+
+function _valuvet_limit_countries_after_build($form, &$form_state) {
+
+  $affected_fields = array();
+  $fields = field_info_fields();
+
+  foreach ($fields as $mname => $finfo) {
+    if ($finfo['type'] == 'location')
+      $affected_fields[] = $mname;
+  }
+  unset($fields);
+
+  // Replace FIELD_NAME with the machine name of the location field for your content type
+  foreach ($affected_fields as $fname) {
+    if (isset($form[$fname])) {
+      $form[$fname]['und'][0]['country']['#options'] = array(
+        'au'  => 'Australia',
+        'nz'  => 'New Zealand',
+      );
+    }
+  }
+  return $form;
+}
