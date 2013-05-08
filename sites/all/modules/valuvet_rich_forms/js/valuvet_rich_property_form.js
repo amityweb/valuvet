@@ -57,6 +57,7 @@
     ],
 
     _askingPrice: '#edit-field-property-asking-price-und-0-amount',
+    _titleField : '#edit-field-property-headline-und-0-value',
 
     /////////////////////////////////////////////////////////////////////////////////////////////////
     //// FUNCTIONS //////////////////////////////////////////////////////////////////////////////////
@@ -149,6 +150,13 @@
       Drupal.behaviors.valuvetRichForms._setImageLoaders($('#edit-field-property-package-und').val());
     },
 
+    _wordCounterInit: function() {
+      // when user choose another package the word counter should change (sic... again)
+      $('#edit-field-property-package-und').change(function(e){
+        Drupal.behaviors.valuvetRichForms._setWordCounter($(this).val());
+      });
+    },
+
     _calcAskingPrice: function() {
       var total = 0;
       $(Drupal.behaviors.valuvetRichForms._priceFields).each(function(idx, data){
@@ -219,12 +227,17 @@
         $('#valuvet-multistep-btn-next').hide();
         $('#valuvet-multistep-btn-prev').show();
         $('#edit-submit').show();
-        // re-enable this field so it could be sent
-        $(Drupal.behaviors.valuvetRichForms._askingPrice).prop('disabled',false);
+        // re-enable these fields so it could be sent
+        $(Drupal.behaviors.valuvetRichForms._askingPrice).attr('disabled',false);
+        $(Drupal.behaviors.valuvetRichForms._titleField).attr('disabled',false);
       }
       else {
         $('#valuvet-multistep-btn-next').show();
         $('#valuvet-multistep-btn-prev').show();
+        $(Drupal.behaviors.valuvetRichForms._askingPrice).attr('disabled',true);
+        if ($('#edit-field-property-package-und').val() == 5) { //////// WARNING!!! HARDCODED VALUE! THIS SUCKS!!!
+          $(Drupal.behaviors.valuvetRichForms._titleField).attr('disabled',true);
+        }
       }
 
     },
@@ -256,11 +269,32 @@
       });
     },
 
+    // IMPORTANT NOTE - THERE SHALL BE HARDCODED VALUES! BEWARE!
+    _setWordCounter: function (value) {
+
+      switch (value) {
+        case '5':
+          Drupal.behaviors.valuvetRichForms._wordCounters[0].limit = 100;
+          break;
+        case '6':
+        case '7':
+          Drupal.behaviors.valuvetRichForms._wordCounters[0].limit = 150;
+          break;
+      }
+
+      Drupal.behaviors.valuvetRichForms._applyWordCounter();
+    },
+
     _applyWordCounter: function() {
 
       var formID = Drupal.behaviors.valuvetRichForms._formID;
 
       $(Drupal.behaviors.valuvetRichForms._wordCounters).each(function(index, data) {
+        // reset in case of variation in package selection (sic...)
+        $(data.el).unbind('keyup');
+        // set the count limit in the help
+        $(data.el).closest("div.controls").find("p.help-block").html('('+data.limit+' words)');
+        // start counting when the user enter text
         $(data.el).keyup(function(e){
 
           // find elements and count words in there
@@ -274,6 +308,51 @@
           $(helpblock).html('('+count+'/'+data.limit+' words)');
         });
       });
+    },
+
+    _setNodeTitle: function(value) {
+      var titleField = $(Drupal.behaviors.valuvetRichForms._titleField);
+      var disposal   = $('#edit-field-property-disposal-und').val().toUpperCase();
+      var type       = $('#edit-field-property-type-und').val();
+      var pkg        = $('#edit-field-property-package-und').val();
+      switch (pkg) {
+        case '5':
+          titleField.val(disposal + ' - ' + type + ' practice');
+          titleField.attr('disabled',true);
+          break;
+        case '6':
+        case '7':
+          titleField.val(disposal + ' - ' + type + ' practice');
+          titleField.attr('disabled',false);
+          break;
+      }
+
+      Drupal.behaviors.valuvetRichForms._setNodeTitlePreview(titleField.val());
+    },
+
+    _setNodeTitlePreview: function(value) {
+      preview = $('#vv-headline-preview');
+      city = $('#edit-field-business-address-und-0-city').val();
+      province = $('#edit-field-business-address-und-0-province').val();;
+      preview.html(value + ' - ' + city + ', ' + province);
+    },
+
+    _nodeTitleInit: function() {
+      var titleField = $(Drupal.behaviors.valuvetRichForms._titleField);
+      // create the necessary dom elements
+      titleField.after('<p id="vv-headline-preview"></p>');
+
+      // when user moves involved variables the practice headline should update accordingly
+      $('#edit-field-property-package-und,#edit-field-business-address-und-0-city,#edit-field-business-address-und-0-province,#edit-field-property-disposal-und,#edit-field-property-type-und').change(function(e){
+        Drupal.behaviors.valuvetRichForms._setNodeTitle();
+      });
+      titleField.keyup(function(e){
+        console.log('ciccio');
+        Drupal.behaviors.valuvetRichForms._setNodeTitlePreview(titleField.val());
+      });
+
+      Drupal.behaviors.valuvetRichForms._setNodeTitle();
+
     },
 
     _gotoError: function(destinationIdx) {
@@ -290,10 +369,22 @@
         $(formID+' .vertical-tabs-list li').each(function(idx, value) {
 
           // don't validate tabs other that the preceding ones
-          if (idx >= destinationIdx) return false; // stop loop if we overrun clicked element
+          if (idx >= destinationIdx) return false; // stop loop if we overrun clicked element (side effect, don't validate in case of backward click...)
 
           // find the panel relative to the index
           destinationPanel = $(formID+' .vertical-tabs-panes > fieldset:eq('+idx+')');
+
+          // validate percent elements in animals treated tab (done by hand)
+          if (destinationPanel.hasClass('group-property-animals')) {
+            Drupal.behaviors.valuvetRichForms._removePercentErrors(idx);
+            isValid = Drupal.behaviors.valuvetRichForms._validatePercents();
+            if (!isValid) {
+              $(formID+' .vertical-tabs-list li:eq('+idx+')').find('a').removeClass('valid').addClass('error');
+            } else {
+              $(formID+' .vertical-tabs-list li:eq('+idx+')').find('a').removeClass('error').addClass('valid');
+            }
+            return isValid;
+          }
 
           // validate each form element in the panel
           destinationPanel.find('.required').each(function(idx, value) {
@@ -314,6 +405,67 @@
           Drupal.behaviors.valuvetRichForms._doValidation = true;
       }
 
+    },
+
+    _validatePercents: function() {
+      // a bunch of courtensy vars
+      var
+        fieldsContainer = $('#node_property_form_group_property_animals > .fieldset-wrapper'),
+        errorLabelTemplate = '<label generated="true" class="error" style="display: block;"></label>',
+        animalTypes = [
+          'small-animals',
+          'equine',
+          'bovine',
+          'other-animals'
+        ];
+
+      result = true; // no errors so far
+      total = 0;
+      $(animalTypes).each(function(idx, type) {
+        percValue      = parseInt(0+$('#edit-field-property-'+type+'-und-0-value').val());
+        percDetailed   = false;
+        /// this hack SUCKS!!! //////////////////////
+        var typecb = type;
+        typecb = (type != 'other-animals') ?  typecb+'-cbs': typecb+'-cb';
+        /////////////////////////////////////////////
+        $('#edit-field-property-' + typecb + ' input.form-checkbox').each(function(idx, el){
+          if ($(el).is(':checked')) percDetailed = true;
+        });
+
+        total += percValue;
+
+        // if a percent is set but no details are given
+        if (percValue > 0 && !percDetailed) {
+          fieldsContainer.before($(errorLabelTemplate).addClass('vv-percent-match').html('Please provide details for this type of animal'));
+          $('#edit-field-property-'+type+'-und-0-value').addClass('error');
+          result = false;
+        }
+        // viceversa, if details are given but no percent is set
+        else if (percValue == 0 && percDetailed) {
+          fieldsContainer.before($(errorLabelTemplate).addClass('vv-percent-match').html('Please provide a proportion for this type of animal'));
+          $('#edit-field-property-'+type+'-und-0-value').addClass('error');
+          result = false;
+        }
+      });
+      // if percent total is not 100...
+      if (total != 100) {
+        // set the error
+        fieldsContainer.before($(errorLabelTemplate).addClass('vv-percent-match').html('Total must match 100%'));
+        $(animalTypes).each(function(idx, type) {
+          $('#edit-field-property-'+type+'-und-0-value').addClass('error');
+        });
+        result = false;
+      }
+
+      return result;
+
+    },
+
+    _removePercentErrors: function(idx) {
+      var formID = Drupal.behaviors.valuvetRichForms._formID;
+      $(formID+' .vertical-tabs-list li:eq('+idx+')').find('a.error').removeClass('error');
+      $(formID+' .vertical-tabs-panes > fieldset:eq('+idx+')').find('label.error').remove();
+      $(formID+' .vertical-tabs-panes > fieldset:eq('+idx+')').find('input.error').removeClass('error');
     },
 
     /////////////////////////////////////////////////////////////////////////////////////////////////
@@ -347,6 +499,12 @@
 
       // image loaders initialization
       Drupal.behaviors.valuvetRichForms._imageLoadersInit();
+
+      // word counters initialization
+      Drupal.behaviors.valuvetRichForms._wordCounterInit();
+
+      // set properties of the title field per-package
+      Drupal.behaviors.valuvetRichForms._nodeTitleInit();
 
     }
   };
