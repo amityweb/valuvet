@@ -1,4 +1,4 @@
-
+<?php print_r($page);?>
 <header id="navbar" role="banner" class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -76,6 +76,10 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
+	
+	<?php if($page['additional_page_contents'] && $page["#views_contextual_links_info"]["views_ui"]["view_name"] == 'seminar_list'); ?> <!--controlla se la regione è occupata--> 
+	<?php print render($page['additional_page_contents']); ?> <!--stampa il contenuto-->
+	<?php endif;?> <!-- chiude il controllo--> 
     </section>
 
     <?php if ($page['sidebar_right']): ?>

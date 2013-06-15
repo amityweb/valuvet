@@ -1,0 +1,5 @@
+7.x-1.2
+------------------------------------------
+- by slashrsm: Added support extra fields support in node_scheduled_actions.
+- #1396362 by paranojik: Scheduled actions not working for advanced actions.
+- #1414876 by tedbow: Cron error if there is a scheduled action for a deleted node(or other entity).

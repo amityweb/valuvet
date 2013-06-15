@@ -1,0 +1,12 @@
+name = Rules link event
+description = Provide an event for when a designated link is visited.
+package = Rules
+core = 7.x
+dependencies[] = rules
+
+; Information added by drupal.org packaging script on 2011-10-09
+version = "7.x-1.0-alpha1"
+core = "7.x"
+project = "rules_linkevent"
+datestamp = "1318154810"
+

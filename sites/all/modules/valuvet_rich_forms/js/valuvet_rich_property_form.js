@@ -424,10 +424,9 @@
       $(animalTypes).each(function(idx, type) {
         percValue      = parseInt(0+$('#edit-field-property-'+type+'-und-0-value').val());
         percDetailed   = false;
-        /// this hack SUCKS!!! //////////////////////
+        // this hack SUCKS!!!
         var typecb = type;
         typecb = (type != 'other-animals') ?  typecb+'-cbs': typecb+'-cb';
-        /////////////////////////////////////////////
         $('#edit-field-property-' + typecb + ' input.form-checkbox').each(function(idx, el){
           if ($(el).is(':checked')) percDetailed = true;
         });
@@ -442,7 +441,7 @@
         }
         // viceversa, if details are given but no percent is set
         else if (percValue == 0 && percDetailed) {
-          fieldsContainer.before($(errorLabelTemplate).addClass('vv-percent-match').html('Please provide a proportion for this type of animal'));
+          fieldsContainer.before($(errorLabelTemplate).addClass('vv-percent-match').html('Please provide details for this type of animal'));
           $('#edit-field-property-'+type+'-und-0-value').addClass('error');
           result = false;
         }

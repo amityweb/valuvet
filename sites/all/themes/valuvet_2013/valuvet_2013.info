@@ -10,11 +10,14 @@ regions[jcarousel]		= 'Jcarousel'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
 regions[content]        = 'Content'
+regions[additional_page_contents] = 'Additional contents for page' 
 regions[sidebar_right]  = 'Sidebar right'
 regions[preface_first]  = 'Preface First'
 regions[preface_second] = 'Preface Second'
 regions[preface_third]  = 'Preface Third'
 regions[footer]         = 'Footer'
+
+
 
 
 stylesheets[all][] = css/valuvet_2013_style.css

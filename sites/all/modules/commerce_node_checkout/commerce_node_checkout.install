@@ -1,0 +1,129 @@
+<?php
+/**
+ * @file
+ * Provides install, update, schema and uninstall hooks for the module
+ * @copyright Copyright(c) 2011 Rowlands Group
+ * @license GPL v2 http://www.fsf.org/licensing/licenses/gpl.html
+ * @author Lee Rowlands leerowlands at rowlandsgroup dot com
+ */
+
+/**
+ * Implements hook_install().
+ */
+function commerce_node_checkout_install() {
+  $t = get_t();
+  // Create the node checkout product type - we do this for the
+  // commerce_node_checkout_expiry sub-module to be able to target the product
+  // with additional product types.
+  $product_types = commerce_product_types();
+  if (empty($product_types['commerce_node_checkout'])) {
+    $product_type = commerce_product_ui_product_type_new();
+
+    $product_type['type'] = 'commerce_node_checkout';
+    $product_type['name'] = $t('Pay to Publish');
+    $product_type['description'] = $t('A product associated with publishing a node.');
+    $product_type['is_new'] = TRUE;
+
+    commerce_product_ui_product_type_save($product_type, FALSE);
+    commerce_price_create_instance('commerce_price', 'commerce_product', 'commerce_node_checkout', $t('Price'), 0, 'calculated_sell_price');
+  }
+
+  // If a field type we know should exist isn't found, clear the Field cache.
+  if (!field_info_field_types('node_reference')) {
+    field_cache_clear();
+  }
+
+  // Make sure our entity info exists.
+  entity_info_cache_clear();
+
+  // Setup line item type.
+  commerce_line_item_configure_line_item_type(array('type' => 'commerce_node_checkout'));
+  commerce_product_line_item_configuration(array('type' => 'commerce_node_checkout'));
+
+  // Create our fields.
+  foreach (_commerce_node_checkout_installed_fields() as $field_name => $field_detail) {
+    // Look for existing field.
+    $field = field_info_field($field_name);
+
+    if (empty($field)) {
+      $field = field_create_field($field_detail);
+    }
+  }
+
+  // And their instances.
+  foreach (_commerce_node_checkout_installed_instances() as $field_name => $instance_detail) {
+    // Look for existing instance.
+    $instance = field_info_instance($instance_detail['entity_type'], $field_name, $instance_detail['bundle']);
+
+    if (empty($instance)) {
+      field_create_instance($instance_detail);
+    }
+  }
+}
+
+
+/**
+ * Implements hook_uninstall().
+ */
+function commerce_node_checkout_uninstall() {
+  $types = node_type_get_names();
+  foreach ($types as $type => $name) {
+    variable_del('commerce_node_checkout_products_' . $type);
+  }
+  $variables = array(
+    'commerce_node_checkout_expire_subject',
+    'commerce_node_checkout_expire_body',
+    'commerce_node_checkout_expire_reminder'
+  );
+  foreach ($variables as $variable) {
+    variable_del($variable);
+  }
+}
+
+/**
+ * Returns a structured array defining the fields created by this module.
+ *
+ * @return array
+ *   An associative array specifying the fields we wish to add to our
+ *   entities
+ */
+function _commerce_node_checkout_installed_fields() {
+  $t = get_t();
+  return array(
+    'commerce_node_checkout_node' => array(
+      'field_name' => 'commerce_node_checkout_node',
+      'cardinality' => 1,
+      'type'        => 'node_reference',
+      'settings'    => array(
+        'referenceable_types' => node_type_get_names(),
+      ),
+    ),
+  );
+}
+
+/**
+ * Returns a structured array defining the instances for this module
+ *
+ * @return array
+ *   An associative array specifying the instances we wish to add to our entities
+ */
+function _commerce_node_checkout_installed_instances() {
+  $t = get_t();
+  return array(
+    'commerce_node_checkout_node' => array(
+      'entity_type' => 'commerce_line_item',
+      'bundle' => 'commerce_node_checkout',
+      'field_name' => 'commerce_node_checkout_node',
+      'label'       => $t('Associated content'),
+      'widget'      => array(
+        'type'    => 'options_select',
+      ),
+      'display' => array(
+        'default' => array(
+          'label' => 'hidden',
+          'type' => 'node_reference_default',
+        ),
+      ),
+    ),
+  );
+}

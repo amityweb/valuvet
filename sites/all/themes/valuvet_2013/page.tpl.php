@@ -66,7 +66,7 @@
       <?php print render($title_suffix); ?>
       <?php print $messages; ?>
       <?php if ($tabs): ?>
-        <?php  print render($tabs); ?>
+        <?php print render($tabs); ?>
       <?php endif; ?>
       <?php if ($page['help']): ?>
         <div class="well"><?php print render($page['help']); ?></div>
@@ -75,6 +75,10 @@
         <ul class="action-links"><?php print render($action_links); ?></ul>
       <?php endif; ?>
       <?php print render($page['content']); ?>
+	
+	<?php if($page['additional_page_contents'] && $page["#views_contextual_links_info"]["views_ui"]["view_name"] == 'seminar_list') {  ?> <!--controlla se la regione è occupata--> 
+	<?php print render($page['additional_page_contents']); ?> <!--stampa il contenuto-->
+	<?php }?> <!-- chiude il controllo--> 
     </section>
 
     <?php if ($page['sidebar_right']): ?>

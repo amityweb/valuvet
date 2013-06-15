@@ -1,0 +1,139 @@
+<?php
+/**
+ * @file
+ * Provides core hooks and the like for the module
+ * @copyright Copyright(c) 2011 Rowlands Group
+ * @license GPL v2 http://www.fsf.org/licensing/licenses/gpl.html
+ * @author Lee Rowlands leerowlands at rowlandsgroup dot com
+ */
+
+/**
+ * Implements hook_help().
+ */
+function commerce_node_checkout_expire_help($path, $arg) {
+  switch ($path) {
+    case 'admin/help#commerce_node_checkout_expire':
+      return t("Enables content published via Commerce Node Checkout to be unpublished.");
+  }
+}
+
+/**
+ * Implements hook_menu().
+ */
+function commerce_node_checkout_expire_menu() {
+  // Menu callback to allow the user to purchase an extension on their published node.
+  $items['node/%node/relist'] = array(
+    'title callback' => 'commerce_node_checkout_expire_relist_title',
+    'title arguments' => array(1),
+    'file' => 'commerce_node_checkout_expire.pages.inc',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('commerce_node_checkout_expire_relist_form', 1),
+    'description' => 'Renew your listing',
+    'access arguments' => array(1),
+    'access callback' => 'commerce_node_checkout_expire_relist_access',
+    'type' => MENU_LOCAL_TASK,
+  );
+  $items['admin/commerce/config/node-checkout-expire'] = array(
+    'title' => 'Node Checkout Expire',
+    'file' => 'commerce_node_checkout_expire.admin.inc',
+    'description' => 'Configure node checkout expiry settings',
+    'access arguments' => array('administer commerce node checkout expire'),
+    'type' => MENU_NORMAL_ITEM,
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('commerce_node_checkout_expire_admin_form')
+  );
+  return $items;
+}
+
+/**
+ * Implements hook_permission().
+ */
+function commerce_node_checkout_expire_permission() {
+  return array(
+    'administer commerce node checkout expire' => array(
+      'title' => t('Administer Commerce Node Checkout'),
+      'description' => t('Perform administration tasks for Commerce Node Checkout.'),
+    ),
+  );
+}
+
+/**
+ * Implements hook_mail
+ */
+function commerce_node_checkout_expire_mail() {
+
+}
+
+/************************************************************
+ * Access callbacks
+ ************************************************************/
+/**
+ * Access callback to check associated node is able to be relisted.
+ *
+ * @param object $node
+ *   The node object
+ */
+function commerce_node_checkout_expire_relist_access($node) {
+  $products = commerce_node_checkout_get_products_by_type($node->type);
+  $line_items = commerce_node_checkout_expire_get_line_item_by_node($node);
+  return !empty($products) && !empty($line_items);
+}
+
+/************************************************************
+ * Title callbacks
+ ************************************************************/
+/**
+ * Title callback to relist node
+ *
+ * @param object $node
+ *   The node object
+ */
+function commerce_node_checkout_expire_relist_title($node) {
+  return t('Relist @title', array('@title' => $node->title));
+}
+
+/************************************************************
+ * Module functions
+ ************************************************************/
+
+/**
+ * Fetch most current line item associated with a node
+ *
+ * @param object $node
+ *   The node object
+ *
+ * @return array
+ *   the associated line items
+ *
+ * @see EntityFieldQuery
+ */
+function commerce_node_checkout_expire_get_line_item_by_node($node) {
+  $query = new EntityFieldQuery();
+  $query->entityCondition('entity_type', 'commerce_line_item');
+  $query->entityCondition('bundle', 'commerce_node_checkout');
+  $query->fieldCondition('commerce_node_checkout_node', 'nid', $node->nid);
+  $query->fieldOrderBy('commerce_node_checkout_expires', 'value', 'DESC');
+  // We only need the one that expires last.
+  $query->range(1, 0);
+  $results = $query->execute();
+  if (!empty($results['commerce_line_item'])) {
+    return commerce_line_item_load_multiple(array_keys($results['commerce_line_item']));
+  }
+  return array();
+}
+
+/**
+ * Implements hook_commerce_node_checkout_line_item_alter
+ */
+function commerce_node_checkout_expire_commerce_node_checkout_line_item_alter(&$line_item, $product, $node) {
+  // Load the interval field from the product.
+  $interval = field_get_items('commerce_product', $product, 'commerce_node_checkout_expire');
+  if ($interval && !empty($interval[0])) {
+    // We have an expiry field - apply it.
+    $due_date_obj = new DateObject('now');
+    if (interval_apply_interval($due_date_obj, $interval[0])) {
+      // Update the expiry field on the line item.
+      $line_item->commerce_node_checkout_expires[LANGUAGE_NONE][0]['value'] = $due_date_obj->format('U');
+    }
+  }
+}

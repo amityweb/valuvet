@@ -4,351 +4,351 @@
 		overflow: visible !important;
 		height: auto !important;
 	}
-	 .navbar .btn-navbar {
-		 display:none;
-	 }
-	 
-	/*.dropdown-menu li:hover .sub-menu {
-	  *   display: block !important;
-	   *   visibility: visible !important;
-	  }*/
-	.row.header .span8 {
-		 width:90%;
-	}
-	.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
-		 padding: 0;
-	}
-	.row.content .span8 {
-		margin-left:20px!important;
-	}
-	.nav-collapse .nav > li {
-		float:left;
-	}
-	.navbar .logo {
-		margin-left:20px;
-	}
-	.nav-collapse {
-		margin-left:20px;
-	}
-	.views-field-field-ei-price-nz {
-		width:59%;
-		}
-		 .footer1, .footer2, .footer3, .footer4 {
-			 width:20%;
+		 .navbar .btn-navbar {
+			 display:none;
 		 }
-		  .controls {
-			  width:70%;
-		  }
-		   #property-node-form input[type="text"] {
-		    	width:80%;
-		   }
-		    #edit-field-property-ancillary-srvcs .controls {
-		     	width:100%;
-		    }
-		     #node_property_form_group_property_prof_services .controls .form-type-checkbox {
-		      	width:auto;
-		     }
-		      #property-node-form #node_property_form_group_property_animals .field-group-format {
-		       	width:21%;
-		      }
-		       #edit-field-property-other-cont {
-		        	padding-top:50px;
-		       }
-		        #edit-field-property-vets-n label, #edit-field-property-nurse-n label {
-		         	width:auto;
-			}
-			 #node_property_form_group_property_facilities input[type="text"] {
-			  	width:auto;
-			 }
-			  #edit-field-property-software-other input[type='text'] {
-			   	width:80%;
-			  }
-			   #edit-field-property-facilities-have label, #edit-field-property-street-parking label, #edit-field-property-has-manager label {
-			    	float:none;
-			   }
-			    #edit-field-property-disposal label, #edit-field-property-real-estate label {
-			     	width:auto;
-				padding-right:20px;
-			    }
-			     #edit-field-property-stock-value label, #edit-field-property-equipment-value label, #edit-field-property-goodwill-value label {
-			      	width:auto;
-				padding-right:20px;
-			     }
-			      #node_property_form_group_property_extra_details label {
-			       	width:auto;
-			      }
-			       #node_property_form_group_property_animals .form-type-textfield label {
-			        	display:block;
-			       }
-			        .navbar .nav > li > a,.navbar .nav > li > span {
-					color:#333333;
-					text-shadow:none;
-					font-weight:bold;
+		 	 
+		 	 	/*.dropdown-menu li:hover .sub-menu {
+				 *   display: block !important;
+				 *   visibility: visible !important;
+				}*/
+				.row.header .span8 {
+					width:90%;
 				}
-				 #node_property_form_group_property_animals h3 {
-				  	font-size:14px;
-					font-weight: bold;
-				 }
-	  }
-	  @media (min-width: 480px) and (max-width: 768px) {
-		  /*.nav-collapse, .nav-collapse.collapse {
-		   *   overflow: visible !important;
-		   *   height: auto !important;
-		  }
-		   .navbar .btn-navbar {
-			   display:none;
-		   }
-		   
-		    .dropdown-menu li:hover .dropdown-menu {
-			    display: block !important;
-			    visibility: visible !important;
-		    }*/
-		  .vertical-tabs .form-type-textfield input {
-			  -moz-box-sizing: inherit;
-			  width: 90%;
-		  }
-		  #node_property_form_group_property_facilities label {
-		      display: inline-block;
-		      padding-right: 10px;
-		      width: 100%;
-		  }
-		  
-		  #edit-field-property-asking-price label, #edit-field-property-show-asking-price label {
-		  
-		      width: 100%;
-		  }
-		  
-		  #edit-field-property-disposal label, #edit-field-property-real-estate label {
-		      margin-top: 8px;
-		      width: 100%;
-		  }
-		  
-		  #edit-field-property-stock-value label, #edit-field-property-equipment-value label, #edit-field-property-goodwill-value label {
-		      width: 100%;
-		  }
-		  #edit-field-property-real-estate-value label {
-		      width: 100%;
-		  }
-		  .row.header .span8 {
-			  width:90%;
-		  }
-		  .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
-			  padding: 0;
-		  }
-		   .footer1, .footer2, .footer3, .footer4 {
-			   width:100%;
-		   }
-		    .navbar .btn-navbar{
-			    margin-right:20px;
-		    }
-		     .footer1 {
-			     margin-left:20px;
-		     }
-		      .nav-collapse .dropdown-menu {
-			      position:static;
-			      clear:both;
-			      overflow:hidden;
-			      display: block;
-		      }
-		       .nav-collapse .nav {
-			       margin:0 20px;
-			       float:left!important;
-		       }
-		        .row.content {
-				clear:both!important;
-			}
-			
-			 .navbar .nav > li > a,.navbar .nav > li > span {
-				 color:#333333;
-				 text-shadow:none;
-				 font-weight:bold;
-			 }
-			  .navbar .nav > li > .dropdown-menu li, .nav-collapse .nav > li > .dropdown-menu li {
-				  margin:0;
-			  }
-			   .navbar .nav > li > a,.navbar .nav > li > span {
-				   color:#333333;
-				   text-shadow:none;
-				   font-weight:bold;
-			   }
-			    .row:before, .row:after {
-				    float:left;
-			    }
-			     .views-field-field-ei-price-nz {
-				     width:54%;
-				     margin:10px 0 0 10px;
-			     }
-			      .view-list-equipments-items-of-user .views-field-title a {
-				      padding-left:10px;
-			      }
-			       .view-list-equipments-items-of-user ul li {
-				       padding:20px 0;
-			       }
-			        .view-list-equipments-items-of-user .views-field-field-ei-image {
-					padding-left:10px;
-					margin-bottom:20px;
+					.navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+						padding: 0;
+					}
+						.row.content .span8 {
+							margin-left:20px!important;
+						}
+							.nav-collapse .nav > li {
+								float:left;
+							}
+								.navbar .logo {
+									margin-left:20px;
+								}
+									.nav-collapse {
+										margin-left:20px;
+									}
+										.views-field-field-ei-price-nz {
+											width:59%;
+										}
+												 .footer1, .footer2, .footer3, .footer4 {
+													 width:20%;
+												 }
+												 		  .controls {
+															  width:70%;
+														  }
+														  		   #property-node-form input[type="text"] {
+														  		   		    	width:80%;
+																   }
+																   		    #edit-field-property-ancillary-srvcs .controls {
+																   		    		     	width:100%;
+																		    }
+																		    		     #node_property_form_group_property_prof_services .controls .form-type-checkbox {
+																		    		     		      	width:auto;
+																				     }
+																				     		      #property-node-form #node_property_form_group_property_animals .field-group-format {
+																				     		      		       	width:21%;
+																						      }
+																						      		       #edit-field-property-other-cont {
+																						      		       		        	padding-top:50px;
+																								       }
+																								       		        #edit-field-property-vets-n label, #edit-field-property-nurse-n label {
+																								       		        		         	width:auto;
+																											}
+																														 #node_property_form_group_property_facilities input[type="text"] {
+																														 			  	width:auto;
+																														 }
+																														 			  #edit-field-property-software-other input[type='text'] {
+																														 			  			   	width:80%;
+																																}
+																																			   #edit-field-property-facilities-have label, #edit-field-property-street-parking label, #edit-field-property-has-manager label {
+																																			   			    	float:none;
+																																}
+																																			    #edit-field-property-disposal label, #edit-field-property-real-estate label {
+																																			    			     	width:auto;
+																																padding-right:20px;
+																																}
+																																			     #edit-field-property-stock-value label, #edit-field-property-equipment-value label, #edit-field-property-goodwill-value label {
+																																			     			      	width:auto;
+																																padding-right:20px;
+																																}
+																																			      #node_property_form_group_property_extra_details label {
+																																			      			       	width:auto;
+																																}
+																																			       #node_property_form_group_property_animals .form-type-textfield label {
+																																			       			        	display:block;
+																																}
+																																			        .navbar .nav > li > a,.navbar .nav > li > span {
+																																color:#333333;
+																																text-shadow:none;
+																																font-weight:bold;
+																																}
+																																				 #node_property_form_group_property_animals h3 {
+																																				 				  	font-size:14px;
+																																font-weight: bold;
+																																}
 				}
-				 .view-list-equipments-items-of-user {
-					 overflow:hidden;
-				 }
-				   #property-node-form input[type="text"] {
-				   	  width:80%;
-				   }
-				    
-	  }
-	   @media (max-width: 700px) {
-		   #block-system-main-menu {
-		   margin-right:44px;
-		   }
-		    .dropdown-menu {
-			    background: none!important;
-			    border:none!important;
-			    box-shadow:none!important;
-			    margin-left:10px!important;
-		    }
-		     .navbar .nav > li > .dropdown-menu li a, .navbar .nav > li > .dropdown-menu li span, .nav-collapse .nav > li > .dropdown-menu li a, .nav-collapse .nav > li > .dropdown-menu li span {
-			     background: url(../images/arrow_1.png) no-repeat 0 -302px!important;
-			     padding:0 0 5px 20px!important;
-			     color:#fff;
-			     text-shadow:none;
-		     }
-		      .navbar .nav > li {
-			      margin-left:20px;
-		      }
-		       .navbar .nav >li.first {
-			       padding-top:20px!important;
-		       }
-		        .navbar .nav >li.last {
-				padding-bottom:30px;
-			}
-			
-			 .navbar .nav > li > a, .navbar .nav > li > span {
-				 color:#fff!important;
-			 }
-			  .nav-collapse .nav > li > .dropdown-menu li {
-				  background: none!important;
-			  }
-			   .menu.nav {
-				   background: rgba(0,0,0,0.8)!important;
-				   width:100%!important;
-			   }
-			     #property-node-form input[type="text"] {
-			     	  width:80%;
-			     }
-	   }
-	   @media (max-width: 480px) {
-		   /*.nav-collapse, .nav-collapse.collapse {
-		    *   overflow: visible !important;
-		    *   height: auto !important;
-		   }
-		    .navbar .btn-navbar {
-			    display:none;
-		    }
-		    
-		     .dropdown-menu li:hover .sub-menu {
-			     display: block !important;
-			     visibility: visible !important;
-		     }*/
-		   .footer1, .footer2, .footer3, .footer4 {
-			   width:100%;
-		   }
-		    .footer1 {
-			    margin-left:20px;
-		    }
-		     .nav-collapse .dropdown-menu {
-			     position:static;
-			     clear:both;
-			     overflow:hidden;
-			     display:block;
-		     }
-		      .nav-collapse .nav {
-			      margin:0 20px;
-			      float:left!important;
-		      }
-		       .row.content {
-			       clear:both!important;
-		       }
-		       
-		        .navbar .nav > li > a,.navbar .nav > li > span {
-				color:#333333;
-				text-shadow:none;
-				font-weight:bold;
-			}
-			 .navbar .nav > li > .dropdown-menu li, .nav-collapse .nav > li > .dropdown-menu li {
-				 margin:0;
-			 }
-			  .navbar .nav > li {
-				  font-size: 12px;
-			  }
-			   .navbar .btn-navbar{
-				   margin-right:20px;
-			   }
-			    .navbar .nav > li > .dropdown-menu li a:hover, .navbar .nav > li > .dropdown-menu li span:hover, .nav-collapse .nav > li > .dropdown-menu li a:hover, .nav-collapse .nav > li > .dropdown-menu li span:hover {
-				    font-size: 12px;
-			    }
-			     .navbar .nav > li > .dropdown-menu li a, .navbar .nav > li > .dropdown-menu li span, .nav-collapse .nav > li > .dropdown-menu li a, .nav-collapse .nav > li > .dropdown-menu li span {
-				     padding-bottom:5px;
-			     }
-			      .row:before, .row:after {
-				      float:left;
-			      }
-			       .views-field-field-ei-price-nz {
-				       width:54%;
-				       margin:10px 0 0 10px;
-			       }
-			        .view-list-equipments-items-of-user .views-field-title a {
-					padding-left:10px;
-				}
-				 .view-list-equipments-items-of-user ul li {
-					 padding:20px 0;
-				 }
-				  .view-list-equipments-items-of-user .views-field-field-ei-image {
-					  padding-left:10px;
-					  margin-bottom:20px;
-				  }
-				   .view-list-equipments-items-of-user {
-					   overflow:hidden;
-				   }
-				     #property-node-form input[type="text"] {
-				     	  width:80%;
-				     }
-	   }
-	   @media (min-width: 1024px) {
-		   ul.nav li.dropdown:hover > ul.dropdown-menu{
-			   display: block;
-		   }
-		   /*#property-node-form input[type="text"] {
-		    *	width:80%;
-		   }*/
-	   }
-	   
-	   @media (min-width:480px) and (max-width: 1024px) {
-		   ul.nav li.dropdown:hover > ul.dropdown-menu{
-			   display: block;
-		   }
-		   #property-node-form input[type="text"] {
-		   	width:80%;
-		   }
-		   
-		   #node_property_form_group_property_details label, #node_property_form_group_property_sales label {
-		       float: left;
-		       margin-top: 5px;
-		       text-align: left;
-		       width: 29%;
-		   }
-		   @media print {
-			   /* All your print styles go here */
-			   #block-views-exp-search-page,
-			    #block-workbench-block,
-			     #footer,
-			      header,
-			      #map-canvas,
-			      .region-sidebar-right,
-			      .property-actions {
-				      display:none !important;
-			      }
-			       .span8 {
-				       width:730px !important;
-			       }
-		   }
-		   
+					  @media (min-width: 480px) and (max-width: 768px) {
+						  /*.nav-collapse, .nav-collapse.collapse {
+						   *   overflow: visible !important;
+						   *   height: auto !important;
+						  }
+						  		   .navbar .btn-navbar {
+									   display:none;
+								   }
+								   		   
+								   		   		    .dropdown-menu li:hover .dropdown-menu {
+													    display: block !important;
+													    visibility: visible !important;
+												    }*/
+						  .vertical-tabs .form-type-textfield input {
+							  -moz-box-sizing: inherit;
+							  width: 90%;
+						  }
+						  		  #node_property_form_group_property_facilities label {
+						  		  		      display: inline-block;
+										      padding-right: 10px;
+										      width: 100%;
+								  }
+								  		  
+								  		  		  #edit-field-property-asking-price label, #edit-field-property-show-asking-price label {
+								  		  		  		  
+								  		  		  		  		      width: 100%;
+												  }
+												  		  
+												  		  		  #edit-field-property-disposal label, #edit-field-property-real-estate label {
+												  		  		  		      margin-top: 8px;
+																		      width: 100%;
+																  }
+																  		  
+																  		  		  #edit-field-property-stock-value label, #edit-field-property-equipment-value label, #edit-field-property-goodwill-value label {
+																  		  		  		      width: 100%;
+																				  }
+																				  		  #edit-field-property-real-estate-value label {
+																				  		  		      width: 100%;
+																						  }
+																						  		  .row.header .span8 {
+																									  width:90%;
+																								  }
+																								  		  .navbar-fixed-top .navbar-inner, .navbar-fixed-bottom .navbar-inner {
+																											  padding: 0;
+																										  }
+																										  		   .footer1, .footer2, .footer3, .footer4 {
+																													   width:100%;
+																												   }
+																												   		    .navbar .btn-navbar{
+																															    margin-right:20px;
+																														    }
+																														    		     .footer1 {
+																																margin-left:20px;
+																																}
+																																		      .nav-collapse .dropdown-menu {
+																																position:static;
+																																clear:both;
+																																overflow:hidden;
+																																display: block;
+																																}
+																																		       .nav-collapse .nav {
+																																margin:0 20px;
+																																float:left!important;
+																																}
+																																		        .row.content {
+																																clear:both!important;
+																																}
+																																			
+																																						 .navbar .nav > li > a,.navbar .nav > li > span {
+																																color:#333333;
+																																text-shadow:none;
+																																font-weight:bold;
+																																}
+																																			  .navbar .nav > li > .dropdown-menu li, .nav-collapse .nav > li > .dropdown-menu li {
+																																margin:0;
+																																}
+																																			   .navbar .nav > li > a,.navbar .nav > li > span {
+																																color:#333333;
+																																text-shadow:none;
+																																font-weight:bold;
+																																}
+																																			    .row:before, .row:after {
+																																float:left;
+																																}
+																																			     .views-field-field-ei-price-nz {
+																																width:54%;
+																																margin:10px 0 0 10px;
+																																}
+																																			      .view-list-equipments-items-of-user .views-field-title a {
+																																padding-left:10px;
+																																}
+																																			       .view-list-equipments-items-of-user ul li {
+																																padding:20px 0;
+																																}
+																																			        .view-list-equipments-items-of-user .views-field-field-ei-image {
+																																padding-left:10px;
+																																margin-bottom:20px;
+																																}
+																																				 .view-list-equipments-items-of-user {
+																																overflow:hidden;
+																																}
+																																				   #property-node-form input[type="text"] {
+																																				   				   	  width:80%;
+																																}
+																																				    
+					  }
+					  	   @media (max-width: 700px) {
+							   #block-system-main-menu {
+							   margin-right:44px;
+							   }
+							   		    .dropdown-menu {
+										    background: none!important;
+										    border:none!important;
+										    box-shadow:none!important;
+										    margin-left:10px!important;
+									    }
+									    		     .navbar .nav > li > .dropdown-menu li a, .navbar .nav > li > .dropdown-menu li span, .nav-collapse .nav > li > .dropdown-menu li a, .nav-collapse .nav > li > .dropdown-menu li span {
+												     background: url(../images/arrow_1.png) no-repeat 0 -302px!important;
+												     padding:0 0 5px 20px!important;
+												     color:#fff;
+												     text-shadow:none;
+											     }
+											     		      .navbar .nav > li {
+														      margin-left:20px;
+													      }
+													      		       .navbar .nav >li.first {
+																       padding-top:20px!important;
+															       }
+															       		        .navbar .nav >li.last {
+																			padding-bottom:30px;
+																		}
+																					
+																								 .navbar .nav > li > a, .navbar .nav > li > span {
+																									 color:#fff!important;
+																								 }
+																								 			  .nav-collapse .nav > li > .dropdown-menu li {
+																												  background: none!important;
+																											  }
+																											  			   .menu.nav {
+																															   background: rgba(0,0,0,0.8)!important;
+																															   width:100%!important;
+																														   }
+																														   			     #property-node-form input[type="text"] {
+																														   			     			     	  width:80%;
+																																}
+						   }
+						   	   @media (max-width: 480px) {
+								   /*.nav-collapse, .nav-collapse.collapse {
+								    *   overflow: visible !important;
+								    *   height: auto !important;
+								   }
+								   		    .navbar .btn-navbar {
+											    display:none;
+										    }
+										    		    
+										    		    		     .dropdown-menu li:hover .sub-menu {
+															     display: block !important;
+															     visibility: visible !important;
+														     }*/
+								   .footer1, .footer2, .footer3, .footer4 {
+									   width:100%;
+								   }
+								   		    .footer1 {
+											    margin-left:20px;
+										    }
+										    		     .nav-collapse .dropdown-menu {
+													     position:static;
+													     clear:both;
+													     overflow:hidden;
+													     display:block;
+												     }
+												     		      .nav-collapse .nav {
+															      margin:0 20px;
+															      float:left!important;
+														      }
+														      		       .row.content {
+																	       clear:both!important;
+																       }
+																       		       
+																       		       		        .navbar .nav > li > a,.navbar .nav > li > span {
+																						color:#333333;
+																						text-shadow:none;
+																						font-weight:bold;
+																					}
+																								 .navbar .nav > li > .dropdown-menu li, .nav-collapse .nav > li > .dropdown-menu li {
+																									 margin:0;
+																								 }
+																								 			  .navbar .nav > li {
+																												  font-size: 12px;
+																											  }
+																											  			   .navbar .btn-navbar{
+																															   margin-right:20px;
+																														   }
+																														   			    .navbar .nav > li > .dropdown-menu li a:hover, .navbar .nav > li > .dropdown-menu li span:hover, .nav-collapse .nav > li > .dropdown-menu li a:hover, .nav-collapse .nav > li > .dropdown-menu li span:hover {
+																																font-size: 12px;
+																																}
+																																			     .navbar .nav > li > .dropdown-menu li a, .navbar .nav > li > .dropdown-menu li span, .nav-collapse .nav > li > .dropdown-menu li a, .nav-collapse .nav > li > .dropdown-menu li span {
+																																padding-bottom:5px;
+																																}
+																																			      .row:before, .row:after {
+																																float:left;
+																																}
+																																			       .views-field-field-ei-price-nz {
+																																width:54%;
+																																margin:10px 0 0 10px;
+																																}
+																																			        .view-list-equipments-items-of-user .views-field-title a {
+																																padding-left:10px;
+																																}
+																																				 .view-list-equipments-items-of-user ul li {
+																																padding:20px 0;
+																																}
+																																				  .view-list-equipments-items-of-user .views-field-field-ei-image {
+																																padding-left:10px;
+																																margin-bottom:20px;
+																																}
+																																				   .view-list-equipments-items-of-user {
+																																overflow:hidden;
+																																}
+																																				     #property-node-form input[type="text"] {
+																																				     				     	  width:80%;
+																																}
+							   }
+							   	   @media (min-width: 1024px) {
+									   ul.nav li.dropdown:hover > ul.dropdown-menu{
+										   display: block;
+									   }
+									   		   /*#property-node-form input[type="text"] {
+											    *	width:80%;
+											   }*/
+								   }
+								   	   
+								   	   	   @media (min-width:480px) and (max-width: 1024px) {
+											   ul.nav li.dropdown:hover > ul.dropdown-menu{
+												   display: block;
+											   }
+											   		   #property-node-form input[type="text"] {
+											   		   		   	width:80%;
+													   }
+													   		   
+													   		   		   #node_property_form_group_property_details label, #node_property_form_group_property_sales label {
+													   		   		   		       float: left;
+																			       margin-top: 5px;
+																			       text-align: left;
+																			       width: 29%;
+																	   }
+																	   		   @media print {
+																				   /* All your print styles go here */
+																				   #block-views-exp-search-page,
+																				   			    #block-workbench-block,
+																				   			    			     #footer,
+																				   			    			     			      header,
+																													      #map-canvas,
+																													      .region-sidebar-right,
+																													      .property-actions {
+																														      display:none !important;
+																													      }
+																													      			       .span8 {
+																																width:730px !important;
+																																}
+																			   }
+																			   		   
