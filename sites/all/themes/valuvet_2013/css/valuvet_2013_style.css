@@ -2057,13 +2057,20 @@ select#edit-province-op {
 																																            	background: #f3f3f3;
 																																border: 5px solid #ebebeb;
 																																}
+                                                                                                                                                                                                                                                                @media (min-width: 1000px) {
+                                                                                                                                                                                                                                                                  #vv-userpage-container #user-profile-form{margin-left: -80px;}                                                                                                                                                              
+                                                                                                                                                                                                                                                                  #vv-userpage-container .confirm-parent, .password-parent{width: 17.3em;}
+                                                                                                                                                                                                                                                                  #vv-userpage-container div.password-confirm{margin-top: 0.5em;}
+                                                                                                                                                                                                                                                                  #vv-userpage-container div.form-item div.password-suggestions{width: 25.5em;}
+                                                                                                                                                                                                                                                                  #vv-userpage-container #edit-timezone--2{width: 392px;}                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                }
 																																      #user-custom-menu {
 																																            	list-style-type: none;
 																																margin: 20px;
 																																}
 																																      #user-custom-menu  li {
 																																            	float:none!important;
-																																margin: 0 0 10px 40px;
+																																margin: 0 0 10px -10px;
 																																}
 																																      #user-custom-menu  li a {
 																																            	background: none;

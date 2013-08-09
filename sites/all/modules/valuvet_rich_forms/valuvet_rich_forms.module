@@ -43,3 +43,46 @@ function valuvet_rich_forms_form_career_node_form_alter(&$form, &$form_state, $f
   drupal_add_js(drupal_get_path('module', 'valuvet_rich_forms').'/js/valuvet_rich_career_form.js', 'file');
   drupal_add_css(drupal_get_path('module', 'valuvet_rich_forms').'/css/valuvet_rich_career_form.css', 'file');
 }
+
+function valuvet_rich_forms_form_alter(&$form, &$form_state, $form_id) {    
+  switch ($form_id) {
+    case 'property_node_form':
+      $form['#prefix'] = '<div id="replace-element">';
+      $form['#suffix'] = '</div>' ;
+      
+      $form['actions']['submit']['#ajax'] = array(              
+        'method' => 'replace',
+        'effect' => 'fade',
+        'wrapper' => 'replace-element',
+        'callback' => '_my_callback',          
+      );
+      break;
+  
+     case 'commerce_checkout_form_checkout':
+         global $user;                  
+         $user = user_load($user->uid);
+         //print_r($user);
+         if($user->field_user_name['und'][0]['safe_value'] != '' || $user->field_user_last_name['und'][0]['safe_value'] != ''){
+           $form['customer_profile_billing']['commerce_customer_address']['und'][0]['name_block']['name_line']['#value'] = $user->field_user_name['und'][0]['safe_value'] . ' ' . $user->field_user_last_name['und'][0]['safe_value'];
+         }
+         if($user->field_user_address['und'][0]['safe_value'] != ''){
+           $form['customer_profile_billing']['commerce_customer_address']['und'][0]['street_block']['thoroughfare']['#value'] = $user->field_user_address['und'][0]['safe_value'];
+         }         
+         if($user->field_user_city_suburb['und'][0]['safe_value'] != ''){
+           $form['customer_profile_billing']['commerce_customer_address']['und'][0]['locality_block']['locality']['#value'] = $user->field_user_city_suburb['und'][0]['safe_value'];
+         }                  
+         if($user->field_user_state['und'][0]['safe_value'] != ''){
+           $form['customer_profile_billing']['commerce_customer_address']['und'][0]['locality_block']['administrative_area']['#value'] = $user->field_user_state['und'][0]['safe_value'];
+         }          
+         if($user->field_user_post_code['und'][0]['safe_value'] != ''){
+           $form['customer_profile_billing']['commerce_customer_address']['und'][0]['locality_block']['postal_code']['#value'] = $user->field_user_post_code['und'][0]['safe_value'];
+         }                   
+         break;
+  }
+  return;
+}
+
+function _my_callback($form, &$form_state) {
+    $ret = '<h2>Place here some message</h2>';
+    return $ret . l('Go to your shopping cart', 'cart');
+}

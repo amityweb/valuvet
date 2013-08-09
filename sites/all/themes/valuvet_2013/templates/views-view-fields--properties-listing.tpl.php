@@ -11,6 +11,32 @@
  *   PCK3 -> linked image
  *
  */
+$practice_details = '';
+if(isset ($fields['field_property_type']->content)){
+  $practice_details .= '<h2>Type of Practice: ' . $fields['field_property_type']->content . '</h2>';
+}
+if(isset ($fields['field_property_disposal']->content)){
+  $practice_details .= '<h2>Practice is for: ' . $fields['field_property_disposal']->content . '</h2>';
+}
+if(isset ($fields['field_property_disposal']->content)){
+  $practice_details .= '<h2>Real estate: ' . $fields['field_property_real_estate']->content . '</h2>';
+}
+if(isset ($fields['field_property_vv_pract_report']->content)){
+  $practice_details .= '<h2>Practice report by ValuVet: ' . $fields['field_property_vv_pract_report']->content . '</h2>';
+}
+if(isset ($fields['field_property_vv_valuation']->content)){
+  $practice_details .= '<h2>Valuation by ValuVet: ' . $fields['field_property_vv_valuation']->content . '</h2>';
+}
+if(isset ($fields['field_property_vets_n']->content)){
+  $practice_details .= '<h2>Number of Vets: ' . $fields['field_property_vets_n']->content . '</h2>';
+}
+if(isset ($fields['field_property_has_manager']->content)){
+  $practice_details .= '<h2>Practice manager: ' . $fields['field_property_has_manager']->content . '</h2>';
+}
+
+if($practice_details != ''){
+    $practice_details = '<h1>Details</h1>' . $practice_details;
+}
 
 switch ($fields['field_property_package']->content) {
   case 'PRP-PCK3':
@@ -90,6 +116,7 @@ switch ($fields['field_property_package']->content) {
 			  }
 			?>
 		     - <a class="<?php echo 'colorbox-gallery-'.$fields['nid']->content;?>" href="<?php echo $arrImages2[0];?>">View Images</a>
+                     - <a class="<?php echo 'colorbox-preview-'.$fields['nid']->content;?>" href="#">Preview</a>
 		   </div>
 		  <?php endif; ?>
 		  <div class="node-flags"><?php print $fields['ops']->content; ?></div>
@@ -98,13 +125,10 @@ switch ($fields['field_property_package']->content) {
 </div>
 <script type="text/javascript">
 if (jQuery) {  
-(function($) {
-     
-      
+(function($) {           
     $(window).load(function() {
 	$('.<?php echo 'colorbox-gallery-'.$fields['nid']->content;?>').colorbox({rel:'<?php echo 'colorbox-gallery-'.$fields['nid']->content;?>', slideshow:false});
-
-
+        $('.<?php echo 'colorbox-preview-'.$fields['nid']->content;?>').colorbox({rel:'<?php echo 'colorbox-preview-'.$fields['nid']->content;?>', html:'<?php print $practice_details; ?>'});
  });
 })(jQuery);
 }

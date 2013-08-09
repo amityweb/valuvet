@@ -120,3 +120,18 @@ function _valuvet_2013_email_verify_check($mail) {
   // Everything is OK, so don't return anything.
   return;
 }
+
+
+/**
+ * Checks the email address for validity.
+ */
+function _valuvet_2013_email_verify_check_name($name) { 
+  $nameControl = db_query("SELECT COUNT(*) FROM {users} WHERE name = :name", array(':name' => $name))->fetchField();
+  if ($nameControl) {
+    return t('%username is in use.', array('%username' => "$name"));
+  }
+  // END
+
+  // Everything is OK, so don't return anything.
+  return;
+}

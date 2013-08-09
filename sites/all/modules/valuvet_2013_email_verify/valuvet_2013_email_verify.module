@@ -32,20 +32,45 @@ function valuvet_2013_email_verify_form_user_register_form_alter(&$form, &$form_
 				'method' => 'replace'
 			);
   $form['account']['mail']['#default_value'] = '';
-  
-  $mail = (isset($form_state['input']['mail'])) ? $form_state['input']['mail'] : $form['account']['mail']['#default_value'];
-  if (isset($form_state['input']['mail']) && $error = valuvet_2013_email_verify_check($mail))
-  {
-	form_set_error('mail', $error);
-  }  
+    
   // END
+  
+  //Namecheck
+  $form['account']['name']['#prefix'] = '<div id="name_display_error">';
+  $form['account']['name']['#suffix'] = '</div>';
+  $form['account']['name']['#ajax'] =  array(
+			        'callback' => 'valuvet_2013_email_verify_edit_validate_name_ajax',
+				'wrapper' => 'name_display_error',
+				'event' => 'focusout',
+				'method' => 'replace'
+			); 
+  
+  $form['account']['name']['#default_value'] = '';         
 }
 
 // NOTE begin code added by Vincenzo Di Biaggio
 function valuvet_2013_email_verify_edit_validate_ajax($form, &$form_state) {
+  $mail = (isset($form_state['input']['mail'])) ? $form_state['input']['mail'] : $form['account']['mail']['#default_value'];
+  if (isset($form_state['input']['mail']) && $error = valuvet_2013_email_verify_check($mail))
+  {
+        drupal_get_messages();
+  	form_set_error('mail', $error);
+  } 
+  
   return $form['account']['mail'];
 }
 // END
+
+//Namecheck
+function valuvet_2013_email_verify_edit_validate_name_ajax($form, &$form_state) {
+  $name = (isset($form_state['input']['name'])) ? $form_state['input']['name'] : $form['account']['name']['#default_value'];
+  if (isset($form_state['input']['name']) && $error = valuvet_2013_email_verify_check_name($name))
+  {
+        drupal_get_messages();
+	form_set_error('name', $error);
+  }        
+  return $form['account']['name'];
+}
 
 /**
  * Implements hook_form_FORM_ID_alter().
@@ -63,13 +88,20 @@ function valuvet_2013_email_verify_form_user_profile_form_alter(&$form, &$form_s
 				'method' => 'replace'
 			);
   $form['account']['mail']['#default_value'] = '';
-  
-  $mail = (isset($form_state['input']['mail'])) ? $form_state['input']['mail'] : $form['account']['mail']['#default_value'];
-  if (isset($form_state['input']['mail']) && $error = valuvet_2013_email_verify_check($mail))
-  {
-	form_set_error('mail', $error);
-  }  
+    
   // END
+  
+  //Namecheck
+  $form['account']['name']['#prefix'] = '<div id="name_display_error">';
+  $form['account']['name']['#suffix'] = '</div>';
+  $form['account']['name']['#ajax'] =  array(
+			        'callback' => 'valuvet_2013_email_verify_edit_validate_name_ajax',
+				'wrapper' => 'name_display_error',
+				'event' => 'focusout',
+				'method' => 'replace'
+			); 
+  
+  $form['account']['name']['#default_value'] = '';   
 }
 
 /**
@@ -83,8 +115,15 @@ function valuvet_2013_email_verify_form_user_profile_form_alter(&$form, &$form_s
 function valuvet_2013_email_verify_edit_validate($form, &$form_state) {
   // Validate the e-mail address:
   if ($error = valuvet_2013_email_verify_check($form_state['input']['mail'])) {
+    drupal_get_messages();
     form_set_error('mail', $error);
   }
+  
+  // Validate the name address:
+  if ($error = valuvet_2013_email_verify_check_name($form_state['input']['name'])) {
+    drupal_get_messages();
+    form_set_error('name', $error);
+  }  
 }
 
 /**
@@ -99,7 +138,16 @@ function valuvet_2013_email_verify_edit_validate($form, &$form_state) {
  */
 function valuvet_2013_email_verify_check($mail) {
   include_once DRUPAL_ROOT . '/' . drupal_get_path('module', 'valuvet_2013_email_verify') . '/valuvet_2013_email_verify.inc.php';
-  return _valuvet_2013_email_verify_check($mail);
+  if($mail != ''){
+    return _valuvet_2013_email_verify_check($mail);
+  }
+}
+
+function valuvet_2013_email_verify_check_name($name) {
+  include_once DRUPAL_ROOT . '/' . drupal_get_path('module', 'valuvet_2013_email_verify') . '/valuvet_2013_email_verify.inc.php';
+  if($name != ''){
+    return _valuvet_2013_email_verify_check_name($name);
+  }
 }
 
 /**

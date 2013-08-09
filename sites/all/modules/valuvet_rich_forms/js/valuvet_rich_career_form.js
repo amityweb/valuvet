@@ -116,7 +116,7 @@
       // Add messages to the DOM (hidden)
       var logoCont = $('#edit-field-logo-or-image');
 
-      var msgPck1 = $('<div class="package-img-message"><h3>Logo or image</h3><p>Ad image is available with package 2 only</p></div>');
+      var msgPck1 = $('<div class="package-img-message"><h3>Logo or image</h3><p>Ad image is available with package 2 only. <a href="#" id="upgrade_package">UPGRADE NOW</a></p></div>');
 
       logoCont.append(msgPck1);
 
@@ -131,6 +131,16 @@
       Drupal.behaviors.valuvetRichForms._setImageLoaders($('#edit-field-career-package-und').val());
     },
 
+
+    _imagePackageUpgrade: function() {
+      var formID = Drupal.behaviors.valuvetRichForms._formID;
+      $(formID+' #upgrade_package').click(function(e){        
+        $(formID+' #edit-field-career-package-und').val('10');
+        Drupal.behaviors.valuvetRichForms._setImageLoaders('10');          
+        return false;
+      });
+    },
+    
     _alterPrices: function() {
 
       // make up for each single price field
@@ -305,6 +315,8 @@
       // image loaders initialization
       Drupal.behaviors.valuvetRichForms._imageLoadersInit();
 
+      // Package Upgrade
+      Drupal.behaviors.valuvetRichForms._imagePackageUpgrade();
     }
   };
 
