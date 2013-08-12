@@ -149,7 +149,7 @@
         $(data).priceFormat({
             prefix: '',
             centsSeparator: '.',
-            thousandsSeparator: ''
+            thousandsSeparator: ','
         });
 
       });

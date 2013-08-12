@@ -101,7 +101,7 @@ function _valuvet_glue_list($field) {
   <div class="separator" id="vv-overview-container-photo" style="display:none">
     <ul id="vv-listing-image" class="clearfix">
       <li>
-		<a style="" href="<?php print image_style_url('property_gallery_main', 'images/property/'.$node->field_property_listing_image['und'][0]['filename']); ?>"><img src="<?php print image_style_url('property_gallery_main', 'images/property/'.$node->field_property_listing_image['und'][0]['filename']); ?>" /></a>
+		<a style="" href="<?php print image_style_url('property_gallery_big', 'images/property/'.$node->field_property_listing_image['und'][0]['filename']); ?>"><img src="<?php print image_style_url('property_gallery_main', 'images/property/'.$node->field_property_listing_image['und'][0]['filename']); ?>" /></a>
 		<?php 
 			$arrCaption = explode('.', $node->field_property_listing_image['und'][0]['filename']);
 			echo '<span>'.$arrCaption[0].'</span>';

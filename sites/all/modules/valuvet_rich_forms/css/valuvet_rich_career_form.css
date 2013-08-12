@@ -17,3 +17,7 @@
     color: #555;
     text-align: center;
 }
+
+.field-name-field-job-location fieldset.location legend{
+    display: none;
+}
