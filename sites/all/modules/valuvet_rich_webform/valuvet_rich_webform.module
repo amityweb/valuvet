@@ -1,0 +1,72 @@
+<?php
+/**
+ * @file
+ * TODO: Enter file description here.
+ */
+
+/**
+ * Implements hook_help().
+ */
+function valuvet_rich_webform_help($path, $arg) {
+  /* INFO:
+   * The help hook is for displaying helpful messages at the top of pages indicated
+   * by $section to further explain how they work. Adding certain "keywords" to the end of
+   * a given path (like admin/modules#description) will cause this text to display elsewhere
+   * in the page as well (in this case, in the description section for the given module).
+   */
+  switch ($path) {
+    case 'admin/help#valuvet_rich_webform':
+      return t("This module is a custom one and has no configuration options. All is hardcoded in the module file. Basically it adds javascript into forms to add some UX sugar to them.");
+  }
+}
+
+
+function valuvet_rich_webform_form_alter(&$form, &$form_state, $form_id) {    
+  if(substr($form_id, 0, 20)  == 'webform_client_form_'){
+    drupal_add_js(drupal_get_path('module', 'valuvet_rich_webform').'/js/valuvet_rich_webform.js', 'file');
+    drupal_add_css(drupal_get_path('module', 'valuvet_rich_webform').'/css/valuvet_rich_webform.css', 'file');      
+
+    $form['#prefix'] = '<div id="replace-element">';
+    $form['#suffix'] = '</div>' ;    
+    $form['actions']['submit']['#ajax'] = array(              
+        'method' => 'replace',
+        'effect' => 'fade',
+        'wrapper' => 'replace-element',
+        'callback' => '_rich_webform_client_callback',          
+    );    
+    $form['#validate'][] = 'valuvet_rich_webform_client_validation';    
+  }
+  return;
+}
+
+function _rich_webform_client_callback($form, &$form_state) {   
+  $messages = drupal_get_messages(NULL, FALSE);  
+  if(sizeof($messages)){      
+    return '<div class="alert alert-block alert-success"><p>Your message to the property seller has been successfully sent.</p></div>';   
+  }
+  else{
+    return $form;    
+  }
+}
+
+function valuvet_rich_webform_client_validation($form, &$form_state) {  
+  //watchdog('valuvet_rich', print_r($form_state['values']['submitted'], TRUE));
+  //Did not find a decent way to reset them
+  if($form_state['values']['submitted']['first_name'] == 'enter your first name'){$form_state['values']['submitted']['first_name'] = '';}
+  if($form_state['values']['submitted']['last_name'] == 'enter your last name'){$form_state['values']['submitted']['last_name'] = '';}
+  if($form_state['values']['submitted']['email'] == 'enter your email'){$form_state['values']['submitted']['email'] = '';}
+  if($form_state['values']['submitted']['phone'] == 'enter your phone'){$form_state['values']['submitted']['phone'] = '';}
+  //  
+  if($form_state['values']['submitted']['how_should_we_contact_you'] == 'email' && trim($form_state['values']['submitted']['email']) == ''){
+    form_set_error('mail', 'Email field is mandatory.');   
+  }  
+  if($form_state['values']['submitted']['email'] != '' && !valid_email_address($form_state['values']['submitted']['email'])){
+    form_set_error('mail', t('%value is not a valid email address.', array('%value' => $form_state['values']['submitted']['email'])));
+  }
+  if($form_state['values']['submitted']['how_should_we_contact_you'] == 'phone' && trim($form_state['values']['submitted']['phone']) == ''){
+    form_set_error('mail', 'Phone field is mandatory.');   
+  }    
+  if($form_state['values']['submitted']['how_should_we_contact_you'] == 'both' && (trim($form_state['values']['submitted']['phone']) == '' || trim($form_state['values']['submitted']['email']) == '')){
+    form_set_error('mail', 'Email and Phone field are mandatory.');   
+  }      
+} 

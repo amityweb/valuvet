@@ -149,39 +149,41 @@ function _valuvet_glue_list($field) {
   </div>
 
 
+    <h4 class="toggle">Property details<span class="ico">&nbsp;</span></h4>
 
-  <h4>Property details</h4>
-  <div class="separator" id="vv-details-container">
-    <h5>Type of practice</h5>
-    <ul id="vv-practice-type">
-      <li><?php print render($content['field_property_type']); ?></li>
-      <?php if ($node->field_property_small_animals['und'][0]['value']): ?><li><strong><?php print $node->field_property_small_animals['und'][0]['value']; ?>%:</strong> <?php print _valuvet_glue_list($node->field_property_small_animals_cbs); ?></li><?php endif; ?>
-      <?php if ($node->field_property_equine['und'][0]['value']): ?><li><strong><?php print $node->field_property_equine['und'][0]['value']; ?>%:</strong> <?php print _valuvet_glue_list($node->field_property_equine_cbs); ?></li><?php endif; ?>
-      <?php if ($node->field_property_bovine['und'][0]['value']): ?><li><strong><?php print $node->field_property_bovine['und'][0]['value']; ?>%:</strong> <?php print _valuvet_glue_list($node->field_property_bovine_cbs); ?></li><?php endif; ?>
-      <?php if ($node->field_property_other_animals['und'][0]['value']): ?><li><strong><?php print $node->field_property_other_animals['und'][0]['value']; ?>%:</strong> <?php print _valuvet_glue_list($node->field_property_other_animals_cb); ?></li><?php endif; ?>
-    </ul>
+    <div class="toggle_content boxed" style="display: none;">
+      <div class="separator" id="vv-details-container">
+        <h5>Type of practice</h5>
+        <ul id="vv-practice-type">
+          <li><?php print render($content['field_property_type']); ?></li>
+          <?php if ($node->field_property_small_animals['und'][0]['value']): ?><li><strong><?php print $node->field_property_small_animals['und'][0]['value']; ?>%:</strong> <?php print _valuvet_glue_list($node->field_property_small_animals_cbs); ?></li><?php endif; ?>
+          <?php if ($node->field_property_equine['und'][0]['value']): ?><li><strong><?php print $node->field_property_equine['und'][0]['value']; ?>%:</strong> <?php print _valuvet_glue_list($node->field_property_equine_cbs); ?></li><?php endif; ?>
+          <?php if ($node->field_property_bovine['und'][0]['value']): ?><li><strong><?php print $node->field_property_bovine['und'][0]['value']; ?>%:</strong> <?php print _valuvet_glue_list($node->field_property_bovine_cbs); ?></li><?php endif; ?>
+          <?php if ($node->field_property_other_animals['und'][0]['value']): ?><li><strong><?php print $node->field_property_other_animals['und'][0]['value']; ?>%:</strong> <?php print _valuvet_glue_list($node->field_property_other_animals_cb); ?></li><?php endif; ?>
+        </ul>
 
-    <h5>Staff</h5>
-    <ul id="vv-practice-staff">
-      <li><?php print render($content['field_property_vets_n']); ?></li>
-      <li><?php print render($content['field_property_nurse_n']); ?></li>
-      <li><?php print render($content['field_property_has_manager']); ?></li>
-    </ul>
+        <h5>Staff</h5>
+        <ul id="vv-practice-staff">
+          <li><?php print render($content['field_property_vets_n']); ?></li>
+          <li><?php print render($content['field_property_nurse_n']); ?></li>
+          <li><?php print render($content['field_property_has_manager']); ?></li>
+        </ul>
 
-    <h5>Facilities</h5>
-    <ul id="vv-practice-facilities">
-      <li><?php print render($content['field_property_building_type']); ?></li>
-      <li><?php print render($content['field_property_ownership']); ?></li>
-      <li><?php print render($content['field_property_building_area']); ?></li>
-      <li><?php print render($content['field_property_branch_clinics_n']); ?></li>
-      <li><?php print render($content['field_property_open_days_week']); ?></li>
-      <li><strong>Facilities include:</strong> <?php print _valuvet_glue_list($node->field_property_facilities_have); ?></li>
-      <li><?php print render($content['field_property_carparks_n']); ?></li>
-      <li><?php print render($content['field_property_pc_n']); ?></li>
-      <li><?php print render($content['field_property_software']); ?></li>
-    </ul>
-  </div>
-
+        <h5>Facilities</h5>
+        <ul id="vv-practice-facilities">
+          <li><?php print render($content['field_property_building_type']); ?></li>
+          <li><?php print render($content['field_property_ownership']); ?></li>
+          <li><?php print render($content['field_property_building_area']); ?></li>
+          <li><?php print render($content['field_property_branch_clinics_n']); ?></li>
+          <li><?php print render($content['field_property_open_days_week']); ?></li>
+          <li><strong>Facilities include:</strong> <?php print _valuvet_glue_list($node->field_property_facilities_have); ?></li>
+          <li><?php print render($content['field_property_carparks_n']); ?></li>
+          <li><?php print render($content['field_property_pc_n']); ?></li>
+          <li><?php print render($content['field_property_software']); ?></li>
+        </ul>
+      </div>
+    </div>
+    
   <div class="separator" id="vv-details-descriptions">
     <h4>The business</h4>
     <p><?php print $node->field_property_the_business['und'][0]['value']; ?></p>
