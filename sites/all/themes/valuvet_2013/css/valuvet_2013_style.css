@@ -1073,10 +1073,12 @@ select#edit-province-op {
 																																          #node_property_form_group_property_animals .field-type-list-text {
 																																               	margin-top:20px;
 																																}
-																																     #edit-field-property-package label {
-																																          	display:inline-block;
-																																padding-right:10px;
+																																#node_property_form_group_property_contact_details label,
+                                                                                                                                                                                                                                                                #edit-field-property-package label, #edit-field-how-did-you-hear-about label {
+																																  display:inline-block;
+																																  padding-right:10px;
 																																}
+                                                                                                                                                                                                                                                                #edit-field-how-did-you-hear-about .error{width:50%;}
 																																     #edit-field-property-prof-srvcs-other, #edit-field-property-anc-srvcs-other {
 																																          	padding-top:20px;
 																																}

@@ -29,7 +29,12 @@ function valuvet_2013_preprocess_page(&$variables) {
    drupal_add_js(drupal_get_path('theme', 'valuvet_2013') . '/js/jquery.jcarousel.min.js');
    drupal_add_js(drupal_get_path('theme', 'valuvet_2013') . '/js/jquery.pikachoose.js');
    drupal_add_css(drupal_get_path('theme', 'valuvet_2013') . '/css/pikachoose.css');
-
+   
+   
+    if($_SERVER["REQUEST_URI"] == '/page/advertise-property'){
+      $library = libraries_detect('colorbox');  
+      drupal_add_css($library['library path'] .'/example3/colorbox.css', 'file');         
+    }
     if (isset($variables['node']) && $variables['node']->type === 'property') {
 	# Template personalized for property content type
         $suggest = "page__node__{$variables['node']->type}";
@@ -65,4 +70,14 @@ function valuvet_2013_form_user_login_alter(&$form) {
     ); 
   }
 }
+
+function valuvet_2013_css_alter(&$css) {  
+  if($_SERVER["REQUEST_URI"] == '/page/advertise-property'){  
+    $exclude = array(
+      'sites/all/modules/colorbox/styles/default/colorbox_style.css' => FALSE,
+    );
+    $css = array_diff_key($css, $exclude);    
+    }
+  }
+
 ?>

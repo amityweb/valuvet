@@ -215,8 +215,9 @@
 
       selectedIdx = $(formID+' .vertical-tabs-list > .selected').index();
       firstIdx    = $(formID+' .vertical-tabs-list > .first').index();
-      lastIdx     = $(formID+' .vertical-tabs-list > .last').index();
-
+      //lastIdx     = $(formID+' .vertical-tabs-list > .last').index();  
+      lastIdx     = $(formID+' .vertical-tabs-list > li').filter(':visible').length - 1;
+      
       $('#edit-submit').hide();
 
       if ( selectedIdx <= firstIdx ) {
@@ -241,6 +242,41 @@
       }
 
     },
+    
+
+    _setChangeTabs: function() {
+      var formID = Drupal.behaviors.valuvetRichForms._formID;
+      lastIdx     = $(formID+' .vertical-tabs-list > .last').index();
+      var pkg        = $('#edit-field-property-package-und').val();      
+      if(pkg == 5 || pkg == 6){
+        //Hide unnecessary tabs
+          for (i=8; i<=lastIdx; i++) { 
+            $(formID+' .vertical-tabs-list > li:eq('+i+')').hide();             
+          }                   
+      }
+      else{
+        //Show all tabs
+          for (i=0; i<lastIdx; i++) { 
+            $(formID+' .vertical-tabs-list > li:eq('+i+')').show();             
+          }                  
+      }            
+    },
+
+    _initPackage: function() {
+      var formID = Drupal.behaviors.valuvetRichForms._formID;
+      
+      var split = location.search.replace('?', '').split('=');
+      if(split[0] == 'property_type'){
+        if(split[1] == 'package_2'){
+          $('#edit-field-property-package-und').val(6);
+        }
+        if(split[1] == 'package_3'){
+          $('#edit-field-property-package-und').val(7);
+        }        
+      }
+      //Change tabs according to the passed parameter
+      Drupal.behaviors.valuvetRichForms._setChangeTabs();           
+    },
 
     _alterVTabs: function() {
 
@@ -252,7 +288,7 @@
         var progressBar = $('#progressbar .meter');
         var index = $(formID+' .vertical-tabs-list li').index($(this).parent());
 
-        var max  = $(formID+' .vertical-tabs-list li').length;
+        var max  = $(formID+' .vertical-tabs-list li').filter(':visible').length;  //Paolo: I have to consider only the visible tabs
         var step = Math.floor(100/max);
 
         if (index == max) progressBar.width('100%');
@@ -264,6 +300,7 @@
 
         // display right element based on position
         Drupal.behaviors.valuvetRichForms._setControls();
+       
 
         Drupal.behaviors.valuvetRichForms._gotoError(index);  // <---------- comment this line if you're developing
       });
@@ -345,9 +382,12 @@
       // when user moves involved variables the practice headline should update accordingly
       $('#edit-field-property-package-und,#edit-field-business-address-und-0-city,#edit-field-business-address-und-0-province,#edit-field-property-disposal-und,#edit-field-property-type-und').change(function(e){
         Drupal.behaviors.valuvetRichForms._setNodeTitle();
+        
+        // reset the tabs depending on the Package
+        Drupal.behaviors.valuvetRichForms._setChangeTabs();                
       });
-      titleField.keyup(function(e){
-        console.log('ciccio');
+      
+      titleField.keyup(function(e){        
         Drupal.behaviors.valuvetRichForms._setNodeTitlePreview(titleField.val());
       });
 
@@ -477,7 +517,9 @@
       // at every stinking call. Maybe another behavior can be used but I sincerely don't give a dime.
       // It works!
       if ($('#progressbar-container').length > 0) return false;
-
+      //Doing some initialization
+      Drupal.behaviors.valuvetRichForms._initPackage();
+      
       // add necessary click-related behaviors to validate fields during tabs navigation
       Drupal.behaviors.valuvetRichForms._alterVTabs();
 
