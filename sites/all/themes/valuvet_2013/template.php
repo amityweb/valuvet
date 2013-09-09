@@ -72,7 +72,7 @@ function valuvet_2013_form_user_login_alter(&$form) {
 }
 
 function valuvet_2013_css_alter(&$css) {  
-  if($_SERVER["REQUEST_URI"] == '/page/advertise-property'){  
+  if(strpos($_SERVER["REQUEST_URI"],'/page/advertise-property') !== FALSE){  
     $exclude = array(
       'sites/all/modules/colorbox/styles/default/colorbox_style.css' => FALSE,
     );
