@@ -31,7 +31,7 @@ function valuvet_2013_preprocess_page(&$variables) {
    drupal_add_css(drupal_get_path('theme', 'valuvet_2013') . '/css/pikachoose.css');
    
    
-    if($_SERVER["REQUEST_URI"] == '/page/advertise-property'){
+    if(strpos($_SERVER["REQUEST_URI"],'/page/advertise-property') !== FALSE){  
       $library = libraries_detect('colorbox');  
       drupal_add_css($library['library path'] .'/example3/colorbox.css', 'file');         
     }
