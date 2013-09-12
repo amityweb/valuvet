@@ -898,7 +898,7 @@ select#edit-province-op {
 																																}
 																																     #node_property_form_group_property_property_sales label {
 																																          	float:left;
-																																margin-top: 7px;
+																																    margin-top: 7px;
 																																}
 																																     .form-item-field-property-stock-value-ask-und label, .form-item-field-property-eqpmnt-value-ask-und label {
 																																margin-top:0 !important;
@@ -915,8 +915,17 @@ select#edit-province-op {
 																																          #edit-field-property-show-asking-price {
 																																               	/*margin-top:20px;*/
 																																}
+                                                                                                                                                                                                                                                                #node_property_form_group_property_property_sales .form-type-select,
+                                                                                                                                                                                                                                                                #node_property_form_group_property_property_sales .form-type-textfield{
+                                                                                                                                                                                                                                                                    width: 100%;
+                                                                                                                                                                                                                                                                    text-align: left;
+                                                                                                                                                                                                                                                                    float: left;
+                                                                                                                                                                                                                                                                }
 																																     
-																																          #edit-field-property-disposal label, #edit-field-property-real-estate label {
+																																          #edit-field-property-disposal label, 
+                                                                                                                                                                                                                                                                          #edit-field-property-real-estate label,
+                                                                                                                                                                                                                                                                          #edit-field-property-lease-details label,
+                                                                                                                                                                                                                                                                          #edit-field-property-ra-details label{
 																																               	width:20%;
 																																margin-top: 8px;
 																																}

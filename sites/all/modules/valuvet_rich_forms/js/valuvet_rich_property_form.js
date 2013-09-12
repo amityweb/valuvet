@@ -390,7 +390,15 @@
       titleField.keyup(function(e){        
         Drupal.behaviors.valuvetRichForms._setNodeTitlePreview(titleField.val());
       });
-
+      
+      //Hide edit-field-property-lease-details when combo is not selected (the conditional was not working with OR)
+      $('#edit-field-property-lease-details').hide();      
+      $('#edit-field-property-disposal-und').change(function(e){
+        if($('#edit-field-property-disposal-und').val() == '_none'){
+                $('#edit-field-property-lease-details').hide();            
+        }
+      });      
+      
       Drupal.behaviors.valuvetRichForms._setNodeTitle();
 
     },
