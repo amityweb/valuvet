@@ -830,7 +830,8 @@ select#edit-province-op {
 																																    #node_property_form_group_image_gallery h2 {
 																																        	display:none;
 																																}
-																																    .group_property_stock_values h3 span, .group_property_equipment_values h3 span {
+																																    .group_property_stock_values h3 span, .group_property_equipment_values h3 span,
+                                                                                                                                                                                                                                                                .group_property_total_asking h3 span{
 																																display:none;
 																																}
 																																    #property-node-form .vertical-tabs ul.vertical-tabs-list li.selected {
@@ -889,10 +890,16 @@ select#edit-province-op {
 																																clear:both;
 																																padding-top:10px;
 																																}
-																																     #edit-field-property-asking-price label, #edit-field-property-show-asking-price label {
+																																     #edit-field-property-asking-price label {
 																																          	float:left;
-																																width:20%
+																																width:15%
 																																}
+                                                                                                                                                                                                                                                                #edit-field-property-show-asking-price .controls{
+                                                                                                                                                                                                                                                                  margin-left: 185px;
+                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                #edit-field-property-show-asking-price label.control-label{
+                                                                                                                                                                                                                                                                  display:none;
+                                                                                                                                                                                                                                                                }
 																																     #node_property_form_group_property_property_sales .controls .form-type-radio label {
 																																          	width:100%;
 																																}
@@ -921,6 +928,13 @@ select#edit-province-op {
                                                                                                                                                                                                                                                                     text-align: left;
                                                                                                                                                                                                                                                                     float: left;
                                                                                                                                                                                                                                                                 }
+                                                                                                                                                                                                                                                                #edit-field-property-stock-value, #edit-field-property-equipment-value, #edit-field-property-goodwill-value{
+                                                                                                                                                                                                                                                                  width:50%;
+                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                #edit-field-property-show-asking-price{
+                                                                                                                                                                                                                                                                    float: left;
+                                                                                                                                                                                                                                                                    width: 100%;
+                                                                                                                                                                                                                                                                }
 																																     
 																																          #edit-field-property-disposal label, 
                                                                                                                                                                                                                                                                           #edit-field-property-real-estate label,
@@ -937,7 +951,7 @@ select#edit-province-op {
 																																margin-right:20px;
 																																}
 																																     #edit-field-property-stock-value label, #edit-field-property-equipment-value label,#edit-field-property-goodwill-value label {
-																																          	width:15%;
+																																          	width:30%;
 																																}
 																																     .group_property_stock_values {
 																																clear:both;

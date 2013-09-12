@@ -161,9 +161,14 @@
       var total = 0;
       $(Drupal.behaviors.valuvetRichForms._priceFields).each(function(idx, data){
         if (!data.check || $(data.check).attr('checked'))
-          total += parseFloat($(data.el).val());
+          total += parseFloat($(data.el).val().replace(",", ""));
       });
       $(Drupal.behaviors.valuvetRichForms._askingPrice).val(total.toFixed(2));
+      $(Drupal.behaviors.valuvetRichForms._askingPrice).priceFormat({
+            prefix: '',
+            centsSeparator: '.',
+            thousandsSeparator: ','
+        });
     },
 
     _alterPrices: function() {
@@ -177,7 +182,7 @@
         $(data.el).priceFormat({
             prefix: '',
             centsSeparator: '.',
-            thousandsSeparator: ''
+            thousandsSeparator: ','
         });
 
         // if user digits in prices field or "price included" checkboxes status
