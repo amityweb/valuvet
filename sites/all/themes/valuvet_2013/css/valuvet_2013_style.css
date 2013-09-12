@@ -886,7 +886,7 @@ select#edit-province-op {
 																																     #edit-field-property-type {
 																																          	margin-top:10px;
 																																}
-																																     .group_property_equipment_values {
+																																     .group_property_equipment_values, .group_property_total_asking {
 																																clear:both;
 																																padding-top:10px;
 																																}
