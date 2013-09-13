@@ -144,6 +144,15 @@
       // when user choose another package the fields pop up
       $('#edit-field-property-package-und').change(function(e){
         Drupal.behaviors.valuvetRichForms._setImageLoaders($(this).val());
+        
+        if ($(this).val() == 5) { //////// WARNING!!! HARDCODED VALUE! THIS SUCKS!!!
+          $('#edit-field-property-the-business').hide();
+          $('#edit-field-property-the-business textarea').removeClass('required');
+          $('#edit-field-property-the-opportunity').hide();
+          $('#edit-field-property-the-opportunity textarea').removeClass('required');
+          $('#edit-field-property-the-location').hide();
+          $('#edit-field-property-the-location textarea').removeClass('required');
+        }              
       });
 
       // set the field status on the first load
