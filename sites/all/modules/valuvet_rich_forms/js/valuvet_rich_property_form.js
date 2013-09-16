@@ -142,17 +142,36 @@
       $('.package-img-message').hide();
 
       // when user choose another package the fields pop up
+      if (($('#edit-field-property-package-und').val() == 5) || ($('#edit-field-property-package-und').val() == 6)){
+        $('#edit-field-property-the-business').hide();
+        $('#edit-field-property-the-business textarea').removeClass('required');
+        $('#edit-field-property-the-opportunity').hide();
+        $('#edit-field-property-the-opportunity textarea').removeClass('required');
+        $('#edit-field-property-the-location').hide();
+        $('#edit-field-property-the-location textarea').removeClass('required');
+      }
+
       $('#edit-field-property-package-und').change(function(e){
         Drupal.behaviors.valuvetRichForms._setImageLoaders($(this).val());
         
-        if ($(this).val() == 5) { //////// WARNING!!! HARDCODED VALUE! THIS SUCKS!!!
+        if (($(this).val() == 5) || ($(this).val() == 6)) { //////// WARNING!!! HARDCODED VALUE! THIS SUCKS!!!
           $('#edit-field-property-the-business').hide();
           $('#edit-field-property-the-business textarea').removeClass('required');
           $('#edit-field-property-the-opportunity').hide();
           $('#edit-field-property-the-opportunity textarea').removeClass('required');
           $('#edit-field-property-the-location').hide();
           $('#edit-field-property-the-location textarea').removeClass('required');
-        }              
+        }
+        else{
+          if ($(this).val() == 7) { //////// WARNING!!! HARDCODED VALUE! THIS SUCKS!!!
+            $('#edit-field-property-the-business').show();
+            $('#edit-field-property-the-business textarea').addClass('required');
+            $('#edit-field-property-the-opportunity').show();
+            $('#edit-field-property-the-opportunity textarea').addClass('required');
+            $('#edit-field-property-the-location').show();
+            $('#edit-field-property-the-location textarea').addClass('required');
+          }            
+        }
       });
 
       // set the field status on the first load
@@ -417,16 +436,6 @@
 
     },
     
-    _advInfoInit: function() {
-        if ($('#edit-field-property-package-und').val() == 5) { //////// WARNING!!! HARDCODED VALUE! THIS SUCKS!!!
-          $('#edit-field-property-the-business').hide();
-          $('#edit-field-property-the-business textarea').removeClass('required');
-          $('#edit-field-property-the-opportunity').hide();
-          $('#edit-field-property-the-opportunity textarea').removeClass('required');
-          $('#edit-field-property-the-location').hide();
-          $('#edit-field-property-the-location textarea').removeClass('required');
-        }      
-    },
 
     _gotoError: function(destinationIdx) {
 
@@ -579,10 +588,6 @@
 
       // set properties of the title field per-package
       Drupal.behaviors.valuvetRichForms._nodeTitleInit();
-      
-      // set adv info per Package
-      Drupal.behaviors.valuvetRichForms._advInfoInit();      
-
     }
   };
 
