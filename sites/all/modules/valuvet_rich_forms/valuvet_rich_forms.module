@@ -44,11 +44,19 @@ function valuvet_rich_forms_form_career_node_form_alter(&$form, &$form_state, $f
   drupal_add_css(drupal_get_path('module', 'valuvet_rich_forms').'/css/valuvet_rich_career_form.css', 'file');
 }
 
-function valuvet_rich_forms_form_alter(&$form, &$form_state, $form_id) {    
+function valuvet_rich_forms_form_alter(&$form, &$form_state, $form_id) {        
   switch ($form_id) {
-    case 'property_node_form':
+    case 'property_node_form':        
       $form['#prefix'] = '<div id="replace-element">';
       $form['#suffix'] = '</div>' ;
+      
+
+      foreach ($form['field_property_package']['und']['#options'] as $product_id=>$item){
+        $product = commerce_product_load($product_id);
+        $price = entity_metadata_wrapper('commerce_product', $product)->commerce_price->value();      
+        $price_display = commerce_currency_format($price['amount'], $price['currency_code'], $product);
+        $form['field_property_package']['und']['#options'][$product_id] = $form['field_property_package']['und']['#options'][$product_id] . ' - ' . $price_display;          
+      }
       
       $form['actions']['submit']['#ajax'] = array(              
         'method' => 'replace',

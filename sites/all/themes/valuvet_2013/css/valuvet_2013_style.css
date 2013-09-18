@@ -883,6 +883,13 @@ select#edit-province-op {
 																																color:#745353;
 																																margin-bottom:0;
 																																}
+                                                                                                                                                                                                                                                                .group-property-package .control-group label,
+                                                                                                                                                                                                                                                                .group-property-contact-details .control-group label{
+                                                                                                                                                                                                                                                                  width:20%;
+                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                .group-property-contact-details .field-type-text{
+                                                                                                                                                                                                                                                                  padding: 5px 0 0 0;
+                                                                                                                                                                                                                                                                }
 																																     #edit-field-property-type {
 																																          	margin-top:10px;
 																																}
