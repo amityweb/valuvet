@@ -427,8 +427,11 @@
       //Hide edit-field-property-lease-details when combo is not selected (the conditional was not working with OR)
       $('#edit-field-property-lease-details').hide();      
       $('#edit-field-property-disposal-und').change(function(e){
-        if($('#edit-field-property-disposal-und').val() == '_none'){
+        if(($('#edit-field-property-disposal-und').val() == '_none') || ($('#edit-field-property-disposal-und').val() == 'For sale')){
                 $('#edit-field-property-lease-details').hide();            
+        }
+        else{
+          $('#edit-field-property-lease-details').show();            
         }
       });      
       

@@ -873,6 +873,9 @@ select#edit-province-op {
 																																     .vertical-tabs ul.vertical-tabs-list li a:focus strong, .vertical-tabs ul.vertical-tabs-list li a:active strong, .vertical-tabs ul.vertical-tabs-list li a:hover strong {
 																																text-decoration:none;
 																																}
+                                                                                                                                                                                                                                                                .form-item-field-property-contact-number-und-0-value label{
+                                                                                                                                                                                                                                                                    vertical-align: top;
+                                                                                                                                                                                                                                                                }
 																																     #property-node-form input[type="text"] {
 																																              box-shadow: none;
 																																font-family: 'Bitter';
@@ -897,12 +900,13 @@ select#edit-province-op {
 																																clear:both;
 																																padding-top:10px;
 																																}
-																																     #edit-field-property-asking-price label {
-																																          	float:left;
-																																width:15%
+                                                                                                                                                                                                                                                                #edit-field-property-asking-price{float: left; width: 44%;}
+																																#edit-field-property-asking-price label {
+																																  float:left;
+																																  width:15%                                                                                                                                                                                                                                      
 																																}
                                                                                                                                                                                                                                                                 #edit-field-property-show-asking-price .controls{
-                                                                                                                                                                                                                                                                  margin-left: 136px;
+                                                                                                                                                                                                                                                                  margin-left: 57px;
                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                                 #edit-field-property-show-asking-price label.control-label{
                                                                                                                                                                                                                                                                   display:none;
@@ -940,7 +944,7 @@ select#edit-province-op {
                                                                                                                                                                                                                                                                 }
                                                                                                                                                                                                                                                                 #edit-field-property-show-asking-price{
                                                                                                                                                                                                                                                                     float: left;
-                                                                                                                                                                                                                                                                    width: 100%;
+                                                                                                                                                                                                                                                                    width: 50%;
                                                                                                                                                                                                                                                                 }
 																																     
 																																          #edit-field-property-disposal label, 
