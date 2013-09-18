@@ -344,11 +344,11 @@
 
       switch (value) {
         case '5':
-          Drupal.behaviors.valuvetRichForms._wordCounters[0].limit = 100;
+          Drupal.behaviors.valuvetRichForms._wordCounters[0].limit = 100;  //100
           break;
         case '6':
         case '7':
-          Drupal.behaviors.valuvetRichForms._wordCounters[0].limit = 150;
+          Drupal.behaviors.valuvetRichForms._wordCounters[0].limit = 150;  //150
           break;
       }
 
@@ -369,10 +369,19 @@
 
           // find elements and count words in there
           helpblock = $(this).closest("div.controls").find("p.help-block");
-          count = $.trim($(this).val()).split(/[\s\n]+/).length;
-
+          wordArray = $.trim($(this).val()).split(/[\s\n]+/);
+          count = wordArray.length;
+          var newString = "";
+          
           // if we reached the limit... bye bye character
-          if (count >= data.limit) $(formID).validate().element(this);
+          if (count > data.limit){
+            //alert(count + ' ' + data.limit);
+            //$(formID).validate().element(this);
+            for (var i = 0; i < data.limit; i++) {
+              newString += wordArray[i] + " ";
+            }            
+            $(this).val(newString);
+          } 
 
           // fix the counter
           $(helpblock).html('('+count+'/'+data.limit+' words)');
