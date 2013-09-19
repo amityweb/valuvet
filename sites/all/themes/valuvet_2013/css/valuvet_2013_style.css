@@ -38,7 +38,7 @@ a:hover {
 /*-----------------------------ERROR----------------------------------*/
 .error {
 	color: #cc0000;
-	width:100% !important;
+	/*width:100% !important;*/
 }
 .error * {
 	color: #cc0000 !important;
@@ -1004,11 +1004,17 @@ select#edit-province-op {
 																																float:left;
 																																padding-right:10px;
 																																}
-																																     */#edit-field-property-has-manager label,#edit-field-property-street-parking label, #edit-field-property-facilities-have label, #edit-field-property-ancillary-srvcs label, #edit-field-property-prof-services label {
+																																     #edit-field-property-has-manager label,#edit-field-property-street-parking label, #edit-field-property-facilities-have label, #edit-field-property-prof-services label {
 																																float:left;
 																																padding-right:20px;
 																																font-family:'Lato';
 																																}
+                                                                                                                                                                                                                                                                #edit-field-property-prof-services label, #edit-field-property-ancillary-srvcs label{
+                                                                                                                                                                                                                                                                  display: none;
+                                                                                                                                                                                                                                                                }
+                                                                                                                                                                                                                                                                #edit-field-property-prof-services label.option, #edit-field-property-ancillary-srvcs label.option{
+                                                                                                                                                                                                                                                                  display:inherit;
+                                                                                                                                                                                                                                                                }
 																																     #edit-field-property-prof-srvcs-other {
 																																          
 																																}

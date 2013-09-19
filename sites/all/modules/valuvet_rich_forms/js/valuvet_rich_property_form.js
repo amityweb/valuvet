@@ -332,7 +332,7 @@
       }
       else{
         //Show all tabs
-          for (i=0; i<lastIdx; i++) { 
+          for (i=0; i<=lastIdx; i++) { 
             $(formID+' .vertical-tabs-list > li:eq('+i+')').show();             
           }                  
       }            
@@ -584,16 +584,32 @@
         });
 
         total += percValue;
-
-        // if a percent is set but no details are given
+        
+        type_txt = "";
+        switch (type) {
+          case 'small-animals':
+           type_txt = "Small Animals";    
+          break;
+          case 'equine':
+           type_txt = "Equine";    
+          break;
+          case 'bovine':
+           type_txt = "Bovine";    
+          break;          
+          case 'other-animals':
+           type_txt = "Other";          
+          break;
+        } 
+      
+        // if a percent is set but no details are given                
         if (percValue > 0 && !percDetailed) {
-          fieldsContainer.before($(errorLabelTemplate).addClass('vv-percent-match').html('Please provide details for this type of animal'));
+          fieldsContainer.before($(errorLabelTemplate).addClass('vv-percent-match').html('Please provide details for ' + type_txt));
           $('#edit-field-property-'+type+'-und-0-value').addClass('error');
           result = false;
         }
         // viceversa, if details are given but no percent is set
         else if (percValue == 0 && percDetailed) {
-          fieldsContainer.before($(errorLabelTemplate).addClass('vv-percent-match').html('Please provide details for this type of animal'));
+          fieldsContainer.before($(errorLabelTemplate).addClass('vv-percent-match').html('Please provide details for ' + type_txt));
           $('#edit-field-property-'+type+'-und-0-value').addClass('error');
           result = false;
         }
