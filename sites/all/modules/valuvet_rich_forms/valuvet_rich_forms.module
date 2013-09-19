@@ -58,12 +58,6 @@ function valuvet_rich_forms_form_alter(&$form, &$form_state, $form_id) {
         $form['field_property_package']['und']['#options'][$product_id] = $form['field_property_package']['und']['#options'][$product_id] . ' - ' . $price_display;          
       }
       
-      $form['actions']['submit']['#ajax'] = array(              
-        'method' => 'replace',
-        'effect' => 'fade',
-        'wrapper' => 'replace-element',
-        'callback' => '_my_callback',          
-      );
       break;
   
      case 'commerce_checkout_form_checkout':
@@ -88,9 +82,4 @@ function valuvet_rich_forms_form_alter(&$form, &$form_state, $form_id) {
          break;
   }
   return;
-}
-
-function _my_callback($form, &$form_state) {
-    $ret = '<h2>Place here some message</h2>';
-    return $ret . l('Go to your shopping cart', 'cart');
 }

@@ -43,17 +43,17 @@
     ],
 
     _wordCounters: [
-      { el: '#edit-body-und-0-value', limit: 100 },
-      { el: '#edit-field-property-the-business-und-0-value', limit: 300 },
-      { el: '#edit-field-property-the-opportunity-und-0-value', limit: 300 },
-      { el: '#edit-field-property-the-location-und-0-value', limit: 300 }
+      {el: '#edit-body-und-0-value', limit: 100},
+      {el: '#edit-field-property-the-business-und-0-value', limit: 300},
+      {el: '#edit-field-property-the-opportunity-und-0-value', limit: 300},
+      {el: '#edit-field-property-the-location-und-0-value', limit: 300}
     ],
 
     _priceFields: [
-      { el: '#edit-field-property-real-estate-value-und-0-amount', check: false },
-      { el: '#edit-field-property-stock-value-und-0-amount', check: '#edit-field-property-stock-value-ask-und' },
-      { el: '#edit-field-property-equipment-value-und-0-amount', check: '#edit-field-property-eqpmnt-value-ask-und' },
-      { el: '#edit-field-property-goodwill-value-und-0-amount', check: false }
+      {el: '#edit-field-property-real-estate-value-und-0-amount', check: false},
+      {el: '#edit-field-property-stock-value-und-0-amount', check: '#edit-field-property-stock-value-ask-und'},
+      {el: '#edit-field-property-equipment-value-und-0-amount', check: '#edit-field-property-eqpmnt-value-ask-und'},
+      {el: '#edit-field-property-goodwill-value-und-0-amount', check: false}
     ],
 
     _askingPrice: '#edit-field-property-asking-price-und-0-amount',
@@ -93,6 +93,7 @@
         );
         $('#valuvet-multistep-btn-'+item.id).click(item.onclick);
       });
+           
 
       // display right element based on position
       Drupal.behaviors.valuvetRichForms._setControls();
@@ -107,6 +108,32 @@
 
       var listing = $('#edit-field-property-listing-image-und-0-ajax-wrapper');
       var gallery = $('#edit-field-property-image-gallery-und-ajax-wrapper');
+      
+      $('.package-img-message a').click(function(e) {          
+        $('#edit-field-property-package-und').val($(this).attr('package'));
+        Drupal.behaviors.valuvetRichForms._setChangeTabs();
+        if($(this).attr('package') == 6){
+          listing.show();
+          gallery.hide();
+          listingCont.find('.package-img-message').hide();
+          galleryCont.find('.package-img-message').show();            
+        }
+        if($(this).attr('package') == 7){
+          listing.show();
+          gallery.show();
+          $('.package-img-message').hide();
+          
+          $('#edit-field-property-the-business').show();
+          $('#edit-field-property-the-business textarea').addClass('required');
+          $('#edit-field-property-the-opportunity').show();
+          $('#edit-field-property-the-opportunity textarea').addClass('required');
+          $('#edit-field-property-the-location').show();
+          $('#edit-field-property-the-location textarea').addClass('required'); 
+          
+          Drupal.behaviors.valuvetRichForms._setWordCounter($(this).attr('package'));
+        }  
+        return false;
+      });         
 
       switch (value) {
         case '5':
@@ -124,7 +151,7 @@
           listing.show();
           gallery.show();
           $('.package-img-message').hide();
-      }
+      }                           
     },
 
     _imageLoadersInit: function() {
@@ -133,8 +160,8 @@
       var listingCont = $('#edit-field-property-listing-image');
       var galleryCont = $('#edit-field-property-image-gallery');
 
-      var msgPck1 = $('<div class="package-img-message"><h3>Listing image</h3><p>Listing image is available with packages 2 and 3 only</p></div>');
-      var msgPck2 = $('<div class="package-img-message"><h3>Image gallery</h3><p>Image gallery is available with package 3 only</p></div>');
+      var msgPck1 = $('<div class="package-img-message"><h3>Listing image</h3><p>Listing image is available with packages 2 and 3 only</p><p><a href="#" package="6">Please Upgrade to Package 2</a></p></div>');
+      var msgPck2 = $('<div class="package-img-message"><h3>Image gallery</h3><p>Image gallery is available with package 3 only</p><p><a href="#" package="7">Please Upgrade to Package 3</a></p></div>');
 
       listingCont.append(msgPck1);
       galleryCont.append(msgPck2);
@@ -264,6 +291,22 @@
         // re-enable these fields so it could be sent
         $(Drupal.behaviors.valuvetRichForms._askingPrice).attr('disabled',false);
         $(Drupal.behaviors.valuvetRichForms._titleField).attr('disabled',false);
+        $('#edit-submit').click(function(e) {          
+              $(Drupal.behaviors.valuvetRichForms._priceFields).each(function(idx, data){
+               // add masked money input to price fields
+                $(data.el).priceFormat({
+                    prefix: '',
+                    centsSeparator: '.',
+                    thousandsSeparator: ''
+                });
+              });
+
+              $(Drupal.behaviors.valuvetRichForms._askingPrice).priceFormat({
+                    prefix: '',
+                    centsSeparator: '.',
+                    thousandsSeparator: ''
+              });   
+        });                      
       }
       else {
         $('#valuvet-multistep-btn-next').show();
@@ -336,7 +379,7 @@
        
 
         Drupal.behaviors.valuvetRichForms._gotoError(index);  // <---------- comment this line if you're developing
-      });
+      });            
     },
 
     // IMPORTANT NOTE - THERE SHALL BE HARDCODED VALUES! BEWARE!
@@ -381,6 +424,7 @@
               newString += wordArray[i] + " ";
             }            
             $(this).val(newString);
+            count = data.limit;
           } 
 
           // fix the counter
@@ -430,7 +474,21 @@
       });
       
       titleField.keyup(function(e){        
-        Drupal.behaviors.valuvetRichForms._setNodeTitlePreview(titleField.val());
+        //Put the 8 words check here
+        titleVal = titleField.val();
+        wordArray = $.trim(titleField.val()).split(/[\s\n]+/);
+        count = wordArray.length;        
+        var newString = "";
+        
+        if (count > 8){          
+          for (var i = 0; i < 8; i++) {
+            newString += wordArray[i] + " ";
+          }            
+          titleVal = newString;
+          titleField.val(newString);
+        } 
+
+        Drupal.behaviors.valuvetRichForms._setNodeTitlePreview(titleVal);
       });
       
       //Hide edit-field-property-lease-details when combo is not selected (the conditional was not working with OR)
