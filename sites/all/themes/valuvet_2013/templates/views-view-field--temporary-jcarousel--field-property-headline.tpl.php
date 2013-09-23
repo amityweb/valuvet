@@ -1,0 +1,1 @@
+<?php print l(' - ' . $output . ' - ', 'node/' . $row->nid); ?>

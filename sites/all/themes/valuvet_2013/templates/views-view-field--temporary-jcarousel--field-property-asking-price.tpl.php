@@ -1,0 +1,1 @@
+<div class="views-field-field-property-asking-price"><?php print $output; ?></div>

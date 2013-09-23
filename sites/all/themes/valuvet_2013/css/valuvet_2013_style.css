@@ -248,12 +248,17 @@ float:left;
  .jcarousel-skin-default .jcarousel-next-disabled, .jcarousel-skin-default .jcarousel-prev-disabled {
 	 display:block;
  }
- .view-temporary-jcarousel .views-field-title a {
+ .view-temporary-jcarousel a {
 	 color:#131313;
 	 text-decoration: none;
 	 text-shadow:0 1px 1px #b4b4b4;
 	 font-size: 14px;
 	 font-family: 'Bitter', Helvetica,sans-serif,Arial;
+ }
+ .views-field-field-property-disposal,
+ .views-field-field-property-headline,
+ .views-field-city{
+  float:left;   
  }
  .view-temporary-jcarousel .views-field-title {
 	 padding-top:12px;
@@ -290,7 +295,7 @@ float:left;
 }
 .jcarousel-skin-default .jcarousel-item {
 	width:232px!important;
-	height:200px;
+	height:210px;
 	background: none;
 	border:none;
 }

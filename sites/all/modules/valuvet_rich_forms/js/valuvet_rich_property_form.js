@@ -435,17 +435,17 @@
 
     _setNodeTitle: function(value) {
       var titleField = $(Drupal.behaviors.valuvetRichForms._titleField);
-      var disposal   = $('#edit-field-property-disposal-und').val().toUpperCase();
+      //var disposal   = $('#edit-field-property-disposal-und').val().toUpperCase();
       var type       = $('#edit-field-property-type-und').val();
       var pkg        = $('#edit-field-property-package-und').val();
       switch (pkg) {
         case '5':
-          titleField.val(disposal + ' - ' + type + ' practice');
+          titleField.val(type + ' practice');
           titleField.attr('disabled',true);
           break;
         case '6':
         case '7':
-          titleField.val(disposal + ' - ' + type + ' practice');
+          titleField.val(type + ' practice');
           titleField.attr('disabled',false);
           break;
       }
@@ -457,7 +457,8 @@
       preview = $('#vv-headline-preview');
       city = $('#edit-field-business-address-und-0-city').val();
       province = $('#edit-field-business-address-und-0-province').val();;
-      preview.html(value + ' - ' + city + ', ' + province);
+      disposal   = $('#edit-field-property-disposal-und').val().toUpperCase();
+      preview.html(disposal + ' - ' + value + ' - ' + city + ', ' + province);
     },
 
     _nodeTitleInit: function() {
