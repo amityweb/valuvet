@@ -9,7 +9,7 @@ if (!function_exists('tfuse_browser_body_class')):
 
     add_filter('body_class', 'tfuse_browser_body_class');
 
-    function tfuse_browser_body_class() {
+    function tfuse_browser_body_class($classes) {
 
         global $is_lynx, $is_gecko, $is_IE, $is_opera, $is_NS4, $is_safari, $is_chrome, $is_iphone;
 
